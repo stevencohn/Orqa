@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+  <template>
+    <icon>BatchFile</icon>
+    <name>Build Component</name>
+    <description>Batch script for standard component data models.</description>
+    <filename>Build.bat</filename>
+    <resID>Script_bat</resID>
+  </template>
+  <template>
+    <icon>SqlScript</icon>
+    <name>Build Schema</name>
+    <description>SQL script for standard component data models.</description>
+    <filename>Build.sql</filename>
+    <resID>SqlScript_sql</resID>
+  </template>
+  <template>
+    <icon>BatchFile</icon>
+    <name>Build Test Data</name>
+    <description>Batch script for standard component test data population.</description>
+    <filename>Build.bat</filename>
+    <resID>Script_bat</resID>
+  </template>
+  <template>
+    <icon>Package</icon>
+    <name>Package Body</name>
+    <description>Create a new package body script.</description>
+    <filename>PackageBody.sql</filename>
+    <resID>PackageBody_sql</resID>
+  </template>
+  <template>
+    <icon>Package</icon>
+    <name>Package Header</name>
+    <description>Create a new package specification script.</description>
+    <filename>Package.sql</filename>
+    <resID>Package_sql</resID>
+  </template>
+  <template>
+    <icon>SqlScript</icon>
+    <name>Set Privileges</name>
+    <description>Batch script for standard component object privileges.</description>
+    <filename>SetPrivileges.bat</filename>
+    <resID>SqlScript_sql</resID>
+  </template>
+  <template>
+    <icon>SqlScript</icon>
+    <name>SQL Script</name>
+    <description>Create a new script file based on a standard block of SQL text.</description>
+    <filename>SqlScript.sql</filename>
+    <resID>SqlScript_sql</resID>
+  </template>
+  <template>
+    <icon>Table</icon>
+    <name>Table and Index</name>
+    <description>Create a new table definition script.</description>
+    <filename>Table.sql</filename>
+    <resID>Table_sql</resID>
+  </template>
+  <template>
+    <icon>TextFile</icon>
+    <name>Text</name>
+    <description>Create a new empty text file.</description>
+    <filename>Text.txt</filename>
+    <resID/>
+  </template>
+  <template>
+    <icon>View</icon>
+    <name>View</name>
+    <description>Create a new relational view.</description>
+    <filename>View.sql</filename>
+    <resID>View_sql</resID>
+  </template>
+</templates>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabset.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tabset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;templateTree.Name" xml:space="preserve">
+    <value>templateTree</value>
+  </data>
+  <data name="&gt;&gt;templateTree.Type" xml:space="preserve">
+    <value>River.Orqa.Browser.TemplateTree, River.Orqa, Version=3.2.4985.11637, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;templateTree.Parent" xml:space="preserve">
+    <value>templatePage</value>
+  </data>
+  <data name="&gt;&gt;templateTree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="templatePage.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAB
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYABAQEAAgICAAMDAwAERERABYW
+        FgAcHBwAIiIiACkpKQBVVVUATU1NAEJCQgA5OTkAgHz/AFBQ/wCTANYA/+zMAMbW7wDW5+cAkKmtAAAA
+        MwAAAGYAAACZAAAAzAAAMwAAADMzAAAzZgAAM5kAADPMAAAz/wAAZgAAAGYzAABmZgAAZpkAAGbMAABm
+        /wAAmQAAAJkzAACZZgAAmZkAAJnMAACZ/wAAzAAAAMwzAADMZgAAzJkAAMzMAADM/wAA/2YAAP+ZAAD/
+        zAAzAAAAMwAzADMAZgAzAJkAMwDMADMA/wAzMwAAMzMzADMzZgAzM5kAMzPMADMz/wAzZgAAM2YzADNm
+        ZgAzZpkAM2bMADNm/wAzmQAAM5kzADOZZgAzmZkAM5nMADOZ/wAzzAAAM8wzADPMZgAzzJkAM8zMADPM
+        /wAz/zMAM/9mADP/mQAz/8wAM///AGYAAABmADMAZgBmAGYAmQBmAMwAZgD/AGYzAABmMzMAZjNmAGYz
+        mQBmM8wAZjP/AGZmAABmZjMAZmZmAGZmmQBmZswAZpkAAGaZMwBmmWYAZpmZAGaZzABmmf8AZswAAGbM
+        MwBmzJkAZszMAGbM/wBm/wAAZv8zAGb/mQBm/8wAzAD/AP8AzACZmQAAmTOZAJkAmQCZAMwAmQAAAJkz
+        MwCZAGYAmTPMAJkA/wCZZgAAmWYzAJkzZgCZZpkAmWbMAJkz/wCZmTMAmZlmAJmZmQCZmcwAmZn/AJnM
+        AACZzDMAZsxmAJnMmQCZzMwAmcz/AJn/AACZ/zMAmcxmAJn/mQCZ/8wAmf//AMwAAACZADMAzABmAMwA
+        mQDMAMwAmTMAAMwzMwDMM2YAzDOZAMwzzADMM/8AzGYAAMxmMwCZZmYAzGaZAMxmzACZZv8AzJkAAMyZ
+        MwDMmWYAzJmZAMyZzADMmf8AzMwAAMzMMwDMzGYAzMyZAMzMzADMzP8AzP8AAMz/MwCZ/2YAzP+ZAMz/
+        zADM//8AzAAzAP8AZgD/AJkAzDMAAP8zMwD/M2YA/zOZAP8zzAD/M/8A/2YAAP9mMwDMZmYA/2aZAP9m
+        zADMZv8A/5kAAP+ZMwD/mWYA/5mZAP+ZzAD/mf8A/8wAAP/MMwD/zGYA/8yZAP/MzAD/zP8A//8zAMz/
+        ZgD//5kA///MAGZm/wBm/2YAZv//AP9mZgD/Zv8A//9mACEApQBfX18Ad3d3AIaGhgCWlpYAy8vLALKy
+        sgDX19cA3d3dAOPj4wDq6uoA8fHxAPj4+ADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8ACgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCvf37QrOzawKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKzs7NCgrHxwoKCgoKCgoKCgoKCgoKCgoKCgoKCozwCgoKtff37QqRCgoK
+        CgqMjPAKCgoKCgoKCgoKjIyMjIyM8ArVzs7NrMcKjAoKCoyM8AoKCgoKCgoKCowKCgqM8AoKtff37QqR
+        kQqMCgoKCgoKCgoKCgoKCgoKjAoKCgoKCgoKCgoKCgoKCowKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCv//AAD//wAA/xEAAP//AAD/GQAA//8AAPOFAADx/wAAgIEAAHH/
+        AABzCQAAf/8AAH//AAB//wAA//8AAP//AAA=
+</value>
+  </data>
+  <data name="templatePage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="templatePage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 341</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="templatePage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="templatePage.Title" xml:space="preserve">
+    <value>Snipets</value>
+  </data>
+  <data name="&gt;&gt;templatePage.Name" xml:space="preserve">
+    <value>templatePage</value>
+  </data>
+  <data name="&gt;&gt;templatePage.Type" xml:space="preserve">
+    <value>River.Orqa.Controls.Controls.TabPage, River.Orqa, Version=3.2.4985.11637, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="tabset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 366</value>
+  </data>
+  <data name="tabset.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;schemaManager.Name" xml:space="preserve">
+    <value>schemaManager</value>
+  </data>
+  <data name="&gt;&gt;schemaManager.Type" xml:space="preserve">
+    <value>River.Orqa.Browser.SchemaManager, River.Orqa, Version=3.2.4985.11637, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;schemaManager.Parent" xml:space="preserve">
+    <value>objectPage</value>
+  </data>
+  <data name="&gt;&gt;schemaManager.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="objectPage.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAB
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYABAQEAAgICAAMDAwAERERABYW
+        FgAcHBwAIiIiACkpKQBVVVUATU1NAEJCQgA5OTkAgHz/AFBQ/wCTANYA/+zMAMbW7wDW5+cAkKmtAAAA
+        MwAAAGYAAACZAAAAzAAAMwAAADMzAAAzZgAAM5kAADPMAAAz/wAAZgAAAGYzAABmZgAAZpkAAGbMAABm
+        /wAAmQAAAJkzAACZZgAAmZkAAJnMAACZ/wAAzAAAAMwzAADMZgAAzJkAAMzMAADM/wAA/2YAAP+ZAAD/
+        zAAzAAAAMwAzADMAZgAzAJkAMwDMADMA/wAzMwAAMzMzADMzZgAzM5kAMzPMADMz/wAzZgAAM2YzADNm
+        ZgAzZpkAM2bMADNm/wAzmQAAM5kzADOZZgAzmZkAM5nMADOZ/wAzzAAAM8wzADPMZgAzzJkAM8zMADPM
+        /wAz/zMAM/9mADP/mQAz/8wAM///AGYAAABmADMAZgBmAGYAmQBmAMwAZgD/AGYzAABmMzMAZjNmAGYz
+        mQBmM8wAZjP/AGZmAABmZjMAZmZmAGZmmQBmZswAZpkAAGaZMwBmmWYAZpmZAGaZzABmmf8AZswAAGbM
+        MwBmzJkAZszMAGbM/wBm/wAAZv8zAGb/mQBm/8wAzAD/AP8AzACZmQAAmTOZAJkAmQCZAMwAmQAAAJkz
+        MwCZAGYAmTPMAJkA/wCZZgAAmWYzAJkzZgCZZpkAmWbMAJkz/wCZmTMAmZlmAJmZmQCZmcwAmZn/AJnM
+        AACZzDMAZsxmAJnMmQCZzMwAmcz/AJn/AACZ/zMAmcxmAJn/mQCZ/8wAmf//AMwAAACZADMAzABmAMwA
+        mQDMAMwAmTMAAMwzMwDMM2YAzDOZAMwzzADMM/8AzGYAAMxmMwCZZmYAzGaZAMxmzACZZv8AzJkAAMyZ
+        MwDMmWYAzJmZAMyZzADMmf8AzMwAAMzMMwDMzGYAzMyZAMzMzADMzP8AzP8AAMz/MwCZ/2YAzP+ZAMz/
+        zADM//8AzAAzAP8AZgD/AJkAzDMAAP8zMwD/M2YA/zOZAP8zzAD/M/8A/2YAAP9mMwDMZmYA/2aZAP9m
+        zADMZv8A/5kAAP+ZMwD/mWYA/5mZAP+ZzAD/mf8A/8wAAP/MMwD/zGYA/8yZAP/MzAD/zP8A//8zAMz/
+        ZgD//5kA///MAGZm/wBm/2YAZv//AP9mZgD/Zv8A//9mACEApQBfX18Ad3d3AIaGhgCWlpYAy8vLALKy
+        sgDX19cA3d3dAOPj4wDq6uoA8fHxAPj4+ADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8ACgoKCgoKCgoKCkpE7woKCgoKCgoKCgoKCkpSUm0KCgoKCgoKCu1tbRJLUnpzCgoKCgoKCu33
+        B7XrEnNztKYKCgoKCu/vGRndCetzCdu0pgoKCgqS8///Gd216rTcrQoKCgoKkvNv//8ZCW0KtAoKCgoK
+        CgcHCgr/GfccggoKCgoKCipZ7wfz8+9tsLCCCgoKCip6WVkHkuztsNjYsIIKCjGaenpZWSoKCgqw2Niw
+        ggoKMZp6ellZKgoKCrDYsAoKCgoxmnp6WVkqCgoKsAoKCgoKCjGaenoxCgoKCgoKCgoKCgoKMZoxCgoK
+        CgoKCgoKCgoKCgoxCgoKCgoKCgoKCv/HAAD/hwAA+AcAAPADAADgAQAA4AMAAOAXAADmDwAAwAcAAIAD
+        AAABwQAAgOMAAMB3AADg/wAA8f8AAPv/AAA=
+</value>
+  </data>
+  <data name="objectPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="objectPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 341</value>
+  </data>
+  <data name="objectPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="objectPage.Title" xml:space="preserve">
+    <value>Objects</value>
+  </data>
+  <data name="&gt;&gt;objectPage.Name" xml:space="preserve">
+    <value>objectPage</value>
+  </data>
+  <data name="&gt;&gt;objectPage.Type" xml:space="preserve">
+    <value>River.Orqa.Controls.Controls.TabPage, River.Orqa, Version=3.2.4985.11637, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;projectTree.Name" xml:space="preserve">
+    <value>projectTree</value>
+  </data>
+  <data name="&gt;&gt;projectTree.Type" xml:space="preserve">
+    <value>River.Orqa.Browser.ProjectTree, River.Orqa, Version=3.2.4985.11637, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;projectTree.Parent" xml:space="preserve">
+    <value>projectPage</value>
+  </data>
+  <data name="&gt;&gt;projectTree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="projectPage.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAB
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYABAQEAAgICAAMDAwAERERABYW
+        FgAcHBwAIiIiACkpKQBVVVUATU1NAEJCQgA5OTkAgHz/AFBQ/wCTANYA/+zMAMbW7wDW5+cAkKmtAAAA
+        MwAAAGYAAACZAAAAzAAAMwAAADMzAAAzZgAAM5kAADPMAAAz/wAAZgAAAGYzAABmZgAAZpkAAGbMAABm
+        /wAAmQAAAJkzAACZZgAAmZkAAJnMAACZ/wAAzAAAAMwzAADMZgAAzJkAAMzMAADM/wAA/2YAAP+ZAAD/
+        zAAzAAAAMwAzADMAZgAzAJkAMwDMADMA/wAzMwAAMzMzADMzZgAzM5kAMzPMADMz/wAzZgAAM2YzADNm
+        ZgAzZpkAM2bMADNm/wAzmQAAM5kzADOZZgAzmZkAM5nMADOZ/wAzzAAAM8wzADPMZgAzzJkAM8zMADPM
+        /wAz/zMAM/9mADP/mQAz/8wAM///AGYAAABmADMAZgBmAGYAmQBmAMwAZgD/AGYzAABmMzMAZjNmAGYz
+        mQBmM8wAZjP/AGZmAABmZjMAZmZmAGZmmQBmZswAZpkAAGaZMwBmmWYAZpmZAGaZzABmmf8AZswAAGbM
+        MwBmzJkAZszMAGbM/wBm/wAAZv8zAGb/mQBm/8wAzAD/AP8AzACZmQAAmTOZAJkAmQCZAMwAmQAAAJkz
+        MwCZAGYAmTPMAJkA/wCZZgAAmWYzAJkzZgCZZpkAmWbMAJkz/wCZmTMAmZlmAJmZmQCZmcwAmZn/AJnM
+        AACZzDMAZsxmAJnMmQCZzMwAmcz/AJn/AACZ/zMAmcxmAJn/mQCZ/8wAmf//AMwAAACZADMAzABmAMwA
+        mQDMAMwAmTMAAMwzMwDMM2YAzDOZAMwzzADMM/8AzGYAAMxmMwCZZmYAzGaZAMxmzACZZv8AzJkAAMyZ
+        MwDMmWYAzJmZAMyZzADMmf8AzMwAAMzMMwDMzGYAzMyZAMzMzADMzP8AzP8AAMz/MwCZ/2YAzP+ZAMz/
+        zADM//8AzAAzAP8AZgD/AJkAzDMAAP8zMwD/M2YA/zOZAP8zzAD/M/8A/2YAAP9mMwDMZmYA/2aZAP9m
+        zADMZv8A/5kAAP+ZMwD/mWYA/5mZAP+ZzAD/mf8A/8wAAP/MMwD/zGYA/8yZAP/MzAD/zP8A//8zAMz/
+        ZgD//5kA///MAGZm/wBm/2YAZv//AP9mZgD/Zv8A//9mACEApQBfX18Ad3d3AIaGhgCWlpYAy8vLALKy
+        sgDX19cA3d3dAOPj4wDq6uoA8fHxAPj4+ADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8ACgoKCgoKCgoKCgoKCuvvCgoKCgoKCgoKCgoKChNSSgoKCgoKCgoKCgoKChNSmnMKCgoKCgoK
+        CpG0tK5LmnMKCgoKCgoKCrQZGQm7rusKCgoKCgoKCu8Z4hkZCbRmZmZmbW3qEhPt9P//9BkJbAm7Zut6
+        UlIxHPL///QZu+8Zu2bsoHp6WXkH9P/iCa68Gbtm7KCgenpZdO+795G78xkHZu2goKCaelIS8bzw9PPz
+        B2YcWVlZ7OzsB/////T08wdmGhwc7e//////////9PTzZgoKCgrW1tXV1bStra2tra0KCgoK1tzc3NbW
+        1dXV1dWtCgoKCtbW1tXV1dW0tK2trf/5AAD/8QAA/+EAAP4DAAD8BwAA+AAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADwAAAA8AAAAPAAAAA=
+</value>
+  </data>
+  <data name="projectPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="projectPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 341</value>
+  </data>
+  <data name="projectPage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="projectPage.Title" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="&gt;&gt;projectPage.Name" xml:space="preserve">
+    <value>projectPage</value>
+  </data>
+  <data name="&gt;&gt;projectPage.Type" xml:space="preserve">
+    <value>River.Orqa.Controls.Controls.TabPage, River.Orqa, Version=3.2.4985.11637, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabset.Name" xml:space="preserve">
+    <value>tabset</value>
+  </data>
+  <data name="&gt;&gt;tabset.Type" xml:space="preserve">
+    <value>River.Orqa.Controls.Controls.TabControl, River.Orqa, Version=3.2.4985.11637, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="schemaManager.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="schemaManager.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="schemaManager.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 341</value>
+  </data>
+  <data name="schemaManager.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;schemaManager.Name" xml:space="preserve">
+    <value>schemaManager</value>
+  </data>
+  <data name="&gt;&gt;schemaManager.Type" xml:space="preserve">
+    <value>River.Orqa.Browser.SchemaManager, River.Orqa, Version=3.2.4985.11637, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;schemaManager.Parent" xml:space="preserve">
+    <value>objectPage</value>
+  </data>
+  <data name="&gt;&gt;schemaManager.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="projectTree.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="projectTree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="projectTree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 341</value>
+  </data>
+  <data name="projectTree.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;projectTree.Name" xml:space="preserve">
+    <value>projectTree</value>
+  </data>
+  <data name="&gt;&gt;projectTree.Type" xml:space="preserve">
+    <value>River.Orqa.Browser.ProjectTree, River.Orqa, Version=3.2.4985.11637, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;projectTree.Parent" xml:space="preserve">
+    <value>projectPage</value>
+  </data>
+  <data name="&gt;&gt;projectTree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="templateTree.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="templateTree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="templateTree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 341</value>
+  </data>
+  <data name="templateTree.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;templateTree.Name" xml:space="preserve">
+    <value>templateTree</value>
+  </data>
+  <data name="&gt;&gt;templateTree.Type" xml:space="preserve">
+    <value>River.Orqa.Browser.TemplateTree, River.Orqa, Version=3.2.4985.11637, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;templateTree.Parent" xml:space="preserve">
+    <value>templatePage</value>
+  </data>
+  <data name="&gt;&gt;templateTree.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="dockImages.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="dockImages.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADI
+        AgAAAk1TRnQBSQFMAwEBAAEFAQABDAEAARABAAEQAQAE/wEZARAI/wFCAU0BNgcAATYDAAEoAwABQAMA
+        ARADAAEBAQABGAYAAQzSAAOAHlUDTZwAA9cJ/wz4A/EB/wHsAcwB/wHsAcwDTZwAA8wD/wayA/8PsgH/
+        AewBzANNnAADzA//A/gG8QH/AewBzAH/AewBzANNnAADzAP/BrID/w+yAf8B7AHMA02cAAPMEv8J+APx
+        A02cAAPMEv8DsgEzAmYD3QPxA02cAAPMA/8D6gN3A+oD/wPMA2YBMwGZAcwDHANmAaQCoAYAA5kBMwFm
+        ATOQAAHMApkB8AHKAaYBkAGpAa0BmQLMA2YDmQRmAswDVQEzAcwB/wEAAjMDFgEAAjMDXwNmATMBmQEz
+        kAABzAKZAf8BzAGZA8wBkAGpAa0BmQHMAf8DZgGZAswDXwFmAv8DTQEzAswBMwGZAcwBAAGZAcwBAAFm
+        AZkBMwJmATMBmQEzkAABzAKZAcwCmQHMApkB8AHKAaYBkAGpAa0BmQHMAf8BZgKZAWYC/wIzAmYBzAH/
+        AWYBzAH/ATMBzAH/ATMBzAH/AQABmQH/AWYCmQEzAZkBM5wAA+MCZgGZAWYC/wFmAZkBzAFmAv8BZgHM
+        Af8BZgHMAf8BZgHMAf8BZgHMAf8BMwHMAf8BZgKZATMBzAFmnAADywGZAv8CZgGZAWYC/wFmAv8BZgL/
+        AWYBzAH/AWYBzAH/AWYCzAJmAZkBZgOZAcwBmZwAAZABqQGtAZkFzAGQAakBrQGQAakBrQGQAakBrQOW
+        AWYCmQN3A8ABmQHMAZkBZgHMAWb/AFEAAUIBTQE+BwABPgMAASgDAAFAAwABEAMAAQEBAAEBBQABgBcA
+        A/8BAAL/BwABDwcAAQ8HAAEPBwABDwcAAQ8HAAEPBwABDwcAAQweAAHwBwAB8AcAAfAHAAL/HAAL
+</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>272, 372</value>
+  </data>
+  <data name="&gt;&gt;dockImages.Name" xml:space="preserve">
+    <value>dockImages</value>
+  </data>
+  <data name="&gt;&gt;dockImages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Browser</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

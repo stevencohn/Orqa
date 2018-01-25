@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VbScheme">
+    <value xml:space="preserve">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;LexScheme xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Author&gt;Quantum Whale&lt;/Author&gt;
+  &lt;Name&gt;VB Script&lt;/Name&gt;
+  &lt;Desc&gt;Syntax Scheme for VB Script Language&lt;/Desc&gt;
+  &lt;Copyright&gt;Copyright Quantum Whale, 2003&lt;/Copyright&gt;
+  &lt;Version&gt;1.0&lt;/Version&gt;
+  &lt;Styles&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;idents&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;0&lt;/Index&gt;
+      &lt;PlainText&gt;false&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;numbers&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;1&lt;/Index&gt;
+      &lt;PlainText&gt;false&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;reswords&lt;/Name&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Bold&lt;/FontStyle&gt;
+      &lt;Index&gt;2&lt;/Index&gt;
+      &lt;PlainText&gt;false&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;comments&lt;/Name&gt;
+      &lt;ForeColor&gt;Green&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;3&lt;/Index&gt;
+      &lt;PlainText&gt;true&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;symbol&lt;/Name&gt;
+      &lt;ForeColor&gt;Gray&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;4&lt;/Index&gt;
+      &lt;PlainText&gt;false&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;whitespace&lt;/Name&gt;
+      &lt;ForeColor&gt;0&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;5&lt;/Index&gt;
+      &lt;PlainText&gt;false&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;strings&lt;/Name&gt;
+      &lt;ForeColor&gt;Maroon&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;6&lt;/Index&gt;
+      &lt;PlainText&gt;false&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;directives&lt;/Name&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;7&lt;/Index&gt;
+      &lt;PlainText&gt;false&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+  &lt;/Styles&gt;
+  &lt;States&gt;
+    &lt;LexState&gt;
+      &lt;Name&gt;normal&lt;/Name&gt;
+      &lt;CaseSensitive&gt;false&lt;/CaseSensitive&gt;
+      &lt;SyntaxBlocks&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;directive&lt;/Name&gt;
+          &lt;LexStyle&gt;0&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;7&lt;/ResWordStyle&gt;
+          &lt;ResWordSets&gt;
+            &lt;LexResWordSet&gt;
+              &lt;Name&gt;ResWord Set0&lt;/Name&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+              &lt;ResWordStyle&gt;7&lt;/ResWordStyle&gt;
+              &lt;ResWords&gt;
+                &lt;string&gt;#Region&lt;/string&gt;
+                &lt;string&gt;#If&lt;/string&gt;
+                &lt;string&gt;#ElseIf&lt;/string&gt;
+                &lt;string&gt;#Else&lt;/string&gt;
+                &lt;string&gt;#Const&lt;/string&gt;
+                &lt;string&gt;#ExternalSource&lt;/string&gt;
+                &lt;string&gt;#End&lt;/string&gt;
+              &lt;/ResWords&gt;
+            &lt;/LexResWordSet&gt;
+          &lt;/ResWordSets&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;\#[a-zA-Z_][a-zA-Z0-9_]*&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;0&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;idents&lt;/Name&gt;
+          &lt;LexStyle&gt;0&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;2&lt;/ResWordStyle&gt;
+          &lt;ResWordSets&gt;
+            &lt;LexResWordSet&gt;
+              &lt;Name /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+              &lt;ResWordStyle&gt;2&lt;/ResWordStyle&gt;
+              &lt;ResWords&gt;
+                &lt;string&gt;#Const&lt;/string&gt;
+                &lt;string&gt;#If&lt;/string&gt;
+                &lt;string&gt;#ElseIf&lt;/string&gt;
+                &lt;string&gt;#Else&lt;/string&gt;
+                &lt;string&gt;#End If&lt;/string&gt;
+                &lt;string&gt;#End&lt;/string&gt;
+                &lt;string&gt;Using&lt;/string&gt;
+                &lt;string&gt;Boolean&lt;/string&gt;
+                &lt;string&gt;Byte&lt;/string&gt;
+                &lt;string&gt;Char&lt;/string&gt;
+                &lt;string&gt;Date&lt;/string&gt;
+                &lt;string&gt;Decimal&lt;/string&gt;
+                &lt;string&gt;Double&lt;/string&gt;
+                &lt;string&gt;Integer&lt;/string&gt;
+                &lt;string&gt;Long&lt;/string&gt;
+                &lt;string&gt;Object&lt;/string&gt;
+                &lt;string&gt;Short&lt;/string&gt;
+                &lt;string&gt;Single&lt;/string&gt;
+                &lt;string&gt;String&lt;/string&gt;
+                &lt;string&gt;Exception&lt;/string&gt;
+                &lt;string&gt;AppActivate&lt;/string&gt;
+                &lt;string&gt;Beep&lt;/string&gt;
+                &lt;string&gt;Call&lt;/string&gt;
+                &lt;string&gt;ChDir&lt;/string&gt;
+                &lt;string&gt;ChDrive&lt;/string&gt;
+                &lt;string&gt;Class&lt;/string&gt;
+                &lt;string&gt;Declare&lt;/string&gt;
+                &lt;string&gt;Delegate&lt;/string&gt;
+                &lt;string&gt;DeleteSetting&lt;/string&gt;
+                &lt;string&gt;Dim&lt;/string&gt;
+                &lt;string&gt;Do&lt;/string&gt;
+                &lt;string&gt;Loop&lt;/string&gt;
+                &lt;string&gt;End&lt;/string&gt;
+                &lt;string&gt;Enum&lt;/string&gt;
+                &lt;string&gt;Error&lt;/string&gt;
+                &lt;string&gt;Event&lt;/string&gt;
+                &lt;string&gt;Exit&lt;/string&gt;
+                &lt;string&gt;Each&lt;/string&gt;
+                &lt;string&gt;Function&lt;/string&gt;
+                &lt;string&gt;Goto&lt;/string&gt;
+                &lt;string&gt;Overloads&lt;/string&gt;
+                &lt;string&gt;Overrides&lt;/string&gt;
+                &lt;string&gt;CantOverride&lt;/string&gt;
+                &lt;string&gt;MustOverride&lt;/string&gt;
+                &lt;string&gt;Protected&lt;/string&gt;
+                &lt;string&gt;Implements&lt;/string&gt;
+                &lt;string&gt;Imports&lt;/string&gt;
+                &lt;string&gt;Inherits&lt;/string&gt;
+                &lt;string&gt;Interface&lt;/string&gt;
+                &lt;string&gt;Kill&lt;/string&gt;
+                &lt;string&gt;Lock&lt;/string&gt;
+                &lt;string&gt;UnLock&lt;/string&gt;
+                &lt;string&gt;Mid&lt;/string&gt;
+                &lt;string&gt;MidB&lt;/string&gt;
+                &lt;string&gt;Namespace&lt;/string&gt;
+                &lt;string&gt;Open&lt;/string&gt;
+                &lt;string&gt;Option&lt;/string&gt;
+                &lt;string&gt;Compare&lt;/string&gt;
+                &lt;string&gt;Explicit&lt;/string&gt;
+                &lt;string&gt;Strict&lt;/string&gt;
+                &lt;string&gt;Print&lt;/string&gt;
+                &lt;string&gt;Private&lt;/string&gt;
+                &lt;string&gt;Property&lt;/string&gt;
+                &lt;string&gt;Public&lt;/string&gt;
+                &lt;string&gt;Put&lt;/string&gt;
+                &lt;string&gt;RaiseEvent&lt;/string&gt;
+                &lt;string&gt;Randomize&lt;/string&gt;
+                &lt;string&gt;ReDim&lt;/string&gt;
+                &lt;string&gt;Rem&lt;/string&gt;
+                &lt;string&gt;Reset&lt;/string&gt;
+                &lt;string&gt;Resume&lt;/string&gt;
+                &lt;string&gt;SaveSetting&lt;/string&gt;
+                &lt;string&gt;Seek&lt;/string&gt;
+                &lt;string&gt;Select&lt;/string&gt;
+                &lt;string&gt;Case&lt;/string&gt;
+                &lt;string&gt;SetAttr&lt;/string&gt;
+                &lt;string&gt;Stop&lt;/string&gt;
+                &lt;string&gt;Sub&lt;/string&gt;
+                &lt;string&gt;SyncLock&lt;/string&gt;
+                &lt;string&gt;TimeOfDay&lt;/string&gt;
+                &lt;string&gt;Try&lt;/string&gt;
+                &lt;string&gt;Catch&lt;/string&gt;
+                &lt;string&gt;Finally&lt;/string&gt;
+                &lt;string&gt;Structure&lt;/string&gt;
+                &lt;string&gt;Width&lt;/string&gt;
+                &lt;string&gt;With&lt;/string&gt;
+                &lt;string&gt;Write&lt;/string&gt;
+                &lt;string&gt;Addhandler&lt;/string&gt;
+                &lt;string&gt;As&lt;/string&gt;
+                &lt;string&gt;Assembly&lt;/string&gt;
+                &lt;string&gt;Auto&lt;/string&gt;
+                &lt;string&gt;BeginEpilogue&lt;/string&gt;
+                &lt;string&gt;Binary&lt;/string&gt;
+                &lt;string&gt;ByRef&lt;/string&gt;
+                &lt;string&gt;ByVal&lt;/string&gt;
+                &lt;string&gt;Const&lt;/string&gt;
+                &lt;string&gt;Else&lt;/string&gt;
+                &lt;string&gt;Empty&lt;/string&gt;
+                &lt;string&gt;EndPrologue&lt;/string&gt;
+                &lt;string&gt;ExternalSource&lt;/string&gt;
+                &lt;string&gt;For&lt;/string&gt;
+                &lt;string&gt;Friend&lt;/string&gt;
+                &lt;string&gt;Get&lt;/string&gt;
+                &lt;string&gt;Handles&lt;/string&gt;
+                &lt;string&gt;Input&lt;/string&gt;
+                &lt;string&gt;Is&lt;/string&gt;
+                &lt;string&gt;Len&lt;/string&gt;
+                &lt;string&gt;Let&lt;/string&gt;
+                &lt;string&gt;Me&lt;/string&gt;
+                &lt;string&gt;Module&lt;/string&gt;
+                &lt;string&gt;MustInherit&lt;/string&gt;
+                &lt;string&gt;MyBase&lt;/string&gt;
+                &lt;string&gt;MyClass&lt;/string&gt;
+                &lt;string&gt;New&lt;/string&gt;
+                &lt;string&gt;Next&lt;/string&gt;
+                &lt;string&gt;Nothing&lt;/string&gt;
+                &lt;string&gt;NotInheritable&lt;/string&gt;
+                &lt;string&gt;NotOverridable&lt;/string&gt;
+                &lt;string&gt;Null&lt;/string&gt;
+                &lt;string&gt;Off&lt;/string&gt;
+                &lt;string&gt;On&lt;/string&gt;
+                &lt;string&gt;Optional&lt;/string&gt;
+                &lt;string&gt;Overridable&lt;/string&gt;
+                &lt;string&gt;ParamArray&lt;/string&gt;
+                &lt;string&gt;ReadOnly&lt;/string&gt;
+                &lt;string&gt;RemoveHandler&lt;/string&gt;
+                &lt;string&gt;Step&lt;/string&gt;
+                &lt;string&gt;Then&lt;/string&gt;
+                &lt;string&gt;Throw&lt;/string&gt;
+                &lt;string&gt;Time&lt;/string&gt;
+                &lt;string&gt;To&lt;/string&gt;
+                &lt;string&gt;WithEvents&lt;/string&gt;
+                &lt;string&gt;WriteOnly&lt;/string&gt;
+                &lt;string&gt;ElseIf&lt;/string&gt;
+                &lt;string&gt;EndIf&lt;/string&gt;
+                &lt;string&gt;Height&lt;/string&gt;
+                &lt;string&gt;In&lt;/string&gt;
+                &lt;string&gt;Return&lt;/string&gt;
+                &lt;string&gt;Set&lt;/string&gt;
+                &lt;string&gt;Shared&lt;/string&gt;
+                &lt;string&gt;Type&lt;/string&gt;
+                &lt;string&gt;TypeOf&lt;/string&gt;
+                &lt;string&gt;Until&lt;/string&gt;
+                &lt;string&gt;While&lt;/string&gt;
+                &lt;string&gt;AddressOf&lt;/string&gt;
+                &lt;string&gt;And&lt;/string&gt;
+                &lt;string&gt;BitAnd&lt;/string&gt;
+                &lt;string&gt;BitNot&lt;/string&gt;
+                &lt;string&gt;BitOr&lt;/string&gt;
+                &lt;string&gt;BitXor&lt;/string&gt;
+                &lt;string&gt;Like&lt;/string&gt;
+                &lt;string&gt;Mod&lt;/string&gt;
+                &lt;string&gt;Not&lt;/string&gt;
+                &lt;string&gt;Or&lt;/string&gt;
+                &lt;string&gt;Xor&lt;/string&gt;
+                &lt;string&gt;Abs&lt;/string&gt;
+                &lt;string&gt;Array&lt;/string&gt;
+                &lt;string&gt;Asc&lt;/string&gt;
+                &lt;string&gt;AscB&lt;/string&gt;
+                &lt;string&gt;AscW&lt;/string&gt;
+                &lt;string&gt;Atn&lt;/string&gt;
+                &lt;string&gt;CallByName&lt;/string&gt;
+                &lt;string&gt;CBool&lt;/string&gt;
+                &lt;string&gt;CByte&lt;/string&gt;
+                &lt;string&gt;CChar&lt;/string&gt;
+                &lt;string&gt;CChr&lt;/string&gt;
+                &lt;string&gt;CDate&lt;/string&gt;
+                &lt;string&gt;CDbl&lt;/string&gt;
+                &lt;string&gt;CDec&lt;/string&gt;
+                &lt;string&gt;Choose&lt;/string&gt;
+                &lt;string&gt;Chr&lt;/string&gt;
+                &lt;string&gt;Chr$&lt;/string&gt;
+                &lt;string&gt;ChrB&lt;/string&gt;
+                &lt;string&gt;ChrB$&lt;/string&gt;
+                &lt;string&gt;ChrW&lt;/string&gt;
+                &lt;string&gt;CInt&lt;/string&gt;
+                &lt;string&gt;CLng&lt;/string&gt;
+                &lt;string&gt;CLng8&lt;/string&gt;
+                &lt;string&gt;Close&lt;/string&gt;
+                &lt;string&gt;CObj&lt;/string&gt;
+                &lt;string&gt;Command&lt;/string&gt;
+                &lt;string&gt;Command$&lt;/string&gt;
+                &lt;string&gt;Cos&lt;/string&gt;
+                &lt;string&gt;CreateObject&lt;/string&gt;
+                &lt;string&gt;CShort&lt;/string&gt;
+                &lt;string&gt;CSng&lt;/string&gt;
+                &lt;string&gt;CStr&lt;/string&gt;
+                &lt;string&gt;CurDir&lt;/string&gt;
+                &lt;string&gt;CType&lt;/string&gt;
+                &lt;string&gt;CVDate&lt;/string&gt;
+                &lt;string&gt;CVErr&lt;/string&gt;
+                &lt;string&gt;DateAdd&lt;/string&gt;
+                &lt;string&gt;DateDiff&lt;/string&gt;
+                &lt;string&gt;DatePart&lt;/string&gt;
+                &lt;string&gt;DateSerial&lt;/string&gt;
+                &lt;string&gt;DateValue&lt;/string&gt;
+                &lt;string&gt;Day&lt;/string&gt;
+                &lt;string&gt;DDB&lt;/string&gt;
+                &lt;string&gt;Dir&lt;/string&gt;
+                &lt;string&gt;Dir$&lt;/string&gt;
+                &lt;string&gt;EOF&lt;/string&gt;
+                &lt;string&gt;Error$&lt;/string&gt;
+                &lt;string&gt;Exp&lt;/string&gt;
+                &lt;string&gt;FileAttr&lt;/string&gt;
+                &lt;string&gt;FileCopy&lt;/string&gt;
+                &lt;string&gt;FileDateTime&lt;/string&gt;
+                &lt;string&gt;FileLen&lt;/string&gt;
+                &lt;string&gt;Filter&lt;/string&gt;
+                &lt;string&gt;Fix&lt;/string&gt;
+                &lt;string&gt;Format&lt;/string&gt;
+                &lt;string&gt;Format$&lt;/string&gt;
+                &lt;string&gt;FormatCurrency&lt;/string&gt;
+                &lt;string&gt;FormatDateTime&lt;/string&gt;
+                &lt;string&gt;FormatNumber&lt;/string&gt;
+                &lt;string&gt;FormatPercent&lt;/string&gt;
+                &lt;string&gt;FreeFile&lt;/string&gt;
+                &lt;string&gt;FV&lt;/string&gt;
+                &lt;string&gt;GetAllSettings&lt;/string&gt;
+                &lt;string&gt;GetAttr&lt;/string&gt;
+                &lt;string&gt;GetObject&lt;/string&gt;
+                &lt;string&gt;GetSetting&lt;/string&gt;
+                &lt;string&gt;Hex&lt;/string&gt;
+                &lt;string&gt;Hex$&lt;/string&gt;
+                &lt;string&gt;Hour&lt;/string&gt;
+                &lt;string&gt;If&lt;/string&gt;
+                &lt;string&gt;IMEStatus&lt;/string&gt;
+                &lt;string&gt;Input$&lt;/string&gt;
+                &lt;string&gt;InputB&lt;/string&gt;
+                &lt;string&gt;InputB$&lt;/string&gt;
+                &lt;string&gt;InputBox&lt;/string&gt;
+                &lt;string&gt;InStr&lt;/string&gt;
+                &lt;string&gt;InStrB&lt;/string&gt;
+                &lt;string&gt;InstrRev&lt;/string&gt;
+                &lt;string&gt;Int&lt;/string&gt;
+                &lt;string&gt;IPmt&lt;/string&gt;
+                &lt;string&gt;IRR&lt;/string&gt;
+                &lt;string&gt;IsArray&lt;/string&gt;
+                &lt;string&gt;IsDate&lt;/string&gt;
+                &lt;string&gt;IsEmpty&lt;/string&gt;
+                &lt;string&gt;IsError&lt;/string&gt;
+                &lt;string&gt;IsNull&lt;/string&gt;
+                &lt;string&gt;IsNumeric&lt;/string&gt;
+                &lt;string&gt;IsObject&lt;/string&gt;
+                &lt;string&gt;Join&lt;/string&gt;
+                &lt;string&gt;LBound&lt;/string&gt;
+                &lt;string&gt;LCase&lt;/string&gt;
+                &lt;string&gt;LCase$&lt;/string&gt;
+                &lt;string&gt;Left&lt;/string&gt;
+                &lt;string&gt;Left$&lt;/string&gt;
+                &lt;string&gt;LeftB&lt;/string&gt;
+                &lt;string&gt;LeftB$&lt;/string&gt;
+                &lt;string&gt;LenB&lt;/string&gt;
+                &lt;string&gt;LineInput&lt;/string&gt;
+                &lt;string&gt;Loc&lt;/string&gt;
+                &lt;string&gt;LOF&lt;/string&gt;
+                &lt;string&gt;Log&lt;/string&gt;
+                &lt;string&gt;LTrim&lt;/string&gt;
+                &lt;string&gt;LTrim$&lt;/string&gt;
+                &lt;string&gt;Mid$&lt;/string&gt;
+                &lt;string&gt;MidB$&lt;/string&gt;
+                &lt;string&gt;Minute&lt;/string&gt;
+                &lt;string&gt;MIRR&lt;/string&gt;
+                &lt;string&gt;MkDir&lt;/string&gt;
+                &lt;string&gt;Month&lt;/string&gt;
+                &lt;string&gt;MonthName&lt;/string&gt;
+                &lt;string&gt;MsgBox&lt;/string&gt;
+                &lt;string&gt;Now&lt;/string&gt;
+                &lt;string&gt;NPer&lt;/string&gt;
+                &lt;string&gt;NPV&lt;/string&gt;
+                &lt;string&gt;Oct&lt;/string&gt;
+                &lt;string&gt;Oct$&lt;/string&gt;
+                &lt;string&gt;Partition&lt;/string&gt;
+                &lt;string&gt;Pmt&lt;/string&gt;
+                &lt;string&gt;PPmt&lt;/string&gt;
+                &lt;string&gt;PV&lt;/string&gt;
+                &lt;string&gt;Rate&lt;/string&gt;
+                &lt;string&gt;Replace&lt;/string&gt;
+                &lt;string&gt;Right&lt;/string&gt;
+                &lt;string&gt;Right$&lt;/string&gt;
+                &lt;string&gt;RightB&lt;/string&gt;
+                &lt;string&gt;RightB$&lt;/string&gt;
+                &lt;string&gt;RmDir&lt;/string&gt;
+                &lt;string&gt;Rnd&lt;/string&gt;
+                &lt;string&gt;RTrim&lt;/string&gt;
+                &lt;string&gt;RTrim$&lt;/string&gt;
+                &lt;string&gt;Second&lt;/string&gt;
+                &lt;string&gt;Sgn&lt;/string&gt;
+                &lt;string&gt;Shell&lt;/string&gt;
+                &lt;string&gt;Sin&lt;/string&gt;
+                &lt;string&gt;SLN&lt;/string&gt;
+                &lt;string&gt;Space&lt;/string&gt;
+                &lt;string&gt;Space$&lt;/string&gt;
+                &lt;string&gt;Spc&lt;/string&gt;
+                &lt;string&gt;Split&lt;/string&gt;
+                &lt;string&gt;Sqr&lt;/string&gt;
+                &lt;string&gt;Str&lt;/string&gt;
+                &lt;string&gt;Str$&lt;/string&gt;
+                &lt;string&gt;StrComp&lt;/string&gt;
+                &lt;string&gt;StrConv&lt;/string&gt;
+                &lt;string&gt;String$&lt;/string&gt;
+                &lt;string&gt;StrReverse&lt;/string&gt;
+                &lt;string&gt;Switch&lt;/string&gt;
+                &lt;string&gt;SYD&lt;/string&gt;
+                &lt;string&gt;Tab&lt;/string&gt;
+                &lt;string&gt;Tan&lt;/string&gt;
+                &lt;string&gt;Timer&lt;/string&gt;
+                &lt;string&gt;TimeSerial&lt;/string&gt;
+                &lt;string&gt;TimeValue&lt;/string&gt;
+                &lt;string&gt;DateTime&lt;/string&gt;
+                &lt;string&gt;Today&lt;/string&gt;
+                &lt;string&gt;Trim&lt;/string&gt;
+                &lt;string&gt;Trim$&lt;/string&gt;
+                &lt;string&gt;TypeName&lt;/string&gt;
+                &lt;string&gt;UBound&lt;/string&gt;
+                &lt;string&gt;UCase&lt;/string&gt;
+                &lt;string&gt;UCase$&lt;/string&gt;
+                &lt;string&gt;Val&lt;/string&gt;
+                &lt;string&gt;Weekday&lt;/string&gt;
+                &lt;string&gt;WeekdayName&lt;/string&gt;
+                &lt;string&gt;Year&lt;/string&gt;
+                &lt;string&gt;Method&lt;/string&gt;
+                &lt;string&gt;Black&lt;/string&gt;
+                &lt;string&gt;Red&lt;/string&gt;
+                &lt;string&gt;Green&lt;/string&gt;
+                &lt;string&gt;Yellow&lt;/string&gt;
+                &lt;string&gt;Blue&lt;/string&gt;
+                &lt;string&gt;Magenta&lt;/string&gt;
+                &lt;string&gt;Cyan&lt;/string&gt;
+                &lt;string&gt;White&lt;/string&gt;
+                &lt;string&gt;BinaryCompare&lt;/string&gt;
+                &lt;string&gt;TextCompare&lt;/string&gt;
+                &lt;string&gt;Win16&lt;/string&gt;
+                &lt;string&gt;Win32&lt;/string&gt;
+                &lt;string&gt;UseSystemDayOfWeek&lt;/string&gt;
+                &lt;string&gt;Sunday&lt;/string&gt;
+                &lt;string&gt;Monday&lt;/string&gt;
+                &lt;string&gt;Tuesday&lt;/string&gt;
+                &lt;string&gt;Wednesday&lt;/string&gt;
+                &lt;string&gt;Thursday&lt;/string&gt;
+                &lt;string&gt;Friday&lt;/string&gt;
+                &lt;string&gt;Saturday&lt;/string&gt;
+                &lt;string&gt;Jan1&lt;/string&gt;
+                &lt;string&gt;FirstFourDays&lt;/string&gt;
+                &lt;string&gt;FirstFullWeek&lt;/string&gt;
+                &lt;string&gt;GeneralDate&lt;/string&gt;
+                &lt;string&gt;LongDate&lt;/string&gt;
+                &lt;string&gt;ShortDate&lt;/string&gt;
+                &lt;string&gt;LongTime&lt;/string&gt;
+                &lt;string&gt;ShortTime&lt;/string&gt;
+                &lt;string&gt;Normal&lt;/string&gt;
+                &lt;string&gt;Hidden&lt;/string&gt;
+                &lt;string&gt;Volume&lt;/string&gt;
+                &lt;string&gt;Directory&lt;/string&gt;
+                &lt;string&gt;Archive&lt;/string&gt;
+                &lt;string&gt;KeyLButton&lt;/string&gt;
+                &lt;string&gt;KeyRButton&lt;/string&gt;
+                &lt;string&gt;KeyCancel&lt;/string&gt;
+                &lt;string&gt;KeyMButton&lt;/string&gt;
+                &lt;string&gt;KeyBack&lt;/string&gt;
+                &lt;string&gt;KeyTab&lt;/string&gt;
+                &lt;string&gt;KeyClear&lt;/string&gt;
+                &lt;string&gt;KeyReturn&lt;/string&gt;
+                &lt;string&gt;KeyShift&lt;/string&gt;
+                &lt;string&gt;KeyControl&lt;/string&gt;
+                &lt;string&gt;KeyMenu&lt;/string&gt;
+                &lt;string&gt;KeyPause&lt;/string&gt;
+                &lt;string&gt;KeyCapital&lt;/string&gt;
+                &lt;string&gt;KeyEscape&lt;/string&gt;
+                &lt;string&gt;KeySpace&lt;/string&gt;
+                &lt;string&gt;KeyPageUp&lt;/string&gt;
+                &lt;string&gt;KeyPageDown&lt;/string&gt;
+                &lt;string&gt;KeyEnd&lt;/string&gt;
+                &lt;string&gt;KeyHome&lt;/string&gt;
+                &lt;string&gt;KeyLeft&lt;/string&gt;
+                &lt;string&gt;KeyUp&lt;/string&gt;
+                &lt;string&gt;KeyRight&lt;/string&gt;
+                &lt;string&gt;KeyDown&lt;/string&gt;
+                &lt;string&gt;KeySelect&lt;/string&gt;
+                &lt;string&gt;KeyPrint&lt;/string&gt;
+                &lt;string&gt;KeyExecute&lt;/string&gt;
+                &lt;string&gt;KeySnapshot&lt;/string&gt;
+                &lt;string&gt;KeyInsert&lt;/string&gt;
+                &lt;string&gt;KeyDelete&lt;/string&gt;
+                &lt;string&gt;KeyHelp&lt;/string&gt;
+                &lt;string&gt;KeyNumlock&lt;/string&gt;
+                &lt;string&gt;KeyA&lt;/string&gt;
+                &lt;string&gt;KeyB&lt;/string&gt;
+                &lt;string&gt;KeyC&lt;/string&gt;
+                &lt;string&gt;KeyD&lt;/string&gt;
+                &lt;string&gt;KeyE&lt;/string&gt;
+                &lt;string&gt;KeyF&lt;/string&gt;
+                &lt;string&gt;KeyG&lt;/string&gt;
+                &lt;string&gt;KeyH&lt;/string&gt;
+                &lt;string&gt;KeyI&lt;/string&gt;
+                &lt;string&gt;KeyJ&lt;/string&gt;
+                &lt;string&gt;KeyK&lt;/string&gt;
+                &lt;string&gt;KeyL&lt;/string&gt;
+                &lt;string&gt;KeyM&lt;/string&gt;
+                &lt;string&gt;KeyN&lt;/string&gt;
+                &lt;string&gt;KeyO&lt;/string&gt;
+                &lt;string&gt;KeyP&lt;/string&gt;
+                &lt;string&gt;KeyQ&lt;/string&gt;
+                &lt;string&gt;KeyR&lt;/string&gt;
+                &lt;string&gt;KeyS&lt;/string&gt;
+                &lt;string&gt;KeyT&lt;/string&gt;
+                &lt;string&gt;KeyU&lt;/string&gt;
+                &lt;string&gt;KeyV&lt;/string&gt;
+                &lt;string&gt;KeyW&lt;/string&gt;
+                &lt;string&gt;KeyX&lt;/string&gt;
+                &lt;string&gt;KeyY&lt;/string&gt;
+                &lt;string&gt;KeyZ&lt;/string&gt;
+                &lt;string&gt;Key0&lt;/string&gt;
+                &lt;string&gt;Key1&lt;/string&gt;
+                &lt;string&gt;Key2&lt;/string&gt;
+                &lt;string&gt;Key3&lt;/string&gt;
+                &lt;string&gt;Key4&lt;/string&gt;
+                &lt;string&gt;Key5&lt;/string&gt;
+                &lt;string&gt;Key6&lt;/string&gt;
+                &lt;string&gt;Key7&lt;/string&gt;
+                &lt;string&gt;Key8&lt;/string&gt;
+                &lt;string&gt;Key9&lt;/string&gt;
+                &lt;string&gt;KeyNumpad0&lt;/string&gt;
+                &lt;string&gt;KeyNumpad1&lt;/string&gt;
+                &lt;string&gt;KeyNumpad2&lt;/string&gt;
+                &lt;string&gt;KeyNumpad3&lt;/string&gt;
+                &lt;string&gt;KeyNumpad4&lt;/string&gt;
+                &lt;string&gt;KeyNumpad5&lt;/string&gt;
+                &lt;string&gt;KeyNumpad6&lt;/string&gt;
+                &lt;string&gt;KeyNumpad7&lt;/string&gt;
+                &lt;string&gt;KeyNumpad8&lt;/string&gt;
+                &lt;string&gt;KeyNumpad9&lt;/string&gt;
+                &lt;string&gt;KeyMultiply&lt;/string&gt;
+                &lt;string&gt;KeyAdd&lt;/string&gt;
+                &lt;string&gt;KeySeparator&lt;/string&gt;
+                &lt;string&gt;KeySubtract&lt;/string&gt;
+                &lt;string&gt;KeyDecimal&lt;/string&gt;
+                &lt;string&gt;KeyDivide&lt;/string&gt;
+                &lt;string&gt;KeyF1&lt;/string&gt;
+                &lt;string&gt;KeyF2&lt;/string&gt;
+                &lt;string&gt;KeyF3&lt;/string&gt;
+                &lt;string&gt;KeyF4&lt;/string&gt;
+                &lt;string&gt;KeyF5&lt;/string&gt;
+                &lt;string&gt;KeyF6&lt;/string&gt;
+                &lt;string&gt;KeyF7&lt;/string&gt;
+                &lt;string&gt;KeyF8&lt;/string&gt;
+                &lt;string&gt;KeyF9&lt;/string&gt;
+                &lt;string&gt;KeyF10&lt;/string&gt;
+                &lt;string&gt;KeyF11&lt;/string&gt;
+                &lt;string&gt;KeyF12&lt;/string&gt;
+                &lt;string&gt;KeyF13&lt;/string&gt;
+                &lt;string&gt;KeyF14&lt;/string&gt;
+                &lt;string&gt;KeyF15&lt;/string&gt;
+                &lt;string&gt;KeyF16&lt;/string&gt;
+                &lt;string&gt;CrLf&lt;/string&gt;
+                &lt;string&gt;Cr&lt;/string&gt;
+                &lt;string&gt;Lf&lt;/string&gt;
+                &lt;string&gt;NewLine&lt;/string&gt;
+                &lt;string&gt;NullChar&lt;/string&gt;
+                &lt;string&gt;NullString&lt;/string&gt;
+                &lt;string&gt;ObjectError&lt;/string&gt;
+                &lt;string&gt;Back&lt;/string&gt;
+                &lt;string&gt;FormFeed&lt;/string&gt;
+                &lt;string&gt;VerticalTab&lt;/string&gt;
+                &lt;string&gt;OKOnly&lt;/string&gt;
+                &lt;string&gt;OKCancel&lt;/string&gt;
+                &lt;string&gt;AbortRetryIgnore&lt;/string&gt;
+                &lt;string&gt;YesNoCancel&lt;/string&gt;
+                &lt;string&gt;YesNo&lt;/string&gt;
+                &lt;string&gt;RetryCancel&lt;/string&gt;
+                &lt;string&gt;Critical&lt;/string&gt;
+                &lt;string&gt;Question&lt;/string&gt;
+                &lt;string&gt;Exclamation&lt;/string&gt;
+                &lt;string&gt;Information&lt;/string&gt;
+                &lt;string&gt;DefaultButton1&lt;/string&gt;
+                &lt;string&gt;DefaultButton2&lt;/string&gt;
+                &lt;string&gt;DefaultButton3&lt;/string&gt;
+                &lt;string&gt;ApplicationModal&lt;/string&gt;
+                &lt;string&gt;SystemModal&lt;/string&gt;
+                &lt;string&gt;MsgBoxSetForeground&lt;/string&gt;
+                &lt;string&gt;MsgBoxRight&lt;/string&gt;
+                &lt;string&gt;MsgBoxRtlReading&lt;/string&gt;
+                &lt;string&gt;OK&lt;/string&gt;
+                &lt;string&gt;Cancel&lt;/string&gt;
+                &lt;string&gt;Abort&lt;/string&gt;
+                &lt;string&gt;Retry&lt;/string&gt;
+                &lt;string&gt;Ignore&lt;/string&gt;
+                &lt;string&gt;Yes&lt;/string&gt;
+                &lt;string&gt;No&lt;/string&gt;
+                &lt;string&gt;Hide&lt;/string&gt;
+                &lt;string&gt;NormalFocus&lt;/string&gt;
+                &lt;string&gt;MinimizedFocus&lt;/string&gt;
+                &lt;string&gt;MaximizedFocus&lt;/string&gt;
+                &lt;string&gt;NormalNoFocus&lt;/string&gt;
+                &lt;string&gt;MinimizedNoFocus&lt;/string&gt;
+                &lt;string&gt;WindowsFolder&lt;/string&gt;
+                &lt;string&gt;SystemFolder&lt;/string&gt;
+                &lt;string&gt;TemporaryFolder&lt;/string&gt;
+                &lt;string&gt;UpperCase&lt;/string&gt;
+                &lt;string&gt;LowerCase&lt;/string&gt;
+                &lt;string&gt;ProperCase&lt;/string&gt;
+                &lt;string&gt;Wide&lt;/string&gt;
+                &lt;string&gt;Narrow&lt;/string&gt;
+                &lt;string&gt;Katakana&lt;/string&gt;
+                &lt;string&gt;Hiragana&lt;/string&gt;
+                &lt;string&gt;Unicode&lt;/string&gt;
+                &lt;string&gt;FromUnicode&lt;/string&gt;
+                &lt;string&gt;ScrollBars&lt;/string&gt;
+                &lt;string&gt;Desktop&lt;/string&gt;
+                &lt;string&gt;ActiveTitleBar&lt;/string&gt;
+                &lt;string&gt;InactiveTitleBar&lt;/string&gt;
+                &lt;string&gt;MenuBar&lt;/string&gt;
+                &lt;string&gt;WindowBackground&lt;/string&gt;
+                &lt;string&gt;WindowFrame&lt;/string&gt;
+                &lt;string&gt;MenuText&lt;/string&gt;
+                &lt;string&gt;WindowText&lt;/string&gt;
+                &lt;string&gt;TitleBarText&lt;/string&gt;
+                &lt;string&gt;ActiveBorder&lt;/string&gt;
+                &lt;string&gt;InactiveBorder&lt;/string&gt;
+                &lt;string&gt;ApplicationWorkspace&lt;/string&gt;
+                &lt;string&gt;Highlight&lt;/string&gt;
+                &lt;string&gt;HighlightText&lt;/string&gt;
+                &lt;string&gt;ButtonFace&lt;/string&gt;
+                &lt;string&gt;ButtonShadow&lt;/string&gt;
+                &lt;string&gt;GrayText&lt;/string&gt;
+                &lt;string&gt;ButtonText&lt;/string&gt;
+                &lt;string&gt;InactiveCaptionText&lt;/string&gt;
+                &lt;string&gt;3DHighlight&lt;/string&gt;
+                &lt;string&gt;3DDKShadow&lt;/string&gt;
+                &lt;string&gt;3DLight&lt;/string&gt;
+                &lt;string&gt;InfoText&lt;/string&gt;
+                &lt;string&gt;InfoBackground&lt;/string&gt;
+                &lt;string&gt;true&lt;/string&gt;
+                &lt;string&gt;false&lt;/string&gt;
+                &lt;string&gt;Default&lt;/string&gt;
+              &lt;/ResWords&gt;
+            &lt;/LexResWordSet&gt;
+          &lt;/ResWordSets&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;[a-zA-Z_][a-zA-Z0-9_]*&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;1&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;comments&lt;/Name&gt;
+          &lt;LexStyle&gt;3&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;-1&lt;/ResWordStyle&gt;
+          &lt;ResWordSets /&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;\'.*&lt;/string&gt;
+            &lt;string&gt;rem[\u0000-\u0020].*&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;2&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;numbers&lt;/Name&gt;
+          &lt;LexStyle&gt;1&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;-1&lt;/ResWordStyle&gt;
+          &lt;ResWordSets /&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;([0-9]+\.[0-9]*(e|E)(\+|\-)?[0-9]+)|([0-9]+\.[0-9]*)|([0-9]+)&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;3&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;strings&lt;/Name&gt;
+          &lt;LexStyle&gt;6&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;-1&lt;/ResWordStyle&gt;
+          &lt;ResWordSets /&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;("")|"((((\\")|("")|[^"])*")|(((\\")|("")|[^"])*))&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;4&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;whitespace&lt;/Name&gt;
+          &lt;LexStyle&gt;5&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;-1&lt;/ResWordStyle&gt;
+          &lt;ResWordSets /&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;(\s)+&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;5&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;symbol&lt;/Name&gt;
+          &lt;LexStyle&gt;4&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;-1&lt;/ResWordStyle&gt;
+          &lt;ResWordSets /&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;\W&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;6&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+      &lt;/SyntaxBlocks&gt;
+      &lt;Index&gt;0&lt;/Index&gt;
+    &lt;/LexState&gt;
+  &lt;/States&gt;
+&lt;/LexScheme&gt;</value>
+  </data>
+</root>

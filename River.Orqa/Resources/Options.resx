@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConnectionsOptions">
+    <value xml:space="preserve">Connections</value>
+  </data>
+  <data name="CustomColorName">
+    <value xml:space="preserve">Custom</value>
+  </data>
+  <data name="DefaultColor">
+    <value xml:space="preserve">Default</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DefaultOptions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>options\defaultoptions.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;iso-8859-1</value>
+  </data>
+  <data name="EditorAdditionalOptions">
+    <value xml:space="preserve">Additional</value>
+  </data>
+  <data name="EditorFontOptions">
+    <value xml:space="preserve">Fonts and Colors</value>
+  </data>
+  <data name="EditorGeneralOptions">
+    <value xml:space="preserve">General</value>
+  </data>
+  <data name="EditorOptions">
+    <value xml:space="preserve">Editor</value>
+  </data>
+  <data name="EditorTabsOptions">
+    <value xml:space="preserve">Tabs</value>
+  </data>
+  <data name="ExportError">
+    <value xml:space="preserve">Error exporting options file</value>
+  </data>
+  <data name="ExportErrorTitle">
+    <value xml:space="preserve">Export Error</value>
+  </data>
+  <data name="GeneralOptions">
+    <value xml:space="preserve">General</value>
+  </data>
+  <data name="GridFont">
+    <value xml:space="preserve">Grid Results</value>
+  </data>
+  <data name="ImportError">
+    <value xml:space="preserve">Error importing options file</value>
+  </data>
+  <data name="ImportErrorTitle">
+    <value xml:space="preserve">Import Error</value>
+  </data>
+  <data name="LexComments">
+    <value xml:space="preserve">Comments</value>
+  </data>
+  <data name="LexDirectives">
+    <value xml:space="preserve">Directives</value>
+  </data>
+  <data name="LexHtmltags">
+    <value xml:space="preserve">HTML Tags</value>
+  </data>
+  <data name="LexHypertext">
+    <value xml:space="preserve">Hypertext</value>
+  </data>
+  <data name="LexIdents">
+    <value xml:space="preserve">Identifiers</value>
+  </data>
+  <data name="LexLinenumbers">
+    <value xml:space="preserve">Line Numbers</value>
+  </data>
+  <data name="LexNumbers">
+    <value xml:space="preserve">Numbers</value>
+  </data>
+  <data name="LexReswords">
+    <value xml:space="preserve">Reserved words</value>
+  </data>
+  <data name="LexSpelling">
+    <value xml:space="preserve">Spelling Errors</value>
+  </data>
+  <data name="LexStrings">
+    <value xml:space="preserve">Strings</value>
+  </data>
+  <data name="LexWhitespace">
+    <value xml:space="preserve">Whitespace</value>
+  </data>
+  <data name="MessageFont">
+    <value xml:space="preserve">Informational Messages</value>
+  </data>
+  <data name="OptionsSchema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>options\optionsschema.xsd;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;iso-8859-1</value>
+  </data>
+  <data name="OutputFormat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>options\outputformat.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="OutputTarget" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>options\outputtarget.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ParseModes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>options\parsemodes.xml;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="QueryFileFolder">
+    <value xml:space="preserve">Query File Folder</value>
+  </data>
+  <data name="QueryResultsFolder">
+    <value xml:space="preserve">Query Results Folder</value>
+  </data>
+  <data name="QueryTemplateFolder">
+    <value xml:space="preserve">Query Template Folder</value>
+  </data>
+  <data name="ResetPrompt">
+    <value xml:space="preserve">Reset all options to system default values?</value>
+  </data>
+  <data name="ResetPromptTitle">
+    <value xml:space="preserve">Reset</value>
+  </data>
+  <data name="ResultsFontOptions">
+    <value xml:space="preserve">Fonts</value>
+  </data>
+  <data name="ResultsGeneralOptions">
+    <value xml:space="preserve">General</value>
+  </data>
+  <data name="ResultsOptions">
+    <value xml:space="preserve">Results</value>
+  </data>
+  <data name="StatisticsOptions">
+    <value xml:space="preserve">Statistics</value>
+  </data>
+  <data name="TextFont">
+    <value xml:space="preserve">Text and XML Results</value>
+  </data>
+</root>

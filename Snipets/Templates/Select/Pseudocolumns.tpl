@@ -1,0 +1,12 @@
+﻿column_value
+connect_by_iscycle
+connect_by_isleaf
+currval
+level
+nextval
+object_id
+object_value
+ora_rowscn
+rowid
+rownum
+xmldata

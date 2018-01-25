@@ -1,0 +1,1411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BD54E10B-526C-4207-940F-1258FFDB584D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>River.Orqa</RootNamespace>
+    <AssemblyName>River.Orqa</AssemblyName>
+    <ApplicationIcon>Orqa.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug32\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <PlatformTarget>x86</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug32\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\Debug32\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'All Dependencies|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug32\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'All Dependencies|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug32\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\Release64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'All Dependencies|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug32\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.12.2.1100\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Browser\Browser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browser\Browser.Designer.cs">
+      <DependentUpon>Browser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\EventHandlers.cs" />
+    <Compile Include="Browser\IBrowser.cs" />
+    <Compile Include="Browser\Projects\IProjectContainer.cs" />
+    <Compile Include="Browser\Projects\Project.cs" />
+    <Compile Include="Browser\Projects\ProjectFileInvalidException.cs" />
+    <Compile Include="Browser\Projects\ProjectItem.cs" />
+    <Compile Include="Browser\Projects\ProjectItemCollection.cs" />
+    <Compile Include="Browser\Projects\ProjectManager.cs" />
+    <Compile Include="Browser\ProjectTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browser\ProjectTree.Designer.cs">
+      <DependentUpon>ProjectTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\SchemaIcons.cs" />
+    <Compile Include="Browser\SchemaManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browser\SchemaManager.Designer.cs">
+      <DependentUpon>SchemaManager.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Resources\Browser.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Browser.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Dialogs\AboutDialog.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AboutDialog.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Dialogs\AlgorithmDialog.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AlgorithmDialog.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Dialogs\ConnectDialog.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ConnectDialog.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Dialogs\ExecuteRepeatedDialog.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExecuteRepeatedDialog.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Dialogs\NewItems.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>NewItems.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Dialogs\ServiceControllerDialog.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ServiceControllerDialog.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\ExplainPlan.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExplainPlan.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Options.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Options.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Orqa.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Query.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Query.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Tools.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Tools.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Browser\Schemata\SchemaDescriptor.cs" />
+    <Compile Include="Browser\SchemaProperty.cs" />
+    <Compile Include="Browser\Schemata\SchemataColumn.cs" />
+    <Compile Include="Browser\Schemata\SchemataColumnFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataConstraint.cs" />
+    <Compile Include="Browser\Schemata\SchemataConstraintFolder.cs" />
+    <None Include="Browser\Schemata\SchemataFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataFunction.cs" />
+    <Compile Include="Browser\Schemata\SchemataFunctionFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataIndex.cs" />
+    <Compile Include="Browser\Schemata\SchemataIndexFolder.cs" />
+    <Compile Include="Browser\SchemaProperties.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browser\SchemaProperties.Designer.cs">
+      <DependentUpon>SchemaProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Schemata\SchemataNode.cs">
+    </Compile>
+    <Compile Include="Browser\Schemata\SchemataPackage.cs" />
+    <Compile Include="Browser\Schemata\SchemataPackageBody.cs" />
+    <Compile Include="Browser\Schemata\SchemataPackageBodyFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataPackageFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataParameter.cs" />
+    <Compile Include="Browser\Schemata\SchemataProcedure.cs" />
+    <Compile Include="Browser\Schemata\SchemataProcedureFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataSchema.cs" />
+    <Compile Include="Browser\Schemata\SchemataSequence.cs" />
+    <Compile Include="Browser\Schemata\SchemataSequenceFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataServer.cs" />
+    <Compile Include="Browser\Schemata\SchemataSynonym.cs" />
+    <Compile Include="Browser\Schemata\SchemataSynonymFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataTable.cs" />
+    <Compile Include="Browser\Schemata\SchemataTableFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataTrigger.cs" />
+    <Compile Include="Browser\Schemata\SchemataTriggerFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataType.cs" />
+    <Compile Include="Browser\Schemata\SchemataTypeFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataTypes.cs" />
+    <Compile Include="Browser\Schemata\SchemataView.cs" />
+    <Compile Include="Browser\Schemata\SchemataViewFolder.cs" />
+    <Compile Include="Browser\TemplateTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browser\TemplateTree.Designer.cs">
+      <DependentUpon>TemplateTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommandGroup.cs" />
+    <Compile Include="Controls\Collections\CollectionWithEvents.cs" />
+    <Compile Include="Controls\Collections\ContentCollection.cs" />
+    <Compile Include="Controls\Collections\HotZoneCollection.cs" />
+    <Compile Include="Controls\Collections\ManagerContentCollection.cs" />
+    <Compile Include="Controls\Collections\MenuCommandCollection.cs" />
+    <Compile Include="Controls\Collections\StringCollection.cs" />
+    <Compile Include="Controls\Collections\TabGroupBaseCollection.cs" />
+    <Compile Include="Controls\Collections\TabPageCollection.cs" />
+    <Compile Include="Controls\Collections\TargetCollection.cs" />
+    <Compile Include="Controls\Collections\WindowCollection.cs" />
+    <Compile Include="Controls\Collections\WindowDetailCollection.cs" />
+    <Compile Include="Controls\Collections\WizardPageCollection.cs" />
+    <Compile Include="Controls\Collections\ZoneCollection.cs" />
+    <Compile Include="Controls\Common\ColorHelper.cs" />
+    <Compile Include="Controls\Common\ControlHelper.cs" />
+    <Compile Include="Controls\Common\ConversionHelper.cs" />
+    <Compile Include="Controls\Common\DebugHelper.cs" />
+    <Compile Include="Controls\Common\DrawHelper.cs" />
+    <Compile Include="Controls\Common\Enums.cs" />
+    <Compile Include="Controls\Common\ResourceHelper.cs" />
+    <Compile Include="Controls\Controls\BorderForControl\BorderForControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Controls\InertButton\InertButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Controls\ResizeBar\ResizeBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Controls\TabbedGroups\TabbedGroupEventArgs.cs" />
+    <Compile Include="Controls\Controls\TabbedGroups\TabbedGroups.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Controls\TabbedGroups\TabGroupBase.cs" />
+    <Compile Include="Controls\Controls\TabbedGroups\TabGroupLeaf.cs" />
+    <Compile Include="Controls\Controls\TabbedGroups\TabGroupSequence.cs" />
+    <Compile Include="Controls\Controls\TabbedGroups\Target.cs" />
+    <Compile Include="Controls\Controls\TabControl\TabControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Controls\TabControl\TabControlDesigner.cs" />
+    <Compile Include="Controls\Controls\TabControl\TabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Controls\WizardControl\WizardControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Controls\WizardControl\WizardControlDesigner.cs" />
+    <Compile Include="Controls\Controls\WizardControl\WizardPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\AutoHidePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\Content.cs" />
+    <Compile Include="Controls\Docking\Definitions.cs" />
+    <Compile Include="Controls\Docking\DockingManager.cs" />
+    <Compile Include="Controls\Docking\FloatinglForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\HotZone.cs" />
+    <Compile Include="Controls\Docking\HotZoneFloating.cs" />
+    <Compile Include="Controls\Docking\HotZoneNull.cs" />
+    <Compile Include="Controls\Docking\HotZoneReposition.cs" />
+    <Compile Include="Controls\Docking\HotZoneSequence.cs" />
+    <Compile Include="Controls\Docking\HotZoneTabbed.cs" />
+    <Compile Include="Controls\Docking\Redocker.cs" />
+    <Compile Include="Controls\Docking\RedockerContent.cs" />
+    <Compile Include="Controls\Docking\Restore.cs" />
+    <Compile Include="Controls\Docking\TabStub.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\Window.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\WindowContent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\WindowContentTabbed.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\WindowDetail.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\WindowDetailCaption.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\Zone.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\ZoneHelper.cs" />
+    <Compile Include="Controls\Docking\ZoneSequence.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Forms\WizardDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\Menus\DrawCommand.cs" />
+    <Compile Include="Controls\Menus\MenuCommand.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Menus\MenuControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Menus\MenuControlDesigner.cs" />
+    <Compile Include="Controls\Menus\PopupMenu.cs" />
+    <Compile Include="Controls\RiverDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\RiverListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\RiverTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Win32\Enums.cs" />
+    <Compile Include="Controls\Win32\Gdi32.cs" />
+    <Compile Include="Controls\Win32\Structs.cs" />
+    <Compile Include="Controls\Win32\User32.cs" />
+    <Compile Include="Database\CmdDriver.cs" />
+    <Compile Include="Database\DatabaseConnection.cs" />
+    <Compile Include="Database\DatabaseSetup.cs" />
+    <Compile Include="Database\DataSet\OraColumn.cs" />
+    <Compile Include="Database\DataSet\OraData.cs" />
+    <Compile Include="Database\DataSet\OraRow.cs" />
+    <Compile Include="Database\DataSet\OraTable.cs" />
+    <Compile Include="Database\Enums.cs" />
+    <Compile Include="Database\Message.cs" />
+    <Compile Include="Database\MessageCollection.cs" />
+    <Compile Include="Database\EventHandlers.cs" />
+    <Compile Include="Database\MissingSidException.cs" />
+    <Compile Include="Database\ParameterConverter.cs" />
+    <Compile Include="Database\Parameter.cs" />
+    <Compile Include="Database\ParameterCollection.cs" />
+    <Compile Include="Database\Query.cs" />
+    <Compile Include="Database\QueryCollection.cs" />
+    <Compile Include="Database\QueryDriver.cs" />
+    <Compile Include="Database\DataSet\OraSchema.cs" />
+    <Compile Include="Database\SQLPlusDriver.cs" />
+    <Compile Include="Database\StatementCollection.cs" />
+    <Compile Include="Database\StatementParser.cs" />
+    <Compile Include="Database\Statistics.cs" />
+    <Compile Include="Database\Tns.cs" />
+    <Compile Include="Database\TnsName.cs" />
+    <Compile Include="Dialogs\AboutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\AboutDialog.Designer.cs">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\AlgorithmDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\AlgorithmDialog.Designer.cs">
+      <DependentUpon>AlgorithmDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ChangeDbDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ChangeDbDialog.Designer.cs">
+      <DependentUpon>ChangeDbDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ConnectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ConnectDialog.Designer.cs">
+      <DependentUpon>ConnectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\ExceptionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\ExceptionDetails.Designer.cs">
+      <DependentUpon>ExceptionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\ExceptionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\ExceptionDialog.Designer.cs">
+      <DependentUpon>ExceptionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\ExceptionReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\ExceptionReport.Designer.cs">
+      <DependentUpon>ExceptionReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\OrqaException.cs" />
+    <Compile Include="Dialogs\ExecuteRepeatedDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ExecuteRepeatedDialog.Designer.cs">
+      <DependentUpon>ExecuteRepeatedDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewFolderDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewFolderDialog.Designer.cs">
+      <DependentUpon>NewFolderDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewItemDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewItemDialog.Designer.cs">
+      <DependentUpon>NewItemDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\OverwriteDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\OverwriteDialog.Designer.cs">
+      <DependentUpon>OverwriteDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ParametersDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ParametersDialog.Designer.cs">
+      <DependentUpon>ParametersDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\SaveDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\SaveDialog.Designer.cs">
+      <DependentUpon>SaveDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ServiceControllerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ServiceControllerDialog.Designer.cs">
+      <DependentUpon>ServiceControllerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ServiceManager.cs" />
+    <Compile Include="ICommander.cs" />
+    <Compile Include="Logger.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Logger.Designer.cs">
+      <DependentUpon>Logger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MruManager.cs" />
+    <Compile Include="Native\StringExtensions.cs" />
+    <Compile Include="Options\ConnectionsSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\ConnectionsSheet.Designer.cs">
+      <DependentUpon>ConnectionsSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\DisplayThings.cs" />
+    <Compile Include="Options\EditorTabsSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\EditorTabsSheet.Designer.cs">
+      <DependentUpon>EditorTabsSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\EditorFontSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\EditorFontSheet.Designer.cs">
+      <DependentUpon>EditorFontSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\EditorSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\EditorSheet.Designer.cs">
+      <DependentUpon>EditorSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\FadingLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Options\FileAssociation.cs" />
+    <Compile Include="Options\OpeningOptionsEvent.cs" />
+    <Compile Include="Options\OptionFont.cs" />
+    <Compile Include="Options\GeneralSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\GeneralSheet.Designer.cs">
+      <DependentUpon>GeneralSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\OptionsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options\OptionsDialog.Designer.cs">
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\ResultsFontSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\ResultsFontSheet.Designer.cs">
+      <DependentUpon>ResultsFontSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\ResultsSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\ResultsSheet.Designer.cs">
+      <DependentUpon>ResultsSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\SheetBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\StatisticsSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\StatisticsSheet.Designer.cs">
+      <DependentUpon>StatisticsSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\UserOptions.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Browser\Browser.resx">
+      <DependentUpon>Browser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browser\ProjectTree.resx">
+      <DependentUpon>ProjectTree.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browser\SchemaManager.resx">
+      <DependentUpon>SchemaManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browser\SchemaProperties.resx">
+      <DependentUpon>SchemaProperties.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browser\TemplateTree.resx">
+      <DependentUpon>TemplateTree.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\BorderForControl\BorderForControl.resx">
+      <DependentUpon>BorderForControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\InertButton\InertButton.resx">
+      <DependentUpon>InertButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\AboutDialog.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\AlgorithmDialog.resx">
+      <DependentUpon>AlgorithmDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ChangeDbDialog.resx">
+      <DependentUpon>ChangeDbDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ConnectDialog.resx">
+      <DependentUpon>ConnectDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ExceptionDialog\ExceptionDetails.resx">
+      <DependentUpon>ExceptionDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ExceptionDialog\ExceptionDialog.resx">
+      <DependentUpon>ExceptionDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ExceptionDialog\ExceptionReport.resx">
+      <DependentUpon>ExceptionReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ExecuteRepeatedDialog.resx">
+      <DependentUpon>ExecuteRepeatedDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewFolderDialog.resx">
+      <DependentUpon>NewFolderDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewItemDialog.resx">
+      <DependentUpon>NewItemDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\OverwriteDialog.resx">
+      <DependentUpon>OverwriteDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ParametersDialog.resx">
+      <DependentUpon>ParametersDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SaveDialog.resx">
+      <DependentUpon>SaveDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ServiceControllerDialog.resx">
+      <DependentUpon>ServiceControllerDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logger.resx">
+      <DependentUpon>Logger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\ConnectionsSheet.resx">
+      <DependentUpon>ConnectionsSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\EditorTabsSheet.resx">
+      <DependentUpon>EditorTabsSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\EditorFontSheet.resx">
+      <DependentUpon>EditorFontSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\EditorSheet.resx">
+      <DependentUpon>EditorSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\GeneralSheet.resx">
+      <DependentUpon>GeneralSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\OptionsDialog.resx">
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\ResultsFontSheet.resx">
+      <DependentUpon>ResultsFontSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\ResultsSheet.resx">
+      <DependentUpon>ResultsSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\SheetBase.resx">
+      <DependentUpon>SheetBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\StatisticsSheet.resx">
+      <DependentUpon>StatisticsSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\EditorView.resx">
+      <DependentUpon>EditorView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\Notepad.resx">
+      <DependentUpon>Notepad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\PlanView.resx">
+      <DependentUpon>PlanView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\QueryWindow.resx">
+      <DependentUpon>QueryWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\ResultsView.resx">
+      <DependentUpon>ResultsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\StatisticsView.resx">
+      <DependentUpon>StatisticsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Query\Editor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Query\EditorView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Query\EditorView.Designer.cs">
+      <DependentUpon>EditorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\EditorEvents.cs" />
+    <Compile Include="Options\FontsAndColors.cs" />
+    <Compile Include="Query\IEditor.cs" />
+    <Compile Include="Query\Notepad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Query\Notepad.Designer.cs">
+      <DependentUpon>Notepad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\PlanView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Query\PlanView.Designer.cs">
+      <DependentUpon>PlanView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\QueryWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\QueryWindow.Designer.cs">
+      <DependentUpon>QueryWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\ResultsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Query\ResultsView.Designer.cs">
+      <DependentUpon>ResultsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\StatisticsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Query\StatisticsView.Designer.cs">
+      <DependentUpon>StatisticsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Browser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Browser.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dialogs\AboutDialog.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AboutDialog.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dialogs\AlgorithmDialog.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlgorithmDialog.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dialogs\ConnectDialog.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConnectDialog.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dialogs\ExecuteRepeatedDialog.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExecuteRepeatedDialog.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dialogs\NewItems.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewItems.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Dialogs\ServiceControllerDialog.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServiceControllerDialog.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ExplainPlan.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExplainPlan.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Options.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Options.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Query.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Query.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Tools.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tools.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Translator.cs" />
+    <Compile Include="Statusbar.cs" />
+    <Compile Include="Native\WowRegistry.cs" />
+    <Compile Include="Native\WowRegistryKey.cs" />
+    <Compile Include="Native\WowEnvironment.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Browser\BatchFile.png" />
+    <Content Include="Resources\Browser\CheckConstraint.gif" />
+    <Content Include="Resources\Browser\CheckConstraint.ico" />
+    <Content Include="Resources\Browser\Column.gif" />
+    <Content Include="Resources\Browser\Column.ico" />
+    <Content Include="Resources\Browser\ContextMenu\Close.png" />
+    <Content Include="Resources\Browser\ContextMenu\Compile.gif" />
+    <Content Include="Resources\Browser\ContextMenu\Compile.ico" />
+    <Content Include="Resources\Browser\ContextMenu\Delete.gif" />
+    <Content Include="Resources\Browser\ContextMenu\Delete.ico" />
+    <Content Include="Resources\Browser\ContextMenu\Edit.gif" />
+    <Content Include="Resources\Browser\ContextMenu\Edit.ico" />
+    <Content Include="Resources\Browser\ContextMenu\NewFolder.png" />
+    <Content Include="Resources\Browser\ContextMenu\NewItem.png" />
+    <Content Include="Resources\Browser\ContextMenu\Open.gif" />
+    <Content Include="Resources\Browser\ContextMenu\Open.ico" />
+    <Content Include="Resources\Browser\ContextMenu\Report.gif" />
+    <Content Include="Resources\Browser\ContextMenu\Report.ico" />
+    <Content Include="Resources\Browser\ContextMenu\Properties.gif" />
+    <Content Include="Resources\Browser\ContextMenu\Properties.ico" />
+    <Content Include="Resources\Browser\ContextMenu\Refresh.gif" />
+    <Content Include="Resources\Browser\ContextMenu\Refresh.ico" />
+    <Content Include="Resources\Browser\ContextMenu\Rename.gif" />
+    <Content Include="Resources\Browser\ContextMenu\Rename.ico" />
+    <Content Include="Resources\Browser\ContextMenu\Script.gif" />
+    <Content Include="Resources\Browser\ContextMenu\Script.ico" />
+    <Content Include="Resources\Browser\CopyToCurrent.gif" />
+    <Content Include="Resources\Browser\CopyToCurrent.ico" />
+    <Content Include="Resources\Browser\Database.gif" />
+    <Content Include="Resources\Browser\Database.ico" />
+    <Content Include="Resources\Browser\DatabaseLocked.ico" />
+    <Content Include="Resources\Browser\DatabaseProject.png" />
+    <Content Include="Resources\Browser\FolderClose.gif" />
+    <Content Include="Resources\Browser\FolderClose.ico" />
+    <Content Include="Resources\Browser\FolderOpen.gif" />
+    <Content Include="Resources\Browser\FolderOpen.ico" />
+    <Content Include="Resources\Browser\ForeignKey.gif" />
+    <Content Include="Resources\Browser\ForeignKey.ico" />
+    <Content Include="Resources\Browser\Function.gif" />
+    <Content Include="Resources\Browser\Function.ico" />
+    <Content Include="Resources\Browser\Index.gif" />
+    <Content Include="Resources\Browser\Index.ico" />
+    <Content Include="Resources\Browser\MissingFile.png" />
+    <Content Include="Resources\Browser\Objects.gif" />
+    <Content Include="Resources\Browser\Objects.ico" />
+    <Content Include="Resources\Browser\OpenInNew.gif" />
+    <Content Include="Resources\Browser\OpenInNew.ico" />
+    <Content Include="Resources\Browser\Package.gif" />
+    <Content Include="Resources\Browser\Package.ico" />
+    <Content Include="Resources\Browser\ParameterIn.gif" />
+    <Content Include="Resources\Browser\ParameterIn.ico" />
+    <Content Include="Resources\Browser\ParameterOut.gif" />
+    <Content Include="Resources\Browser\ParameterOut.ico" />
+    <Content Include="Resources\Browser\PrimaryKey.gif" />
+    <Content Include="Resources\Browser\PrimaryKey.ico" />
+    <Content Include="Resources\Browser\Print.ico" />
+    <Content Include="Resources\Browser\ProjectBrowser.ico" />
+    <Content Include="Resources\Browser\ProjectBrowser.png" />
+    <Content Include="Resources\Browser\Refresh.ico" />
+    <Content Include="Resources\Browser\ReturnValue.gif" />
+    <Content Include="Resources\Browser\ReturnValue.ico" />
+    <Content Include="Resources\Browser\Sequence.gif" />
+    <Content Include="Resources\Browser\Sequence.ico" />
+    <Content Include="Resources\Browser\Servers.gif" />
+    <Content Include="Resources\Browser\Servers.ico" />
+    <Content Include="Resources\Browser\SqlScript.png" />
+    <Content Include="Resources\Browser\StoredProcedure.gif" />
+    <Content Include="Resources\Browser\StoredProcedure.ico" />
+    <Content Include="Resources\Browser\Synonym.gif" />
+    <Content Include="Resources\Browser\Synonym.ico" />
+    <Content Include="Resources\Browser\SystemTable.gif" />
+    <Content Include="Resources\Browser\SystemTable.ico" />
+    <Content Include="Resources\Browser\Table.gif" />
+    <Content Include="Resources\Browser\Table.ico" />
+    <Content Include="Resources\Browser\Template.gif" />
+    <Content Include="Resources\Browser\Template.ico" />
+    <Content Include="Resources\Browser\Templates.gif" />
+    <Content Include="Resources\Browser\Templates.ico" />
+    <Content Include="Resources\Browser\TextFile.png" />
+    <Content Include="Resources\Browser\Trigger.gif" />
+    <Content Include="Resources\Browser\Trigger.ico" />
+    <Content Include="Resources\Browser\Type.ico" />
+    <Content Include="Resources\Browser\UniqueKey.gif" />
+    <Content Include="Resources\Browser\UniqueKey.ico" />
+    <Content Include="Resources\Browser\View.gif" />
+    <Content Include="Resources\Browser\View.ico" />
+    <Content Include="Resources\Browser\Warning32.png" />
+    <Content Include="Resources\Dialogs\NewItems\PackageBody_sql.txt" />
+    <Content Include="Resources\Dialogs\NewItems\Package_sql.txt" />
+    <Content Include="Resources\Dialogs\NewItems\Script_bat.txt" />
+    <Content Include="Resources\Dialogs\NewItems\SqlProjectItems.xml" />
+    <Content Include="Resources\Dialogs\NewItems\SqlScript_sql.txt" />
+    <Content Include="Resources\Dialogs\NewItems\SqlTemplateItems.xml" />
+    <Content Include="Resources\Dialogs\NewItems\Table_sql.txt" />
+    <Content Include="Resources\Dialogs\NewItems\View_sql.txt" />
+    <Content Include="Resources\Files\ConnectBackground.gif" />
+    <Content Include="Resources\Files\ConnectBackground.jpg" />
+    <Content Include="Resources\Files\OracleLogo.gif" />
+    <Content Include="Resources\Files\Orca.jpg" />
+    <Content Include="Resources\Files\Orca60x50.jpg" />
+    <Content Include="Resources\Files\Orqa.ico" />
+    <Content Include="Resources\Files\SetupBanner.gif" />
+    <Content Include="Resources\Files\SetupBanner.jpg" />
+    <Content Include="Resources\Options\DefaultOptions.xml" />
+    <Content Include="Resources\Options\Images\Connections.gif" />
+    <Content Include="Resources\Options\Images\Connections.ico" />
+    <Content Include="Resources\Options\Images\Editor.gif" />
+    <Content Include="Resources\Options\Images\Editor.ico" />
+    <Content Include="Resources\Options\Images\EditorAdvanced.gif" />
+    <Content Include="Resources\Options\Images\EditorAdvanced.ico" />
+    <Content Include="Resources\Options\Images\EditorFonts.gif" />
+    <Content Include="Resources\Options\Images\EditorFonts.ico" />
+    <Content Include="Resources\Options\Images\EditorTabs.gif" />
+    <Content Include="Resources\Options\Images\EditorTabs.ico" />
+    <Content Include="Resources\Options\Images\Export.gif" />
+    <Content Include="Resources\Options\Images\Export.ico" />
+    <Content Include="Resources\Options\Images\Folder.gif" />
+    <Content Include="Resources\Options\Images\Folder.ico" />
+    <Content Include="Resources\Options\Images\Import.gif" />
+    <Content Include="Resources\Options\Images\Import.ico" />
+    <Content Include="Resources\Options\Images\Options.gif" />
+    <Content Include="Resources\Options\Images\Options.ico" />
+    <Content Include="Resources\Options\Images\Reset.gif" />
+    <Content Include="Resources\Options\Images\Reset.ico" />
+    <Content Include="Resources\Options\Images\Results.gif" />
+    <Content Include="Resources\Options\Images\Results.ico" />
+    <Content Include="Resources\Options\Images\Statistics.gif" />
+    <Content Include="Resources\Options\Images\Statistics.ico" />
+    <Content Include="Resources\Options\OutputFormat.xml" />
+    <Content Include="Resources\Options\OutputTarget.xml" />
+    <Content Include="Resources\Options\ParseModes.xml" />
+    <Content Include="Resources\Query\ExplainPlan.js" />
+    <Content Include="Resources\Query\ExplainPlanStyles.css" />
+    <Content Include="Resources\Query\ExplainPlanTable.sql" />
+    <Content Include="Resources\Query\Images\CacheStats.gif" />
+    <Content Include="Resources\Query\Images\CacheStats.ico" />
+    <Content Include="Resources\Query\Images\DebugStats.gif" />
+    <Content Include="Resources\Query\Images\DebugStats.ico" />
+    <Content Include="Resources\Query\Images\EnqueueStats.gif" />
+    <Content Include="Resources\Query\Images\EnqueueStats.ico" />
+    <Content Include="Resources\Query\Images\ErrorIcon.gif" />
+    <Content Include="Resources\Query\Images\ErrorIcon.ico" />
+    <Content Include="Resources\Query\Images\Messages.gif" />
+    <Content Include="Resources\Query\Images\Messages.ico" />
+    <Content Include="Resources\Query\Images\ParallelStats.gif" />
+    <Content Include="Resources\Query\Images\ParallelStats.ico" />
+    <Content Include="Resources\Query\Images\Query.gif" />
+    <Content Include="Resources\Query\Images\Query.ico" />
+    <Content Include="Resources\Query\Images\RedoStats.gif" />
+    <Content Include="Resources\Query\Images\RedoStats.ico" />
+    <Content Include="Resources\Query\Images\ResultsGrid.gif" />
+    <Content Include="Resources\Query\Images\ResultsGrid.ico" />
+    <Content Include="Resources\Query\Images\ResultsText.gif" />
+    <Content Include="Resources\Query\Images\ResultsText.ico" />
+    <Content Include="Resources\Query\Images\ResultsXml.gif" />
+    <Content Include="Resources\Query\Images\ResultsXml.ico" />
+    <Content Include="Resources\Query\Images\ServerStats.gif" />
+    <Content Include="Resources\Query\Images\ServerStats.ico" />
+    <Content Include="Resources\Query\Images\SqlStats.gif" />
+    <Content Include="Resources\Query\Images\SqlStats.ico" />
+    <Content Include="Resources\Query\Images\UserStats.gif" />
+    <Content Include="Resources\Query\Images\UserStats.ico" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP0.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP1.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP10.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP11.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP12.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP13.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP14.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP15.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP16.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP17.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP18.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP19.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP2.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP20.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP21.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP22.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP23.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP24.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP25.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP3.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP4.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP5.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP6.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP7.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP8.gif" />
+    <Content Include="Resources\Query\PlanImages\Orqa_XP9.gif" />
+    <Content Include="Resources\Query\SqlSettings.xml" />
+    <Content Include="Resources\Query\SqlStyle.xml" />
+    <Content Include="Resources\Query\TextSettings.xml" />
+    <Content Include="Resources\Query\TextStyle.xml" />
+    <Content Include="Resources\ServiceController\Refresh.ico" />
+    <Content Include="Resources\ServiceController\ServiceRestart.ico" />
+    <Content Include="Resources\ServiceController\Services.ico" />
+    <Content Include="Resources\ServiceController\ServiceStart.ico" />
+    <Content Include="Resources\ServiceController\ServiceStop.ico" />
+    <Content Include="Resources\ServiceController\SmallDisabled.png" />
+    <Content Include="Resources\ServiceController\SmallRunning.gif" />
+    <Content Include="Resources\ServiceController\SmallRunning.ico" />
+    <Content Include="Resources\ServiceController\SmallStopped.gif" />
+    <Content Include="Resources\ServiceController\SmallStopped.ico" />
+    <Content Include="Resources\Tools\Cascade.ico" />
+    <Content Include="Resources\Tools\ClearAll.ico" />
+    <Content Include="Resources\Tools\ClearAll.png" />
+    <Content Include="Resources\Tools\Connect.ico" />
+    <Content Include="Resources\Tools\Connect.png" />
+    <Content Include="Resources\Tools\Copy.ico" />
+    <Content Include="Resources\Tools\Copy.png" />
+    <Content Include="Resources\Tools\Cut.ico" />
+    <Content Include="Resources\Tools\Cut.png" />
+    <Content Include="Resources\Tools\DatabaseConnection.ico" />
+    <Content Include="Resources\Tools\Debugger.ico" />
+    <Content Include="Resources\Tools\Disconnect.ico" />
+    <Content Include="Resources\Tools\Disconnect.png" />
+    <Content Include="Resources\Tools\DisconnectAll.ico" />
+    <Content Include="Resources\Tools\ExBlock.ico" />
+    <Content Include="Resources\Tools\Execute.ico" />
+    <Content Include="Resources\Tools\Execute.png" />
+    <Content Include="Resources\Tools\ExecuteSqlPlus.ico" />
+    <Content Include="Resources\Tools\Exit.ico" />
+    <Content Include="Resources\Tools\ExProc.ico" />
+    <Content Include="Resources\Tools\ExRepeat.ico" />
+    <Content Include="Resources\Tools\Find.ico" />
+    <Content Include="Resources\Tools\Find.png" />
+    <Content Include="Resources\Tools\GotoLine.ico" />
+    <Content Include="Resources\Tools\Help.ico" />
+    <Content Include="Resources\Tools\HelpAbout.ico" />
+    <Content Include="Resources\Tools\Lowercase.ico" />
+    <Content Include="Resources\Tools\NewQuery.ico" />
+    <Content Include="Resources\Tools\NewQuery.png" />
+    <Content Include="Resources\Tools\ObjectBrowser.ico" />
+    <Content Include="Resources\Tools\ObjectBrowser.png" />
+    <Content Include="Resources\Tools\Open.ico" />
+    <Content Include="Resources\Tools\Open.png" />
+    <Content Include="Resources\Tools\Options.ico" />
+    <Content Include="Resources\Tools\PageSetup.ico" />
+    <Content Include="Resources\Tools\Parse.ico" />
+    <Content Include="Resources\Tools\Parse.png" />
+    <Content Include="Resources\Tools\Paste.ico" />
+    <Content Include="Resources\Tools\Paste.png" />
+    <Content Include="Resources\Tools\Print.ico" />
+    <Content Include="Resources\Tools\PrintPreview.ico" />
+    <Content Include="Resources\Tools\Properties.gif" />
+    <Content Include="Resources\Tools\Properties.ico" />
+    <Content Include="Resources\Tools\Purge.ico" />
+    <Content Include="Resources\Tools\Redo.gif" />
+    <Content Include="Resources\Tools\Redo.ico" />
+    <Content Include="Resources\Tools\Redo.png" />
+    <Content Include="Resources\Tools\ResultsGrid.ico" />
+    <Content Include="Resources\Tools\ResultsPane.ico" />
+    <Content Include="Resources\Tools\ResultsPane.png" />
+    <Content Include="Resources\Tools\ResultsText.ico" />
+    <Content Include="Resources\Tools\ResultsXml.ico" />
+    <Content Include="Resources\Tools\Save.ico" />
+    <Content Include="Resources\Tools\Save.png" />
+    <Content Include="Resources\Tools\SaveAll.ico" />
+    <Content Include="Resources\Tools\SaveAs.ico" />
+    <Content Include="Resources\Tools\SelectAll.ico" />
+    <Content Include="Resources\Tools\Services.ico" />
+    <Content Include="Resources\Tools\ShowPlan.ico" />
+    <Content Include="Resources\Tools\ShowPlan.png" />
+    <Content Include="Resources\Tools\ShowStats.ico" />
+    <Content Include="Resources\Tools\ShowStats.png" />
+    <Content Include="Resources\Tools\ShowUserErrors.png" />
+    <Content Include="Resources\Tools\Stop.ico" />
+    <Content Include="Resources\Tools\Stop.png" />
+    <Content Include="Resources\Tools\TileHorizontal.ico" />
+    <Content Include="Resources\Tools\TileVertical.ico" />
+    <Content Include="Resources\Tools\Trace.ico" />
+    <Content Include="Resources\Tools\Trace.png" />
+    <Content Include="Resources\Tools\Undo.ico" />
+    <Content Include="Resources\Tools\Undo.png" />
+    <Content Include="Resources\Tools\Uppercase.ico" />
+    <Content Include="Resources\Tools\ViewWhitespace.ico" />
+    <EmbeddedResource Include="Controls\Controls\InertButton.bmp" />
+    <EmbeddedResource Include="Controls\Controls\ResizeBar\ResizeBar.resx">
+      <DependentUpon>ResizeBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\TabbedGroups\TabbedGroups.resx">
+      <DependentUpon>TabbedGroups.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\TabbedGroups.bmp" />
+    <EmbeddedResource Include="Controls\Controls\TabControl\TabControl.resx">
+      <DependentUpon>TabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\TabControl\TabPage.resx">
+      <DependentUpon>TabPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\TabControl.bmp" />
+    <EmbeddedResource Include="Controls\Controls\WizardControl\WizardControl.resx">
+      <DependentUpon>WizardControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\WizardControl\WizardPage.resx">
+      <DependentUpon>WizardPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\WizardControl.bmp" />
+    <EmbeddedResource Include="Controls\Docking\AutoHidePanel.resx">
+      <DependentUpon>AutoHidePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Docking\FloatinglForm.resx">
+      <DependentUpon>FloatinglForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Docking\Window.resx">
+      <DependentUpon>Window.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Docking\WindowDetail.resx">
+      <DependentUpon>WindowDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Docking\WindowDetailCaption.resx">
+      <DependentUpon>WindowDetailCaption.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Docking\Zone.resx">
+      <DependentUpon>Zone.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Forms\WizardDialog.resx">
+      <DependentUpon>WizardDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Menus\MenuCommand.resx">
+      <DependentUpon>MenuCommand.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Menus\MenuControl.bmp" />
+    <EmbeddedResource Include="Controls\Menus\MenuControl.resx">
+      <DependentUpon>MenuControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Resources\ImagesCaptionIDE.bmp" />
+    <EmbeddedResource Include="Controls\Resources\ImagesCaptionPlain.bmp" />
+    <EmbeddedResource Include="Controls\Resources\ImagesMenuControl.bmp" />
+    <EmbeddedResource Include="Controls\Resources\ImagesPopupMenu.bmp" />
+    <EmbeddedResource Include="Controls\Resources\ImagesTabbedGroups.bmp" />
+    <EmbeddedResource Include="Controls\Resources\ImagesTabControl.bmp" />
+    <Content Include="Controls\Resources\LibraryIcon.ico" />
+    <EmbeddedResource Include="Controls\Resources\TabbedInvalid.cur" />
+    <EmbeddedResource Include="Controls\Resources\TabbedValid.cur" />
+    <EmbeddedResource Include="Controls\Resources\WizardPicture.bmp" />
+    <Content Include="Orqa.ico" />
+    <None Include="Generate.bat" />
+    <None Include="packages.config" />
+    <None Include="Resources\Browser\BatchFile.pspimage" />
+    <None Include="Resources\Browser\CheckConstraint.pspimage" />
+    <None Include="Resources\Browser\Column.pspimage" />
+    <None Include="Resources\Browser\ContextMenu\Close.pspimage" />
+    <None Include="Resources\Browser\ContextMenu\Delete.pspimage" />
+    <None Include="Resources\Browser\ContextMenu\Edit.pspimage" />
+    <None Include="Resources\Browser\ContextMenu\NewFolder.pspimage" />
+    <None Include="Resources\Browser\ContextMenu\NewItem.pspimage" />
+    <None Include="Resources\Browser\ContextMenu\Open.pspimage" />
+    <None Include="Resources\Browser\ContextMenu\Properties.pspimage" />
+    <None Include="Resources\Browser\ContextMenu\Refresh.pspimage" />
+    <None Include="Resources\Browser\ContextMenu\Rename.pspimage" />
+    <None Include="Resources\Browser\ContextMenu\Script.pspimage" />
+    <None Include="Resources\Browser\ContextMenu\sqlnet.log" />
+    <None Include="Resources\Browser\CopyToCurrent.pspimage" />
+    <None Include="Resources\Browser\Database.pdn" />
+    <None Include="Resources\Browser\Database.pspimage" />
+    <None Include="Resources\Browser\DatabaseLocked.pdn" />
+    <None Include="Resources\Browser\DatabaseProject.pspimage" />
+    <None Include="Resources\Browser\FolderClose.pspimage" />
+    <None Include="Resources\Browser\FolderOpen.pspimage" />
+    <None Include="Resources\Browser\ForeignKey.pspimage" />
+    <None Include="Resources\Browser\Function.pspimage" />
+    <None Include="Resources\Browser\Index.pspimage" />
+    <None Include="Resources\Browser\MissingFile.pspimage" />
+    <None Include="Resources\Browser\Objects.pspimage" />
+    <None Include="Resources\Browser\OpenInNew.pspimage" />
+    <None Include="Resources\Browser\Package.pspimage" />
+    <None Include="Resources\Browser\ParameterIn.pspimage" />
+    <None Include="Resources\Browser\ParameterOut.pspimage" />
+    <None Include="Resources\Browser\PrimaryKey.pspimage" />
+    <None Include="Resources\Browser\ProjectBrowser.pspimage" />
+    <None Include="Resources\Browser\ReturnValue.pspimage" />
+    <None Include="Resources\Browser\Sequence.pspimage" />
+    <None Include="Resources\Browser\Servers.pspimage" />
+    <None Include="Resources\Browser\SqlScript.pspimage" />
+    <None Include="Resources\Browser\StoredProcedure.pspimage" />
+    <None Include="Resources\Browser\Synonym.pspimage" />
+    <None Include="Resources\Browser\SystemTable.pspimage" />
+    <None Include="Resources\Browser\Table.pspimage" />
+    <None Include="Resources\Browser\Template.pspimage" />
+    <None Include="Resources\Browser\Templates.pspimage" />
+    <None Include="Resources\Browser\TextFile.pspimage" />
+    <None Include="Resources\Browser\Trigger.pspimage" />
+    <None Include="Resources\Browser\UniqueKey.pspimage" />
+    <None Include="Resources\Browser\View.pspimage" />
+    <None Include="Resources\Browser\Warning32.pspimage" />
+    <None Include="Resources\explainplanstyles.css" />
+    <None Include="Resources\explainplantable.sql" />
+    <None Include="Resources\Files\History.rtf" />
+    <None Include="Resources\Files\InstallCleanup.bat" />
+    <None Include="Resources\Files\OracleLogo.pspimage" />
+    <None Include="Resources\Files\SetupBanner.pspimage" />
+    <None Include="Resources\Options\Images\Connections.pspimage" />
+    <None Include="Resources\Options\Images\Editor.pspimage" />
+    <None Include="Resources\Options\Images\EditorAdvanced.pspimage" />
+    <None Include="Resources\Options\Images\EditorFonts.pspimage" />
+    <None Include="Resources\Options\Images\EditorTabs.pspimage" />
+    <None Include="Resources\Options\Images\Export.pspimage" />
+    <None Include="Resources\Options\Images\Folder.pspimage" />
+    <None Include="Resources\Options\Images\Import.pspimage" />
+    <None Include="Resources\Options\Images\Options.pspimage" />
+    <None Include="Resources\Options\Images\Reset.pspimage" />
+    <None Include="Resources\Options\Images\Results.pspimage" />
+    <None Include="Resources\Options\Images\Statistics.pspimage" />
+    <None Include="Resources\Options\OptionsSchema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\Query\Images\CacheStats.pspimage" />
+    <None Include="Resources\Query\Images\DebugStats.pspimage" />
+    <None Include="Resources\Query\Images\EnqueueStats.pspimage" />
+    <None Include="Resources\Query\Images\ErrorIcon.pspimage" />
+    <None Include="Resources\Query\Images\Messages.pspimage" />
+    <None Include="Resources\Query\Images\ParallelStats.pspimage" />
+    <None Include="Resources\Query\Images\Query.pspimage" />
+    <None Include="Resources\Query\Images\RedoStats.pspimage" />
+    <None Include="Resources\Query\Images\ResultsGrid.pspimage" />
+    <None Include="Resources\Query\Images\ResultsText.pspimage" />
+    <None Include="Resources\Query\Images\ResultsXml.pspimage" />
+    <None Include="Resources\Query\Images\ServerStats.pspimage" />
+    <None Include="Resources\Query\Images\SqlStats.pspimage" />
+    <None Include="Resources\Query\Images\UserStats.pspimage" />
+    <None Include="Resources\ServiceController\SmallDisabled.pspimage" />
+    <None Include="Resources\ServiceController\SmallRunning.pspimage" />
+    <None Include="Resources\ServiceController\SmallStopped.pspimage" />
+    <None Include="Resources\Tools\ClearAll.pspimage" />
+    <None Include="Resources\Tools\Connect.pspimage" />
+    <None Include="Resources\Tools\Copy.pspimage" />
+    <None Include="Resources\Tools\Cut.pspimage" />
+    <None Include="Resources\Tools\Disconnect.pspimage" />
+    <None Include="Resources\Tools\Execute.pspimage" />
+    <None Include="Resources\Tools\ExecuteSqlPlus.pdn" />
+    <None Include="Resources\Tools\Find.pspimage" />
+    <None Include="Resources\Tools\NewQuery.pspimage" />
+    <None Include="Resources\Tools\ObjectBrowser.pspimage" />
+    <None Include="Resources\Tools\Open.pspimage" />
+    <None Include="Resources\Tools\Parse.pspimage" />
+    <None Include="Resources\Tools\Paste.pspimage" />
+    <None Include="Resources\Tools\Properties.pspimage" />
+    <None Include="Resources\Tools\Redo.pspimage" />
+    <None Include="Resources\Tools\ResultsPane.pspimage" />
+    <None Include="Resources\Tools\Save.pspimage" />
+    <None Include="Resources\Tools\ShowPlan.pspimage" />
+    <None Include="Resources\Tools\ShowStats.pspimage" />
+    <None Include="Resources\Tools\ShowUserErrors.pspimage" />
+    <None Include="Resources\Tools\Stop.pspimage" />
+    <None Include="Resources\Tools\Undo.pspimage" />
+    <None Include="River.Orqa.exe.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\River.Orqa.Editor\River.Orqa.Editor.csproj">
+      <Project>{598BEE47-6EBB-4F4C-B9E6-2A09D253F5A6}</Project>
+      <Name>River.Orqa.Editor</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>cd $(ProjectDir)
+$(ProjectDir)generate.bat $(SolutionDir) $(ConfigurationName) $(OutDir) $(TargetPath) $(ProjectDir)Bin\Merged $(ProjectDir)Bin\Merged\$(TargetFileName)
+</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

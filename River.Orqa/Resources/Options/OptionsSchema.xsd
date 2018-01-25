@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<xs:schema id="OrqaOptions" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="OrqaOptions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="general" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="queryPath" type="xs:string" minOccurs="0" maxOccurs="1" />
+              <xs:element name="resultPath" type="xs:string" minOccurs="0" maxOccurs="1" />
+              <xs:element name="templatePath" type="xs:string" minOccurs="0" maxOccurs="1" />
+              <xs:element name="queryExtension" type="xs:string" minOccurs="0" maxOccurs="1" />
+              <xs:element name="resultExtension" type="xs:string" minOccurs="0" maxOccurs="1" />
+              <xs:element name="templateExtension" type="xs:string" minOccurs="0" maxOccurs="1" />
+              <xs:element name="maxMru" type="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1" />
+              <xs:element name="savePosition" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+              <xs:element name="defaultApp" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+              <xs:element name="position" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="left" type="xs:integer" minOccurs="0" maxOccurs="1" />
+                    <xs:element name="top" type="xs:integer" minOccurs="0" maxOccurs="1" />
+                    <xs:element name="width" type="xs:integer" minOccurs="0" maxOccurs="1" />
+                    <xs:element name="height" type="xs:integer" minOccurs="0" maxOccurs="1" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="editor" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="undoBuffer" type="xs:integer" minOccurs="0" maxOccurs="1" />
+              <xs:element name="undoSize" type="xs:integer" minOccurs="0" maxOccurs="1" />
+              <xs:element name="limitHandling" type="xs:string" minOccurs="0" maxOccurs="1" />
+              <xs:element name="tabSize" type="xs:int" minOccurs="0" maxOccurs="1" />
+              <xs:element name="saveTab" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+              <xs:element name="editFont" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="familyName" type="xs:string" minOccurs="0" maxOccurs="1" />
+                    <xs:element name="size" type="xs:string" minOccurs="0" maxOccurs="1" />
+                    <xs:element name="style" type="xs:string" minOccurs="0" maxOccurs="1" />
+                    <xs:element name="unit" type="xs:string" minOccurs="0" maxOccurs="1" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="textFont" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="familyName" type="xs:string" minOccurs="0" maxOccurs="1" />
+                    <xs:element name="size" type="xs:string" minOccurs="0" maxOccurs="1" />
+                    <xs:element name="style" type="xs:string" minOccurs="0" maxOccurs="1" />
+                    <xs:element name="unit" type="xs:string" minOccurs="0" maxOccurs="1" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="gridFont" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="familyName" type="xs:string" minOccurs="0" maxOccurs="1" />
+                    <xs:element name="size" type="xs:string" minOccurs="0" maxOccurs="1" />
+                    <xs:element name="style" type="xs:string" minOccurs="0" maxOccurs="1" />
+                    <xs:element name="unit" type="xs:string" minOccurs="0" maxOccurs="1" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="resultOptions" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="target" type="xs:integer" minOccurs="0" maxOccurs="1" />
+              <xs:element name="format" type="xs:integer" minOccurs="0" maxOccurs="1" />
+              <xs:element name="delimiter" type="xs:string" minOccurs="0" maxOccurs="1" />
+              <xs:element name="maxChar" type="xs:integer" minOccurs="0" maxOccurs="1" />
+              <xs:element name="printHeader" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+              <xs:element name="scrollResults" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+              <xs:element name="rightAlign" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+              <xs:element name="outputQuery" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+              <xs:element name="dbmsOutput" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="connectionOptions" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="loginTimeout" type="xs:integer" minOccurs="0" maxOccurs="1" />
+              <xs:element name="queryTimeout" type="xs:integer" minOccurs="0" maxOccurs="1" />
+              <xs:element name="planTable" type="xs:string" minOccurs="0" maxOccurs="1" />
+              <xs:element name="utilPackage" type="xs:string" minOccurs="0" maxOccurs="1" />
+              <xs:element name="utilProcedure" type="xs:string" minOccurs="0" maxOccurs="1" />
+              <xs:element name="promptCheck" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+              <xs:element name="optimizeSql" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+              <xs:element name="parseMode" type="xs:string" minOccurs="0" maxOccurs="1" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="statisticsOptions" minOccurs="0" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="classes" type="xs:integer" minOccurs="0" maxOccurs="1" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

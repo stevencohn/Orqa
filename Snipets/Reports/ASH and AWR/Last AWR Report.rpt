@@ -1,0 +1,21 @@
+﻿--
+-- Must be run as SYSDBA...
+--
+declare
+  dbid number;
+  instance_id number;
+  start_id number;
+  end_id number;
+begin
+  select max(snap_id)-1,max(snap_id) into start_id,end_id from dba_hist_snapshot;
+  select dbid into dbid from v$database;
+  select instance_number into instance_id from v$instance;
+  dbms_output.enable(1000000);
+
+  for rc in (
+    select output
+	  from table(dbms_workload_repository.awr_report_text(dbid, instance_id, start_id, end_id)))
+    loop
+    dbms_output.put_line(rc.output);
+  end loop;
+end;

@@ -1,0 +1,52 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "DB_Security"
+  MSDTVersion = "80"
+  Begin Folder = "Data"
+    Script = "Core.sql"
+    Script = "Directories.sql"
+    Script = "Finalize.sql"
+    Script = "Notification.sql"
+    Script = "Security.sql"
+  End
+  Begin Folder = "PackageBodies"
+    Script = "SEC_Directories.sql"
+    Script = "SEC_Licensing.sql"
+    Script = "SEC_Roles.sql"
+    Script = "SEC_Security.sql"
+    Script = "SEC_Users.sql"
+  End
+  Begin Folder = "Packages"
+    Script = "SEC_Directories.sql"
+    Script = "SEC_Licensing.sql"
+    Script = "SEC_Roles.sql"
+    Script = "SEC_Security.sql"
+    Script = "SEC_Users.sql"
+  End
+  Begin Folder = "PlayData"
+    Script = "Notification.sql"
+    Script = "Security.sql"
+  End
+  Begin Folder = "Tables"
+    Script = "Directories.sql"
+    Script = "Drop.sql"
+    Script = "Licensing.sql"
+    Script = "Security.sql"
+  End
+  Begin Folder = "TestData"
+    Script = "Cleanup.sql"
+    Script = "DataDirectory.sql"
+    Script = "Security.sql"
+    Script = "UserDirectory.sql"
+  End
+  Node = "Build.bat"
+  Script = "Build.sql"
+  Node = "BuildTestData.bat"
+  Script = "SetPrivileges.sql"
+  Begin DBRefFolder = "Database References"
+    Begin DBRefNode = "Everest.EVEREST"
+      ConnectStr = "Data Source=everest;User ID=everest"
+      Provider = "{8F5C5018-AE09-42CF-B2CC-2CCCC7CFC2BB}"
+      Colorizer = 4
+    End
+  End
+End

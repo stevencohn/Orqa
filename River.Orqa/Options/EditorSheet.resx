@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gutterGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lineNumbersCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lineNumbersCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 41</value>
+  </data>
+  <data name="lineNumbersCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 17</value>
+  </data>
+  <data name="lineNumbersCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lineNumbersCheck.Text">
+    <value xml:space="preserve">Show line numbers</value>
+  </data>
+  <data name="&gt;&gt;lineNumbersCheck.Name">
+    <value xml:space="preserve">lineNumbersCheck</value>
+  </data>
+  <data name="&gt;&gt;lineNumbersCheck.Type">
+    <value xml:space="preserve">System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lineNumbersCheck.Parent">
+    <value xml:space="preserve">gutterGroup</value>
+  </data>
+  <data name="&gt;&gt;lineNumbersCheck.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="gutterWidthBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 18</value>
+  </data>
+  <data name="gutterWidthBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="gutterWidthBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gutterWidthBox.Name">
+    <value xml:space="preserve">gutterWidthBox</value>
+  </data>
+  <data name="&gt;&gt;gutterWidthBox.Type">
+    <value xml:space="preserve">System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gutterWidthBox.Parent">
+    <value xml:space="preserve">gutterGroup</value>
+  </data>
+  <data name="&gt;&gt;gutterWidthBox.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="gutterWidthLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="gutterWidthLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="gutterWidthLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="gutterWidthLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gutterWidthLabel.Text">
+    <value xml:space="preserve">Gutter width:</value>
+  </data>
+  <data name="&gt;&gt;gutterWidthLabel.Name">
+    <value xml:space="preserve">gutterWidthLabel</value>
+  </data>
+  <data name="&gt;&gt;gutterWidthLabel.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gutterWidthLabel.Parent">
+    <value xml:space="preserve">gutterGroup</value>
+  </data>
+  <data name="&gt;&gt;gutterWidthLabel.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="showGutterCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="showGutterCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 21</value>
+  </data>
+  <data name="showGutterCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="showGutterCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showGutterCheck.Text">
+    <value xml:space="preserve">Show gutter</value>
+  </data>
+  <data name="&gt;&gt;showGutterCheck.Name">
+    <value xml:space="preserve">showGutterCheck</value>
+  </data>
+  <data name="&gt;&gt;showGutterCheck.Type">
+    <value xml:space="preserve">System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showGutterCheck.Parent">
+    <value xml:space="preserve">gutterGroup</value>
+  </data>
+  <data name="&gt;&gt;showGutterCheck.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="gutterGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="gutterGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 73</value>
+  </data>
+  <data name="gutterGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gutterGroup.Text">
+    <value xml:space="preserve">Gutters</value>
+  </data>
+  <data name="&gt;&gt;gutterGroup.Name">
+    <value xml:space="preserve">gutterGroup</value>
+  </data>
+  <data name="&gt;&gt;gutterGroup.Type">
+    <value xml:space="preserve">System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gutterGroup.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;gutterGroup.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="showMarginCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="showMarginCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 21</value>
+  </data>
+  <data name="showMarginCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="showMarginCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="showMarginCheck.Text">
+    <value xml:space="preserve">Show margin</value>
+  </data>
+  <data name="&gt;&gt;showMarginCheck.Name">
+    <value xml:space="preserve">showMarginCheck</value>
+  </data>
+  <data name="&gt;&gt;showMarginCheck.Type">
+    <value xml:space="preserve">System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showMarginCheck.Parent">
+    <value xml:space="preserve">marginGroup</value>
+  </data>
+  <data name="&gt;&gt;showMarginCheck.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="marginLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="marginLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="marginLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="marginLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="marginLabel.Text">
+    <value xml:space="preserve">Margin position:</value>
+  </data>
+  <data name="&gt;&gt;marginLabel.Name">
+    <value xml:space="preserve">marginLabel</value>
+  </data>
+  <data name="&gt;&gt;marginLabel.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;marginLabel.Parent">
+    <value xml:space="preserve">marginGroup</value>
+  </data>
+  <data name="&gt;&gt;marginLabel.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="marginPositionBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 18</value>
+  </data>
+  <data name="marginPositionBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="marginPositionBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;marginPositionBox.Name">
+    <value xml:space="preserve">marginPositionBox</value>
+  </data>
+  <data name="&gt;&gt;marginPositionBox.Type">
+    <value xml:space="preserve">System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;marginPositionBox.Parent">
+    <value xml:space="preserve">marginGroup</value>
+  </data>
+  <data name="&gt;&gt;marginPositionBox.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <data name="wordWrapCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="wordWrapCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 40</value>
+  </data>
+  <data name="wordWrapCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="wordWrapCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="wordWrapCheck.Text">
+    <value xml:space="preserve">Word wrap</value>
+  </data>
+  <data name="&gt;&gt;wordWrapCheck.Name">
+    <value xml:space="preserve">wordWrapCheck</value>
+  </data>
+  <data name="&gt;&gt;wordWrapCheck.Type">
+    <value xml:space="preserve">System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;wordWrapCheck.Parent">
+    <value xml:space="preserve">marginGroup</value>
+  </data>
+  <data name="&gt;&gt;wordWrapCheck.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="wrapAtMarginCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="wrapAtMarginCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 59</value>
+  </data>
+  <data name="wrapAtMarginCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="wrapAtMarginCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="wrapAtMarginCheck.Text">
+    <value xml:space="preserve">Wrap at margin</value>
+  </data>
+  <data name="&gt;&gt;wrapAtMarginCheck.Name">
+    <value xml:space="preserve">wrapAtMarginCheck</value>
+  </data>
+  <data name="&gt;&gt;wrapAtMarginCheck.Type">
+    <value xml:space="preserve">System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;wrapAtMarginCheck.Parent">
+    <value xml:space="preserve">marginGroup</value>
+  </data>
+  <data name="&gt;&gt;wrapAtMarginCheck.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="marginGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="marginGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 89</value>
+  </data>
+  <data name="marginGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 88</value>
+  </data>
+  <data name="marginGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="marginGroup.Text">
+    <value xml:space="preserve">Margins</value>
+  </data>
+  <data name="&gt;&gt;marginGroup.Name">
+    <value xml:space="preserve">marginGroup</value>
+  </data>
+  <data name="&gt;&gt;marginGroup.Type">
+    <value xml:space="preserve">System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;marginGroup.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;marginGroup.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="navigationGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="hscrollCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hscrollCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 40</value>
+  </data>
+  <data name="hscrollCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 17</value>
+  </data>
+  <data name="hscrollCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="hscrollCheck.Text">
+    <value xml:space="preserve">Horizontal scroll bar</value>
+  </data>
+  <data name="&gt;&gt;hscrollCheck.Name">
+    <value xml:space="preserve">hscrollCheck</value>
+  </data>
+  <data name="&gt;&gt;hscrollCheck.Type">
+    <value xml:space="preserve">System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hscrollCheck.Parent">
+    <value xml:space="preserve">navigationGroup</value>
+  </data>
+  <data name="&gt;&gt;hscrollCheck.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="vscrollCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="vscrollCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 21</value>
+  </data>
+  <data name="vscrollCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 17</value>
+  </data>
+  <data name="vscrollCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="vscrollCheck.Text">
+    <value xml:space="preserve">Vertical scroll bar</value>
+  </data>
+  <data name="&gt;&gt;vscrollCheck.Name">
+    <value xml:space="preserve">vscrollCheck</value>
+  </data>
+  <data name="&gt;&gt;vscrollCheck.Type">
+    <value xml:space="preserve">System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vscrollCheck.Parent">
+    <value xml:space="preserve">navigationGroup</value>
+  </data>
+  <data name="&gt;&gt;vscrollCheck.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <data name="beofCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="beofCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 40</value>
+  </data>
+  <data name="beofCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="beofCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="beofCheck.Text">
+    <value xml:space="preserve">Beyond end of file</value>
+  </data>
+  <data name="&gt;&gt;beofCheck.Name">
+    <value xml:space="preserve">beofCheck</value>
+  </data>
+  <data name="&gt;&gt;beofCheck.Type">
+    <value xml:space="preserve">System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;beofCheck.Parent">
+    <value xml:space="preserve">navigationGroup</value>
+  </data>
+  <data name="&gt;&gt;beofCheck.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <data name="beolnCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="beolnCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 21</value>
+  </data>
+  <data name="beolnCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="beolnCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="beolnCheck.Text">
+    <value xml:space="preserve">Beyond end of line</value>
+  </data>
+  <data name="&gt;&gt;beolnCheck.Name">
+    <value xml:space="preserve">beolnCheck</value>
+  </data>
+  <data name="&gt;&gt;beolnCheck.Type">
+    <value xml:space="preserve">System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;beolnCheck.Parent">
+    <value xml:space="preserve">navigationGroup</value>
+  </data>
+  <data name="&gt;&gt;beolnCheck.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <data name="navigationGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 194</value>
+  </data>
+  <data name="navigationGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 71</value>
+  </data>
+  <data name="navigationGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="navigationGroup.Text">
+    <value xml:space="preserve">Navigation</value>
+  </data>
+  <data name="&gt;&gt;navigationGroup.Name">
+    <value xml:space="preserve">navigationGroup</value>
+  </data>
+  <data name="&gt;&gt;navigationGroup.Type">
+    <value xml:space="preserve">System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;navigationGroup.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;navigationGroup.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value xml:space="preserve">EditorSheet</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value xml:space="preserve">River.Orqa.Options.SheetBase, River.Orqa, Version=3.0.2021.34351, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

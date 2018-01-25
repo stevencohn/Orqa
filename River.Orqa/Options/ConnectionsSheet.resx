@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="parseModeLabel.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="parseModeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="parseModeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 55</value>
+  </data>
+  <data name="parseModeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 13</value>
+  </data>
+  <data name="parseModeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="parseModeLabel.Text">
+    <value xml:space="preserve">Multiple statement parse mode:</value>
+  </data>
+  <data name="&gt;&gt;parseModeLabel.Name">
+    <value xml:space="preserve">parseModeLabel</value>
+  </data>
+  <data name="&gt;&gt;parseModeLabel.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;parseModeLabel.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;parseModeLabel.ZOrder">
+    <value xml:space="preserve">7</value>
+  </data>
+  <metadata name="parseModeBox.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="parseModeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 52</value>
+  </data>
+  <data name="parseModeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 21</value>
+  </data>
+  <data name="parseModeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;parseModeBox.Name">
+    <value xml:space="preserve">parseModeBox</value>
+  </data>
+  <data name="&gt;&gt;parseModeBox.Type">
+    <value xml:space="preserve">System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;parseModeBox.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;parseModeBox.ZOrder">
+    <value xml:space="preserve">6</value>
+  </data>
+  <metadata name="utilProcedureBox.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="utilProcedureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 60</value>
+  </data>
+  <data name="utilProcedureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 20</value>
+  </data>
+  <data name="utilProcedureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="utilProcedureBox.Text">
+    <value xml:space="preserve">ORQA_BLOCK_PROCEDURE</value>
+  </data>
+  <data name="&gt;&gt;utilProcedureBox.Name">
+    <value xml:space="preserve">utilProcedureBox</value>
+  </data>
+  <data name="&gt;&gt;utilProcedureBox.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;utilProcedureBox.Parent">
+    <value xml:space="preserve">wrapperGroup</value>
+  </data>
+  <data name="&gt;&gt;utilProcedureBox.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <metadata name="planTableBox.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="planTableBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 60</value>
+  </data>
+  <data name="planTableBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="planTableBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="planTableBox.Text">
+    <value xml:space="preserve">PLAN_TABLE</value>
+  </data>
+  <data name="&gt;&gt;planTableBox.Name">
+    <value xml:space="preserve">planTableBox</value>
+  </data>
+  <data name="&gt;&gt;planTableBox.Type">
+    <value xml:space="preserve">System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;planTableBox.Parent">
+    <value xml:space="preserve">planGroup</value>
+  </data>
+  <data name="&gt;&gt;planTableBox.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <metadata name="planTableLabel.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="planTableLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="planTableLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 63</value>
+  </data>
+  <data name="planTableLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 13</value>
+  </data>
+  <data name="planTableLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="planTableLabel.Text">
+    <value xml:space="preserve">Name of Explain Plan table:</value>
+  </data>
+  <data name="&gt;&gt;planTableLabel.Name">
+    <value xml:space="preserve">planTableLabel</value>
+  </data>
+  <data name="&gt;&gt;planTableLabel.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;planTableLabel.Parent">
+    <value xml:space="preserve">planGroup</value>
+  </data>
+  <data name="&gt;&gt;planTableLabel.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <metadata name="utilProcedureLabel.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="utilProcedureLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="utilProcedureLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 63</value>
+  </data>
+  <data name="utilProcedureLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 13</value>
+  </data>
+  <data name="utilProcedureLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="utilProcedureLabel.Text">
+    <value xml:space="preserve">Name of wrapper procedure:</value>
+  </data>
+  <data name="&gt;&gt;utilProcedureLabel.Name">
+    <value xml:space="preserve">utilProcedureLabel</value>
+  </data>
+  <data name="&gt;&gt;utilProcedureLabel.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;utilProcedureLabel.Parent">
+    <value xml:space="preserve">wrapperGroup</value>
+  </data>
+  <data name="&gt;&gt;utilProcedureLabel.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <metadata name="loginTimeoutLabel.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="loginTimeoutLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="loginTimeoutLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 5</value>
+  </data>
+  <data name="loginTimeoutLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="loginTimeoutLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="loginTimeoutLabel.Text">
+    <value xml:space="preserve">Login timeout (seconds):</value>
+  </data>
+  <data name="&gt;&gt;loginTimeoutLabel.Name">
+    <value xml:space="preserve">loginTimeoutLabel</value>
+  </data>
+  <data name="&gt;&gt;loginTimeoutLabel.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginTimeoutLabel.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;loginTimeoutLabel.ZOrder">
+    <value xml:space="preserve">4</value>
+  </data>
+  <metadata name="queryTimeoutLabel.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="queryTimeoutLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="queryTimeoutLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 31</value>
+  </data>
+  <data name="queryTimeoutLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 13</value>
+  </data>
+  <data name="queryTimeoutLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="queryTimeoutLabel.Text">
+    <value xml:space="preserve">Query timeout (seconds):</value>
+  </data>
+  <data name="&gt;&gt;queryTimeoutLabel.Name">
+    <value xml:space="preserve">queryTimeoutLabel</value>
+  </data>
+  <data name="&gt;&gt;queryTimeoutLabel.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;queryTimeoutLabel.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;queryTimeoutLabel.ZOrder">
+    <value xml:space="preserve">2</value>
+  </data>
+  <metadata name="loginTimeoutBox.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="loginTimeoutBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 0</value>
+  </data>
+  <data name="loginTimeoutBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="loginTimeoutBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;loginTimeoutBox.Name">
+    <value xml:space="preserve">loginTimeoutBox</value>
+  </data>
+  <data name="&gt;&gt;loginTimeoutBox.Type">
+    <value xml:space="preserve">System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loginTimeoutBox.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;loginTimeoutBox.ZOrder">
+    <value xml:space="preserve">5</value>
+  </data>
+  <metadata name="queryTimeoutBox.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="queryTimeoutBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 26</value>
+  </data>
+  <data name="queryTimeoutBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="queryTimeoutBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;queryTimeoutBox.Name">
+    <value xml:space="preserve">queryTimeoutBox</value>
+  </data>
+  <data name="&gt;&gt;queryTimeoutBox.Type">
+    <value xml:space="preserve">System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;queryTimeoutBox.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;queryTimeoutBox.ZOrder">
+    <value xml:space="preserve">3</value>
+  </data>
+  <metadata name="planGroup.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="planGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <metadata name="planInstructions.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="planInstructions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 18</value>
+  </data>
+  <data name="planInstructions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 30</value>
+  </data>
+  <data name="planInstructions.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="planInstructions.Text">
+    <value xml:space="preserve">When generating an execution plan for a query, Orqa creates a table to capture the Oracle plan.  You can customize the name of this table.</value>
+  </data>
+  <data name="&gt;&gt;planInstructions.Name">
+    <value xml:space="preserve">planInstructions</value>
+  </data>
+  <data name="&gt;&gt;planInstructions.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;planInstructions.Parent">
+    <value xml:space="preserve">planGroup</value>
+  </data>
+  <data name="&gt;&gt;planInstructions.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="planGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 88</value>
+  </data>
+  <data name="planGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 99</value>
+  </data>
+  <data name="planGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="planGroup.Text">
+    <value xml:space="preserve">Plan Table</value>
+  </data>
+  <data name="&gt;&gt;planGroup.Name">
+    <value xml:space="preserve">planGroup</value>
+  </data>
+  <data name="&gt;&gt;planGroup.Type">
+    <value xml:space="preserve">System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;planGroup.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;planGroup.ZOrder">
+    <value xml:space="preserve">1</value>
+  </data>
+  <metadata name="wrapperGroup.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="wrapperGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <metadata name="wrapperInstructions.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="wrapperInstructions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 21</value>
+  </data>
+  <data name="wrapperInstructions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 30</value>
+  </data>
+  <data name="wrapperInstructions.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="wrapperInstructions.Text">
+    <value xml:space="preserve">When executing a block of selected text as a wrapped procedure, Orqa will use the following name to create the temporary procedure.</value>
+  </data>
+  <data name="&gt;&gt;wrapperInstructions.Name">
+    <value xml:space="preserve">wrapperInstructions</value>
+  </data>
+  <data name="&gt;&gt;wrapperInstructions.Type">
+    <value xml:space="preserve">System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;wrapperInstructions.Parent">
+    <value xml:space="preserve">wrapperGroup</value>
+  </data>
+  <data name="&gt;&gt;wrapperInstructions.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <data name="wrapperGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 193</value>
+  </data>
+  <data name="wrapperGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 96</value>
+  </data>
+  <data name="wrapperGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="wrapperGroup.Text">
+    <value xml:space="preserve">Wrapper Procedure</value>
+  </data>
+  <data name="&gt;&gt;wrapperGroup.Name">
+    <value xml:space="preserve">wrapperGroup</value>
+  </data>
+  <data name="&gt;&gt;wrapperGroup.Type">
+    <value xml:space="preserve">System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;wrapperGroup.Parent">
+    <value xml:space="preserve">$this</value>
+  </data>
+  <data name="&gt;&gt;wrapperGroup.ZOrder">
+    <value xml:space="preserve">0</value>
+  </data>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value xml:space="preserve">ConnectionsSheet</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value xml:space="preserve">River.Orqa.Options.SheetBase, River.Orqa, Version=3.0.2021.26540, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

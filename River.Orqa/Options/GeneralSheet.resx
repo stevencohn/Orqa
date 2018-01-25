@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="queryDirLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="queryDirLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 5</value>
+  </data>
+  <data name="queryDirLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="queryDirLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="queryDirLabel.Text" xml:space="preserve">
+    <value>Query file directory:</value>
+  </data>
+  <data name="&gt;&gt;queryDirLabel.Name" xml:space="preserve">
+    <value>queryDirLabel</value>
+  </data>
+  <data name="&gt;&gt;queryDirLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;queryDirLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;queryDirLabel.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="queryDirBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="queryDirBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 0</value>
+  </data>
+  <data name="queryDirBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 20</value>
+  </data>
+  <data name="queryDirBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;queryDirBox.Name" xml:space="preserve">
+    <value>queryDirBox</value>
+  </data>
+  <data name="&gt;&gt;queryDirBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;queryDirBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;queryDirBox.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="queryDirButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="queryDirButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="queryDirButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAxklEQVQ4T62TyxHDIAxE6Sk9qQU6oAe6
+        oQDunOgh9xwIKz7mF4NnsjNvYivSau3B4m+y+hVavPch/7UXBkahZozZm1zDeiCZrOjSoTAPF2ahX1OT
+        rhhYS9OmHWyCi3iXitGk6vPOF4NiL4QUSqlikLb38X/ASzQbSCmTgbUp0tS8gB81okk0BtlkNdCB+HkZ
+        EV2PwNtzNP69AYsQHwb1JbLBwTBAb4nvnAsChwKFJ5T49UAhCgpwPQG90zGHGyKd8OhDu5cQX1WvU/gm
+        QO39AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="queryDirButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 0</value>
+  </data>
+  <data name="queryDirButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 20</value>
+  </data>
+  <data name="queryDirButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;queryDirButton.Name" xml:space="preserve">
+    <value>queryDirButton</value>
+  </data>
+  <data name="&gt;&gt;queryDirButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;queryDirButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;queryDirButton.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="resultsDirBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="resultsDirBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 24</value>
+  </data>
+  <data name="resultsDirBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 20</value>
+  </data>
+  <data name="resultsDirBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;resultsDirBox.Name" xml:space="preserve">
+    <value>resultsDirBox</value>
+  </data>
+  <data name="&gt;&gt;resultsDirBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resultsDirBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resultsDirBox.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="templateDirBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="templateDirBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 48</value>
+  </data>
+  <data name="templateDirBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>264, 20</value>
+  </data>
+  <data name="templateDirBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;templateDirBox.Name" xml:space="preserve">
+    <value>templateDirBox</value>
+  </data>
+  <data name="&gt;&gt;templateDirBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;templateDirBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;templateDirBox.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="resultsDirLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resultsDirLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="resultsDirLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="resultsDirLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="resultsDirLabel.Text" xml:space="preserve">
+    <value>Results file directory:</value>
+  </data>
+  <data name="&gt;&gt;resultsDirLabel.Name" xml:space="preserve">
+    <value>resultsDirLabel</value>
+  </data>
+  <data name="&gt;&gt;resultsDirLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resultsDirLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resultsDirLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="templateDirLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="templateDirLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 52</value>
+  </data>
+  <data name="templateDirLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="templateDirLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="templateDirLabel.Text" xml:space="preserve">
+    <value>Template file directory:</value>
+  </data>
+  <data name="&gt;&gt;templateDirLabel.Name" xml:space="preserve">
+    <value>templateDirLabel</value>
+  </data>
+  <data name="&gt;&gt;templateDirLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;templateDirLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;templateDirLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="resultsDirButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="resultsDirButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="resultsDirButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA0ElEQVQ4T6WSyxHDIAxEOdBReqIFOqAH
+        uqEA3TnRQ+45OKz4mJ9jkmjmGUYjrRaPhJTyL+qF7ONoCSEcbeEV/EHDGMg5525FmmY7kERWtO6ywNhc
+        mAP1Vp3uqgCRmibdAZEkQFEAyShS4/XMlyFiLQIujDFFIE3v7V/AQywLaK2TAFGyNBUv4KdGrBKNQBZZ
+        NXTAfh6mlDqfwNOzNT4/gEGwD4H6E1lgoxmgttj33h8CS4HENxT76OVtghUkoLoDausilZWEGizt0K1y
+        ufyGFG9AhFbU7FGT7AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="resultsDirButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 24</value>
+  </data>
+  <data name="resultsDirButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 20</value>
+  </data>
+  <data name="resultsDirButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;resultsDirButton.Name" xml:space="preserve">
+    <value>resultsDirButton</value>
+  </data>
+  <data name="&gt;&gt;resultsDirButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resultsDirButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resultsDirButton.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="templateDirButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="templateDirButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="templateDirButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAA0ElEQVQ4T6WSyxHDIAxEOdBReqIFOqAH
+        uqEA3TnRQ+45OKz4mJ9jkmjmGUYjrRaPhJTyL+qF7ONoCSEcbeEV/EHDGMg5525FmmY7kERWtO6ywNhc
+        mAP1Vp3uqgCRmibdAZEkQFEAyShS4/XMlyFiLQIujDFFIE3v7V/AQywLaK2TAFGyNBUv4KdGrBKNQBZZ
+        NXTAfh6mlDqfwNOzNT4/gEGwD4H6E1lgoxmgttj33h8CS4HENxT76OVtghUkoLoDausilZWEGizt0K1y
+        ufyGFG9AhFbU7FGT7AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="templateDirButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 48</value>
+  </data>
+  <data name="templateDirButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 20</value>
+  </data>
+  <data name="templateDirButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;templateDirButton.Name" xml:space="preserve">
+    <value>templateDirButton</value>
+  </data>
+  <data name="&gt;&gt;templateDirButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;templateDirButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;templateDirButton.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="queryExtLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="queryExtLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 86</value>
+  </data>
+  <data name="queryExtLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="queryExtLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="queryExtLabel.Text" xml:space="preserve">
+    <value>Query file extension:</value>
+  </data>
+  <data name="&gt;&gt;queryExtLabel.Name" xml:space="preserve">
+    <value>queryExtLabel</value>
+  </data>
+  <data name="&gt;&gt;queryExtLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;queryExtLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;queryExtLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="resultsExtLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="resultsExtLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 110</value>
+  </data>
+  <data name="resultsExtLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
+  </data>
+  <data name="resultsExtLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="resultsExtLabel.Text" xml:space="preserve">
+    <value>Results file extension:</value>
+  </data>
+  <data name="&gt;&gt;resultsExtLabel.Name" xml:space="preserve">
+    <value>resultsExtLabel</value>
+  </data>
+  <data name="&gt;&gt;resultsExtLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resultsExtLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resultsExtLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="templateExtLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="templateExtLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 110</value>
+  </data>
+  <data name="templateExtLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="templateExtLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="templateExtLabel.Text" xml:space="preserve">
+    <value>Template file extension:</value>
+  </data>
+  <data name="&gt;&gt;templateExtLabel.Name" xml:space="preserve">
+    <value>templateExtLabel</value>
+  </data>
+  <data name="&gt;&gt;templateExtLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;templateExtLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;templateExtLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="queryExtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 83</value>
+  </data>
+  <data name="queryExtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="queryExtBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;queryExtBox.Name" xml:space="preserve">
+    <value>queryExtBox</value>
+  </data>
+  <data name="&gt;&gt;queryExtBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;queryExtBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;queryExtBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="resultsExtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 107</value>
+  </data>
+  <data name="resultsExtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="resultsExtBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;resultsExtBox.Name" xml:space="preserve">
+    <value>resultsExtBox</value>
+  </data>
+  <data name="&gt;&gt;resultsExtBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;resultsExtBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resultsExtBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="templateExtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 107</value>
+  </data>
+  <data name="templateExtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="templateExtBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;templateExtBox.Name" xml:space="preserve">
+    <value>templateExtBox</value>
+  </data>
+  <data name="&gt;&gt;templateExtBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;templateExtBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;templateExtBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="maxMruBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 144</value>
+  </data>
+  <data name="maxMruBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="maxMruBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;maxMruBox.Name" xml:space="preserve">
+    <value>maxMruBox</value>
+  </data>
+  <data name="&gt;&gt;maxMruBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxMruBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;maxMruBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="maxMruLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="maxMruLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 147</value>
+  </data>
+  <data name="maxMruLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="maxMruLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="maxMruLabel.Text" xml:space="preserve">
+    <value>Max MRU entries:</value>
+  </data>
+  <data name="&gt;&gt;maxMruLabel.Name" xml:space="preserve">
+    <value>maxMruLabel</value>
+  </data>
+  <data name="&gt;&gt;maxMruLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxMruLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;maxMruLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="savePositionCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="savePositionCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 42</value>
+  </data>
+  <data name="savePositionCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 17</value>
+  </data>
+  <data name="savePositionCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="savePositionCheck.Text" xml:space="preserve">
+    <value>Remember application window size and location</value>
+  </data>
+  <data name="&gt;&gt;savePositionCheck.Name" xml:space="preserve">
+    <value>savePositionCheck</value>
+  </data>
+  <data name="&gt;&gt;savePositionCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;savePositionCheck.Parent" xml:space="preserve">
+    <value>optionsGroup</value>
+  </data>
+  <data name="&gt;&gt;savePositionCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="defaultAppCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="defaultAppCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 63</value>
+  </data>
+  <data name="defaultAppCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 17</value>
+  </data>
+  <data name="defaultAppCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="defaultAppCheck.Text" xml:space="preserve">
+    <value>Select Oracle Query Analyzer as the default editor for query file extensions</value>
+  </data>
+  <data name="&gt;&gt;defaultAppCheck.Name" xml:space="preserve">
+    <value>defaultAppCheck</value>
+  </data>
+  <data name="&gt;&gt;defaultAppCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;defaultAppCheck.Parent" xml:space="preserve">
+    <value>optionsGroup</value>
+  </data>
+  <data name="&gt;&gt;defaultAppCheck.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="saveModifiedCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="saveModifiedCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 21</value>
+  </data>
+  <data name="saveModifiedCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 17</value>
+  </data>
+  <data name="saveModifiedCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="saveModifiedCheck.Text" xml:space="preserve">
+    <value>Prompt for unsaved file on closure</value>
+  </data>
+  <data name="&gt;&gt;saveModifiedCheck.Name" xml:space="preserve">
+    <value>saveModifiedCheck</value>
+  </data>
+  <data name="&gt;&gt;saveModifiedCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveModifiedCheck.Parent" xml:space="preserve">
+    <value>optionsGroup</value>
+  </data>
+  <data name="&gt;&gt;saveModifiedCheck.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="optionsGroup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="optionsGroup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 180</value>
+  </data>
+  <data name="optionsGroup.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>25, 5, 3, 3</value>
+  </data>
+  <data name="optionsGroup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 94</value>
+  </data>
+  <data name="optionsGroup.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="optionsGroup.Text" xml:space="preserve">
+    <value>General Options</value>
+  </data>
+  <data name="&gt;&gt;optionsGroup.Name" xml:space="preserve">
+    <value>optionsGroup</value>
+  </data>
+  <data name="&gt;&gt;optionsGroup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;optionsGroup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;optionsGroup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="reportExtLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="reportExtLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="reportExtLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 86</value>
+  </data>
+  <data name="reportExtLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="reportExtLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="reportExtLabel.Text" xml:space="preserve">
+    <value>Report file extension:</value>
+  </data>
+  <data name="&gt;&gt;reportExtLabel.Name" xml:space="preserve">
+    <value>reportExtLabel</value>
+  </data>
+  <data name="&gt;&gt;reportExtLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reportExtLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;reportExtLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="reportExtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 83</value>
+  </data>
+  <data name="reportExtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="reportExtBox.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;reportExtBox.Name" xml:space="preserve">
+    <value>reportExtBox</value>
+  </data>
+  <data name="&gt;&gt;reportExtBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reportExtBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;reportExtBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
+    <value>folderBrowserDialog</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GeneralSheet</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>River.Orqa.Options.SheetBase, River.Orqa, Version=3.2.4984.30928, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+</root>

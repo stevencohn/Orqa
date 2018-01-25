@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="JsScheme">
+    <value xml:space="preserve">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;LexScheme xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Author&gt;Quantum Whale&lt;/Author&gt;
+  &lt;Name&gt;Java_Script&lt;/Name&gt;
+  &lt;Desc&gt;Syntax Scheme for Java Script Language&lt;/Desc&gt;
+  &lt;Copyright&gt;Copyright Quantum Whale, 2003&lt;/Copyright&gt;
+  &lt;Version&gt;1.0&lt;/Version&gt;
+  &lt;Styles&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;idents&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;0&lt;/Index&gt;
+      &lt;PlainText&gt;false&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;numbers&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;1&lt;/Index&gt;
+      &lt;PlainText&gt;false&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;reswords&lt;/Name&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;2&lt;/Index&gt;
+      &lt;PlainText&gt;false&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;comments&lt;/Name&gt;
+      &lt;ForeColor&gt;Green&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;3&lt;/Index&gt;
+      &lt;PlainText&gt;true&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;symbol&lt;/Name&gt;
+      &lt;ForeColor&gt;Gray&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;4&lt;/Index&gt;
+      &lt;PlainText&gt;false&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;whitespace&lt;/Name&gt;
+      &lt;ForeColor /&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;5&lt;/Index&gt;
+      &lt;PlainText&gt;false&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;strings&lt;/Name&gt;
+      &lt;ForeColor&gt;ControlText&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;6&lt;/Index&gt;
+      &lt;PlainText&gt;false&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+    &lt;LexStyle&gt;
+      &lt;Name&gt;directives&lt;/Name&gt;
+      &lt;ForeColor&gt;Blue&lt;/ForeColor&gt;
+      &lt;BackColor /&gt;
+      &lt;FontStyle&gt;Regular&lt;/FontStyle&gt;
+      &lt;Index&gt;7&lt;/Index&gt;
+      &lt;PlainText&gt;false&lt;/PlainText&gt;
+    &lt;/LexStyle&gt;
+  &lt;/Styles&gt;
+  &lt;States&gt;
+    &lt;LexState&gt;
+      &lt;Name&gt;normal&lt;/Name&gt;
+      &lt;CaseSensitive&gt;true&lt;/CaseSensitive&gt;
+      &lt;SyntaxBlocks&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;directive&lt;/Name&gt;
+          &lt;LexStyle&gt;0&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;7&lt;/ResWordStyle&gt;
+          &lt;ResWordSets&gt;
+            &lt;LexResWordSet&gt;
+              &lt;Name /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+              &lt;ResWordStyle&gt;7&lt;/ResWordStyle&gt;
+              &lt;ResWords&gt;
+                &lt;string&gt;#region&lt;/string&gt;
+                &lt;string&gt;#elif&lt;/string&gt;
+                &lt;string&gt;#undef&lt;/string&gt;
+                &lt;string&gt;#endif/String&lt;/string&gt;
+                &lt;string&gt;#if&lt;/string&gt;
+                &lt;string&gt;#line&lt;/string&gt;
+                &lt;string&gt;#warning&lt;/string&gt;
+                &lt;string&gt;#endregion&lt;/string&gt;
+                &lt;string&gt;#else&lt;/string&gt;
+                &lt;string&gt;#error&lt;/string&gt;
+                &lt;string&gt;#define&lt;/string&gt;
+              &lt;/ResWords&gt;
+            &lt;/LexResWordSet&gt;
+          &lt;/ResWordSets&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;\#[a-zA-Z_][a-zA-Z0-9_]*&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;0&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;idents&lt;/Name&gt;
+          &lt;LexStyle&gt;0&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;2&lt;/ResWordStyle&gt;
+          &lt;ResWordSets&gt;
+            &lt;LexResWordSet&gt;
+              &lt;Name /&gt;
+              &lt;Index&gt;0&lt;/Index&gt;
+              &lt;ResWordStyle&gt;2&lt;/ResWordStyle&gt;
+              &lt;ResWords&gt;
+                &lt;string&gt;abstract&lt;/string&gt;
+                &lt;string&gt;break&lt;/string&gt;
+                &lt;string&gt;case&lt;/string&gt;
+                &lt;string&gt;catch&lt;/string&gt;
+                &lt;string&gt;class&lt;/string&gt;
+                &lt;string&gt;const&lt;/string&gt;
+                &lt;string&gt;continue&lt;/string&gt;
+                &lt;string&gt;debugger&lt;/string&gt;
+                &lt;string&gt;default&lt;/string&gt;
+                &lt;string&gt;delegate&lt;/string&gt;
+                &lt;string&gt;delete&lt;/string&gt;
+                &lt;string&gt;do&lt;/string&gt;
+                &lt;string&gt;else&lt;/string&gt;
+                &lt;string&gt;enum&lt;/string&gt;
+                &lt;string&gt;export&lt;/string&gt;
+                &lt;string&gt;extends&lt;/string&gt;
+                &lt;string&gt;false&lt;/string&gt;
+                &lt;string&gt;final&lt;/string&gt;
+                &lt;string&gt;finally&lt;/string&gt;
+                &lt;string&gt;for&lt;/string&gt;
+                &lt;string&gt;function&lt;/string&gt;
+                &lt;string&gt;if&lt;/string&gt;
+                &lt;string&gt;implements&lt;/string&gt;
+                &lt;string&gt;import&lt;/string&gt;
+                &lt;string&gt;in&lt;/string&gt;
+                &lt;string&gt;int&lt;/string&gt;
+                &lt;string&gt;interface&lt;/string&gt;
+                &lt;string&gt;multicast&lt;/string&gt;
+                &lt;string&gt;new&lt;/string&gt;
+                &lt;string&gt;null&lt;/string&gt;
+                &lt;string&gt;package&lt;/string&gt;
+                &lt;string&gt;private&lt;/string&gt;
+                &lt;string&gt;protected&lt;/string&gt;
+                &lt;string&gt;public&lt;/string&gt;
+                &lt;string&gt;return&lt;/string&gt;
+                &lt;string&gt;static&lt;/string&gt;
+                &lt;string&gt;super&lt;/string&gt;
+                &lt;string&gt;switch&lt;/string&gt;
+                &lt;string&gt;this&lt;/string&gt;
+                &lt;string&gt;throw&lt;/string&gt;
+                &lt;string&gt;transient&lt;/string&gt;
+                &lt;string&gt;true&lt;/string&gt;
+                &lt;string&gt;try&lt;/string&gt;
+                &lt;string&gt;typeof&lt;/string&gt;
+                &lt;string&gt;using&lt;/string&gt;
+                &lt;string&gt;var&lt;/string&gt;
+                &lt;string&gt;void&lt;/string&gt;
+                &lt;string&gt;volatile&lt;/string&gt;
+                &lt;string&gt;while&lt;/string&gt;
+                &lt;string&gt;with&lt;/string&gt;
+              &lt;/ResWords&gt;
+            &lt;/LexResWordSet&gt;
+          &lt;/ResWordSets&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;[a-zA-Z_][a-zA-Z0-9_]*&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;1&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;comment1&lt;/Name&gt;
+          &lt;LexStyle&gt;3&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;-1&lt;/ResWordStyle&gt;
+          &lt;ResWordSets /&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;//.*&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;2&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;comment2&lt;/Name&gt;
+          &lt;LexStyle&gt;3&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;1&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;-1&lt;/ResWordStyle&gt;
+          &lt;ResWordSets /&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;/\*&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;3&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;numbers&lt;/Name&gt;
+          &lt;LexStyle&gt;1&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;-1&lt;/ResWordStyle&gt;
+          &lt;ResWordSets /&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;([0-9]+\.[0-9]*(e|E)(\+|\-)?[0-9]+)|([0-9]+\.[0-9]*)|([0-9]+)|(0X[0-9a-fA-F]+)&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;4&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;string1&lt;/Name&gt;
+          &lt;LexStyle&gt;6&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;-1&lt;/ResWordStyle&gt;
+          &lt;ResWordSets /&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;('')|'((((\\')|('')|[^'])*')|(((\\')|('')|[^'])*))&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;5&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;string2&lt;/Name&gt;
+          &lt;LexStyle&gt;6&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;-1&lt;/ResWordStyle&gt;
+          &lt;ResWordSets /&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;("")|"((((\\")|("")|[^"])*")|(((\\")|("")|[^"])*))&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;6&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;whitespace&lt;/Name&gt;
+          &lt;LexStyle&gt;5&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;-1&lt;/ResWordStyle&gt;
+          &lt;ResWordSets /&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;(\s)+&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;7&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;symbol&lt;/Name&gt;
+          &lt;LexStyle&gt;4&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;-1&lt;/ResWordStyle&gt;
+          &lt;ResWordSets /&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;\W&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;8&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+      &lt;/SyntaxBlocks&gt;
+      &lt;Index&gt;0&lt;/Index&gt;
+    &lt;/LexState&gt;
+    &lt;LexState&gt;
+      &lt;Name&gt;comment&lt;/Name&gt;
+      &lt;CaseSensitive&gt;true&lt;/CaseSensitive&gt;
+      &lt;SyntaxBlocks&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;comment21&lt;/Name&gt;
+          &lt;LexStyle&gt;3&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;0&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;-1&lt;/ResWordStyle&gt;
+          &lt;ResWordSets /&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;\*/&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;0&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+        &lt;LexSyntaxBlock&gt;
+          &lt;Name&gt;comment22&lt;/Name&gt;
+          &lt;LexStyle&gt;3&lt;/LexStyle&gt;
+          &lt;LeaveState&gt;1&lt;/LeaveState&gt;
+          &lt;ResWordStyle&gt;-1&lt;/ResWordStyle&gt;
+          &lt;ResWordSets /&gt;
+          &lt;Expressions&gt;
+            &lt;string&gt;((?!\*/).)+&lt;/string&gt;
+          &lt;/Expressions&gt;
+          &lt;Index&gt;1&lt;/Index&gt;
+        &lt;/LexSyntaxBlock&gt;
+      &lt;/SyntaxBlocks&gt;
+      &lt;Index&gt;1&lt;/Index&gt;
+    &lt;/LexState&gt;
+  &lt;/States&gt;
+&lt;/LexScheme&gt;</value>
+  </data>
+</root>

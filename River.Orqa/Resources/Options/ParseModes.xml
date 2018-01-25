@@ -1,0 +1,6 @@
+﻿<ParseModes>
+  <mode>Prompt</mode>
+  <mode>Sequential</mode>
+  <mode>Block</mode>
+  <mode>Wrapped</mode>
+</ParseModes>

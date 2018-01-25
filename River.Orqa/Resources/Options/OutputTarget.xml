@@ -1,0 +1,5 @@
+﻿<OutputTarget>
+  <target>Results to Text</target>
+  <target>Results to Grid</target>
+  <target>Results to XML</target>
+</OutputTarget>

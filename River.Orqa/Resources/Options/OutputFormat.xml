@@ -1,0 +1,7 @@
+﻿<OutputFormat>
+  <format>Column Aligned</format>
+  <format>Comma Delimited (CVS)</format>
+  <format>Tab Delimited</format>
+  <format>Space Delimited</format>
+  <format>Custom Delimeter</format>
+</OutputFormat>

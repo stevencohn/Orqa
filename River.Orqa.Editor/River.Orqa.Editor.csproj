@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{598BEE47-6EBB-4F4C-B9E6-2A09D253F5A6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>River.Orqa.Editor</RootNamespace>
+    <AssemblyName>River.Orqa.Editor</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x64</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa.Editor.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa.Editor.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'All Dependencies|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'All Dependencies|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\All Dependencies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa.Editor.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'All Dependencies|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\All Dependencies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllowedSelectionMode.cs" />
+    <Compile Include="BookMark.cs" />
+    <Compile Include="BookMarkList.cs" />
+    <Compile Include="BookMarks.cs" />
+    <Compile Include="BraceComparer.cs" />
+    <Compile Include="BraceItem.cs" />
+    <Compile Include="BracePointComparer.cs" />
+    <Compile Include="Braces.cs" />
+    <Compile Include="BracesOptions.cs" />
+    <Compile Include="CodeCompletionBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeCompletionColumn.cs" />
+    <Compile Include="CodeCompletionEvent.cs" />
+    <Compile Include="CodeCompletionFlags.cs" />
+    <Compile Include="CodeCompletionHint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CodeCompletionWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CollapsedList.cs" />
+    <Compile Include="CollapsedRange.cs" />
+    <Compile Include="ColorFlags.cs" />
+    <Compile Include="Common\ColorBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Common\Consts.cs" />
+    <Compile Include="Common\EnumChildProc.cs" />
+    <Compile Include="Common\ErrorBehaviour.cs" />
+    <Compile Include="Common\ErrorHandler.cs" />
+    <Compile Include="Common\HookHandler.cs" />
+    <Compile Include="Common\IRange.cs" />
+    <Compile Include="Common\ITextPainter.cs" />
+    <Compile Include="Common\Range.cs" />
+    <Compile Include="Common\RangeList.cs" />
+    <Compile Include="Common\SortList.cs" />
+    <Compile Include="Common\TextPainter.cs" />
+    <Compile Include="Common\Win32.cs" />
+    <Compile Include="Common\XPThemeName.cs" />
+    <Compile Include="Common\XPThemes.cs" />
+    <Compile Include="CompletionHint.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CompletionListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CreatePrintEditEvent.cs" />
+    <Compile Include="CreatePrintEditEventArgs.cs" />
+    <Compile Include="CustomDrawEvent.cs" />
+    <Compile Include="CustomDrawEventArgs.cs" />
+    <Compile Include="CWPSTRUCT.cs" />
+    <Compile Include="Design\Dialogs\DlgFlagEnumeration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Dialogs\DlgSyntaxBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Dialogs\FlagEnumerationListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\FlagEnumerationEditor.cs" />
+    <Compile Include="Design\LexerSerializer.cs" />
+    <Compile Include="Design\LineStyleConverter.cs" />
+    <Compile Include="Design\SyntaxBuilderConsts.cs" />
+    <Compile Include="Design\SyntaxBuilderEditor.cs" />
+    <Compile Include="Dialogs\DlgGoto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DlgPrintOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DlgSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\DlgSyntaxSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\IGotoLineDialog.cs" />
+    <Compile Include="Dialogs\IPersistentSettings.cs" />
+    <Compile Include="Dialogs\IPrintOptionsDialog.cs" />
+    <Compile Include="Dialogs\ISearchDialog.cs" />
+    <Compile Include="Dialogs\ISyntaxSettings.cs" />
+    <Compile Include="Dialogs\LexStyleItem.cs" />
+    <Compile Include="Dialogs\LexStyleItems.cs" />
+    <Compile Include="Dialogs\PersistentSettings.cs" />
+    <Compile Include="Dialogs\SearchDialog.cs" />
+    <Compile Include="Dialogs\SearchSettings.cs" />
+    <Compile Include="Dialogs\SyntaxSettings.cs" />
+    <Compile Include="DisplayStrings.cs" />
+    <Compile Include="DrawHeaderEvent.cs" />
+    <Compile Include="DrawHeaderEventArgs.cs" />
+    <Compile Include="DrawInfo.cs" />
+    <Compile Include="DrawStage.cs" />
+    <Compile Include="DrawState.cs" />
+    <Compile Include="EditBorderStyle.cs" />
+    <Compile Include="EditConsts.cs" />
+    <Compile Include="EditorPrintDocument.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditPage.cs" />
+    <Compile Include="EditPages.cs" />
+    <Compile Include="EditRuler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EditRulers.cs" />
+    <Compile Include="ErrorBehaviour.cs" />
+    <Compile Include="EventHandlers.cs" />
+    <Compile Include="ExportFormat.cs" />
+    <Compile Include="FmtExporter.cs" />
+    <Compile Include="FmtFiler.cs" />
+    <Compile Include="FmtImporter.cs" />
+    <Compile Include="Gutter.cs" />
+    <Compile Include="GutterOptions.cs" />
+    <Compile Include="HitTest.cs" />
+    <Compile Include="HitTestInfo.cs" />
+    <Compile Include="HtmlExporter.cs" />
+    <Compile Include="HtmlImporter.cs" />
+    <Compile Include="HyperText.cs" />
+    <Compile Include="HyperTextEvent.cs" />
+    <Compile Include="HyperTextEventArgs.cs" />
+    <Compile Include="HyperTextEx.cs" />
+    <Compile Include="IBookMark.cs" />
+    <Compile Include="IBookMarks.cs" />
+    <Compile Include="IBraceMatching.cs" />
+    <Compile Include="IBraceMatchingEx.cs" />
+    <Compile Include="ICaret.cs" />
+    <Compile Include="ICodeCompletion.cs" />
+    <Compile Include="ICodeCompletionBox.cs" />
+    <Compile Include="ICodeCompletionColumn.cs" />
+    <Compile Include="ICodeCompletionHint.cs" />
+    <Compile Include="ICodeCompletionWindow.cs" />
+    <Compile Include="ICollapsable.cs" />
+    <Compile Include="IControlProps.cs" />
+    <Compile Include="IDisplayStrings.cs" />
+    <Compile Include="IDrawLine.cs" />
+    <Compile Include="IEdit.cs" />
+    <Compile Include="IEditEx.cs" />
+    <Compile Include="IEditPage.cs" />
+    <Compile Include="IEditPages.cs" />
+    <Compile Include="IEditRuler.cs" />
+    <Compile Include="IExport.cs" />
+    <Compile Include="IFmtExport.cs" />
+    <Compile Include="IFmtImport.cs" />
+    <Compile Include="IGutter.cs" />
+    <Compile Include="IHyperText.cs" />
+    <Compile Include="IHyperTextEx.cs" />
+    <Compile Include="IImport.cs" />
+    <Compile Include="IKeyList.cs" />
+    <Compile Include="ILineSeparator.cs" />
+    <Compile Include="ILineStyle.cs" />
+    <Compile Include="ILineStyles.cs" />
+    <Compile Include="ILineStylesEx.cs" />
+    <Compile Include="IMargin.cs" />
+    <Compile Include="INavigate.cs" />
+    <Compile Include="INavigateEx.cs" />
+    <Compile Include="IndentOptions.cs" />
+    <Compile Include="IndentOrientation.cs" />
+    <Compile Include="INotifyEx.cs" />
+    <Compile Include="IOutlining.cs" />
+    <Compile Include="IPageHeader.cs" />
+    <Compile Include="IPrinting.cs" />
+    <Compile Include="IScrolling.cs" />
+    <Compile Include="ISearch.cs" />
+    <Compile Include="ISelection.cs" />
+    <Compile Include="ISourceNotify.cs" />
+    <Compile Include="ISpelling.cs" />
+    <Compile Include="ISpellingEx.cs" />
+    <Compile Include="ISyntaxEdit.cs" />
+    <Compile Include="ISyntaxStrings.cs" />
+    <Compile Include="ITabulation.cs" />
+    <Compile Include="ITabulationEx.cs" />
+    <Compile Include="ITextSearch.cs" />
+    <Compile Include="ITextSource.cs" />
+    <Compile Include="IUndo.cs" />
+    <Compile Include="IWhiteSpace.cs" />
+    <Compile Include="IWordBreak.cs" />
+    <Compile Include="IWordWrap.cs" />
+    <Compile Include="KeyEvent.cs" />
+    <Compile Include="KeyEventEx.cs" />
+    <Compile Include="KeyList.cs" />
+    <Compile Include="LineSeparator.cs" />
+    <Compile Include="LineStyle.cs" />
+    <Compile Include="LineStyleOptions.cs" />
+    <Compile Include="LineStyles.cs" />
+    <Compile Include="LineStylesEx.cs" />
+    <Compile Include="LStyle.cs" />
+    <Compile Include="Margin.cs" />
+    <Compile Include="MOUSEHOOKSTRUCT.cs" />
+    <Compile Include="NavigateOptions.cs" />
+    <Compile Include="NotifyEvent.cs" />
+    <Compile Include="NotifyEventArgs.cs" />
+    <Compile Include="NotifyState.cs" />
+    <Compile Include="OutlineList.cs" />
+    <Compile Include="OutlineOptions.cs" />
+    <Compile Include="Outlining.cs" />
+    <Compile Include="OutRange.cs" />
+    <Compile Include="PageHeader.cs" />
+    <Compile Include="PageType.cs" />
+    <Compile Include="PopupHookManager.cs" />
+    <Compile Include="PopupNativeWindow.cs" />
+    <Compile Include="PopupWnd.cs" />
+    <Compile Include="PositionChangedEventArgs.cs" />
+    <Compile Include="Printing.cs" />
+    <Compile Include="PrintOptions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RtfExporter.cs" />
+    <Compile Include="RtfImporter.cs" />
+    <Compile Include="RulerEventArgs.cs" />
+    <Compile Include="RulerIndent.cs" />
+    <Compile Include="RulerOptions.cs" />
+    <Compile Include="RulerUnits.cs" />
+    <Compile Include="Scrolling.cs" />
+    <Compile Include="SearchOptions.cs" />
+    <Compile Include="Selection.cs" />
+    <Compile Include="SelectionOptions.cs" />
+    <Compile Include="SelectionState.cs" />
+    <Compile Include="SelectionType.cs" />
+    <Compile Include="SeparatorOptions.cs" />
+    <Compile Include="Spelling.cs" />
+    <Compile Include="StringEvent.cs" />
+    <Compile Include="StrItem.cs" />
+    <Compile Include="StrItemState.cs" />
+    <Compile Include="Syntax\AccessorInfo.cs" />
+    <Compile Include="Syntax\ClassInfo.cs" />
+    <Compile Include="Syntax\ClosePopupEvent.cs" />
+    <Compile Include="Syntax\ClosingEventArgs.cs" />
+    <Compile Include="Syntax\CodeCompletionArgs.cs" />
+    <Compile Include="Syntax\CodeCompletionProvider.cs" />
+    <Compile Include="Syntax\CodeCompletionType.cs" />
+    <Compile Include="Syntax\CodeTemplate.cs" />
+    <Compile Include="Syntax\CodeTemplates.cs" />
+    <Compile Include="Syntax\CommentInfo.cs" />
+    <Compile Include="Syntax\CsClassInfo.cs" />
+    <Compile Include="Syntax\CsDelegateInfo.cs" />
+    <Compile Include="Syntax\CsEnumInfo.cs" />
+    <Compile Include="Syntax\CsEventInfo.cs" />
+    <Compile Include="Syntax\CsFieldInfo.cs" />
+    <Compile Include="Syntax\CsIfStatementInfo.cs" />
+    <Compile Include="Syntax\CsInterfaceInfo.cs" />
+    <Compile Include="Syntax\CsMethodInfo.cs" />
+    <Compile Include="Syntax\CsModifier.cs" />
+    <Compile Include="Syntax\CsNamespaceInfo.cs" />
+    <Compile Include="Syntax\CsParamInfo.cs" />
+    <Compile Include="Syntax\CsParser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Syntax\CsPropInfo.cs" />
+    <Compile Include="Syntax\CsScope.cs" />
+    <Compile Include="Syntax\CsStatementInfo.cs" />
+    <Compile Include="Syntax\CsStructInfo.cs" />
+    <Compile Include="Syntax\CsUnitInfo.cs" />
+    <Compile Include="Syntax\DelegateInfo.cs" />
+    <Compile Include="Syntax\EnumInfo.cs" />
+    <Compile Include="Syntax\EventInfo.cs" />
+    <Compile Include="Syntax\FieldInfo.cs" />
+    <Compile Include="Syntax\FormatTextOptions.cs" />
+    <Compile Include="Syntax\IAccessorInfo.cs" />
+    <Compile Include="Syntax\IAttributes.cs" />
+    <Compile Include="Syntax\IClassInfo.cs" />
+    <Compile Include="Syntax\ICodeCompletionProvider.cs" />
+    <Compile Include="Syntax\ICodeTemplate.cs" />
+    <Compile Include="Syntax\ICodeTemplates.cs" />
+    <Compile Include="Syntax\ICommentInfo.cs" />
+    <Compile Include="Syntax\ICsClassInfo.cs" />
+    <Compile Include="Syntax\ICsDelegateInfo.cs" />
+    <Compile Include="Syntax\ICsEnumInfo.cs" />
+    <Compile Include="Syntax\ICsEventInfo.cs" />
+    <Compile Include="Syntax\ICsFieldInfo.cs" />
+    <Compile Include="Syntax\ICsInterfaceInfo.cs" />
+    <Compile Include="Syntax\ICsMethodInfo.cs" />
+    <Compile Include="Syntax\ICsModifiers.cs" />
+    <Compile Include="Syntax\ICsNamespaceInfo.cs" />
+    <Compile Include="Syntax\ICsParamInfo.cs" />
+    <Compile Include="Syntax\ICsPropInfo.cs" />
+    <Compile Include="Syntax\ICsScope.cs" />
+    <Compile Include="Syntax\ICsStatementInfo.cs" />
+    <Compile Include="Syntax\ICsStructInfo.cs" />
+    <Compile Include="Syntax\ICsUnitInfo.cs" />
+    <Compile Include="Syntax\IDelegateInfo.cs" />
+    <Compile Include="Syntax\IEnumInfo.cs" />
+    <Compile Include="Syntax\IEventInfo.cs" />
+    <Compile Include="Syntax\IFieldInfo.cs" />
+    <Compile Include="Syntax\IFormatText.cs" />
+    <Compile Include="Syntax\IHasLocalVars.cs" />
+    <Compile Include="Syntax\IHasParams.cs" />
+    <Compile Include="Syntax\IInterfaceInfo.cs" />
+    <Compile Include="Syntax\ILexer.cs" />
+    <Compile Include="Syntax\ILexResWordSet.cs" />
+    <Compile Include="Syntax\ILexScheme.cs" />
+    <Compile Include="Syntax\ILexState.cs" />
+    <Compile Include="Syntax\ILexStyle.cs" />
+    <Compile Include="Syntax\ILexSyntaxBlock.cs" />
+    <Compile Include="Syntax\IListMember.cs" />
+    <Compile Include="Syntax\IListMembers.cs" />
+    <Compile Include="Syntax\ILocalVarInfo.cs" />
+    <Compile Include="Syntax\IMethodInfo.cs" />
+    <Compile Include="Syntax\INamespaceInfo.cs" />
+    <Compile Include="Syntax\INotifier.cs" />
+    <Compile Include="Syntax\INotify.cs" />
+    <Compile Include="Syntax\InterfaceInfo.cs" />
+    <Compile Include="Syntax\IOutlineRange.cs" />
+    <Compile Include="Syntax\IParameterInfo.cs" />
+    <Compile Include="Syntax\IParamInfo.cs" />
+    <Compile Include="Syntax\IParse.cs" />
+    <Compile Include="Syntax\IPropInfo.cs" />
+    <Compile Include="Syntax\IQuickInfo.cs" />
+    <Compile Include="Syntax\IRangeInfo.cs" />
+    <Compile Include="Syntax\IRegionInfo.cs" />
+    <Compile Include="Syntax\IStatementInfo.cs" />
+    <Compile Include="Syntax\IStringList.cs" />
+    <Compile Include="Syntax\IStructInfo.cs" />
+    <Compile Include="Syntax\ISyntaxInfo.cs" />
+    <Compile Include="Syntax\ISyntaxInfos.cs" />
+    <Compile Include="Syntax\ISyntaxTypeInfo.cs" />
+    <Compile Include="Syntax\IUnitInfo.cs" />
+    <Compile Include="Syntax\IUsesInfo.cs" />
+    <Compile Include="Syntax\IVbClassInfo.cs" />
+    <Compile Include="Syntax\IVbDelegateInfo.cs" />
+    <Compile Include="Syntax\IVbEnumInfo.cs" />
+    <Compile Include="Syntax\IVbEventInfo.cs" />
+    <Compile Include="Syntax\IVbFieldInfo.cs" />
+    <Compile Include="Syntax\IVbInterfaceInfo.cs" />
+    <Compile Include="Syntax\IVbMethodInfo.cs" />
+    <Compile Include="Syntax\IVbModifiers.cs" />
+    <Compile Include="Syntax\IVbNamespaceInfo.cs" />
+    <Compile Include="Syntax\IVbParamInfo.cs" />
+    <Compile Include="Syntax\IVbPropInfo.cs" />
+    <Compile Include="Syntax\IVbScope.cs" />
+    <Compile Include="Syntax\IVbStructInfo.cs" />
+    <Compile Include="Syntax\IVbUnitInfo.cs" />
+    <Compile Include="Syntax\JsParser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Syntax\Lexer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Syntax\LexerProc.cs" />
+    <Compile Include="Syntax\LexResWordSet.cs" />
+    <Compile Include="Syntax\LexScheme.cs" />
+    <Compile Include="Syntax\LexState.cs" />
+    <Compile Include="Syntax\LexStyle.cs" />
+    <Compile Include="Syntax\LexSyntaxBlock.cs" />
+    <Compile Include="Syntax\LexToken.cs" />
+    <Compile Include="Syntax\ListMember.cs" />
+    <Compile Include="Syntax\ListMembers.cs" />
+    <Compile Include="Syntax\LocalVarInfo.cs" />
+    <Compile Include="Syntax\MethodInfo.cs" />
+    <Compile Include="Syntax\NamespaceInfo.cs" />
+    <Compile Include="Syntax\OutlineRange.cs" />
+    <Compile Include="Syntax\ParameterInfo.cs" />
+    <Compile Include="Syntax\ParamInfo.cs" />
+    <Compile Include="Syntax\Parser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Syntax\PropInfo.cs" />
+    <Compile Include="Syntax\QuickInfo.cs" />
+    <Compile Include="Syntax\RangeInfo.cs" />
+    <Compile Include="Syntax\RegionInfo.cs" />
+    <Compile Include="Syntax\SourceParser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Syntax\StatementInfo.cs" />
+    <Compile Include="Syntax\StringList.cs" />
+    <Compile Include="Syntax\StructInfo.cs" />
+    <Compile Include="Syntax\SyntaxInfo.cs" />
+    <Compile Include="Syntax\SyntaxInfos.cs" />
+    <Compile Include="Syntax\SyntaxToken.cs" />
+    <Compile Include="Syntax\SyntaxTypeInfo.cs" />
+    <Compile Include="Syntax\TextParsedEvent.cs" />
+    <Compile Include="Syntax\TextParsedEventArgs.cs" />
+    <Compile Include="Syntax\UnitInfo.cs" />
+    <Compile Include="Syntax\UpdateReason.cs" />
+    <Compile Include="Syntax\UsesInfo.cs" />
+    <Compile Include="Syntax\VbCaseStatementInfo.cs" />
+    <Compile Include="Syntax\VbClassInfo.cs" />
+    <Compile Include="Syntax\VbDelegateInfo.cs" />
+    <Compile Include="Syntax\VbEnumInfo.cs" />
+    <Compile Include="Syntax\VbEventInfo.cs" />
+    <Compile Include="Syntax\VbFieldInfo.cs" />
+    <Compile Include="Syntax\VbIfStatementInfo.cs" />
+    <Compile Include="Syntax\VbInterfaceInfo.cs" />
+    <Compile Include="Syntax\VbMethodInfo.cs" />
+    <Compile Include="Syntax\VbModifier.cs" />
+    <Compile Include="Syntax\VbNamespaceInfo.cs" />
+    <Compile Include="Syntax\VbParamInfo.cs" />
+    <Compile Include="Syntax\VbParser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Syntax\VbPropInfo.cs" />
+    <Compile Include="Syntax\VbScope.cs" />
+    <Compile Include="Syntax\VbStatementInfo.cs" />
+    <Compile Include="Syntax\VbStructInfo.cs" />
+    <Compile Include="Syntax\VbUnitInfo.cs" />
+    <Compile Include="Syntax\XmlHelper.cs" />
+    <Compile Include="Syntax\XmlLexerInfo.cs" />
+    <Compile Include="SyntaxEdit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SyntaxStrings.cs" />
+    <Compile Include="TextSource.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UndoData.cs" />
+    <Compile Include="UndoOperation.cs" />
+    <Compile Include="UndoOptions.cs" />
+    <Compile Include="UrlJumpEvent.cs" />
+    <Compile Include="UrlJumpEventArgs.cs" />
+    <Compile Include="WhiteSpace.cs" />
+    <Compile Include="WordSpellEvent.cs" />
+    <Compile Include="WordSpellEventArgs.cs" />
+    <Compile Include="XmlDisplayStringsInfo.cs" />
+    <Compile Include="XmlEditPageInfo.cs" />
+    <Compile Include="XmlEditPagesInfo.cs" />
+    <Compile Include="XmlExporter.cs" />
+    <Compile Include="XmlGutterInfo.cs" />
+    <Compile Include="XmlHyperTextExInfo.cs" />
+    <Compile Include="XmlImporter.cs" />
+    <Compile Include="XmlLineSeparatorInfo.cs" />
+    <Compile Include="XmlLineStylesInfo.cs" />
+    <Compile Include="XmlMarginInfo.cs" />
+    <Compile Include="XmlOutliningInfo.cs" />
+    <Compile Include="XmlPageHeaderInfo.cs" />
+    <Compile Include="XmlPrintingInfo.cs" />
+    <Compile Include="XmlScrollingInfo.cs" />
+    <Compile Include="XmlSearchSettingsInfo.cs" />
+    <Compile Include="XmlSelectionInfo.cs" />
+    <Compile Include="XmlSpellingInfo.cs" />
+    <Compile Include="XmlSyntaxEditInfo.cs" />
+    <Compile Include="XmlSyntaxSettingsInfo.cs" />
+    <Compile Include="XmlSyntaxStringsInfo.cs" />
+    <Compile Include="XmlTextSourceInfo.cs" />
+    <Compile Include="XmlWhiteSpaceInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CompletionListBox.resx">
+      <DependentUpon>CompletionListBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Dialogs\DlgFlagEnumeration.resx">
+      <DependentUpon>DlgFlagEnumeration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DlgGoto.resx">
+      <DependentUpon>DlgGoto.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DlgPrintOptions.resx">
+      <DependentUpon>DlgPrintOptions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DlgSearch.resx">
+      <DependentUpon>DlgSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\DlgSyntaxSettings.resx">
+      <DependentUpon>DlgSyntaxSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditorPrintDocument.resx">
+      <DependentUpon>EditorPrintDocument.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditRuler.resx">
+      <DependentUpon>EditRuler.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\IncrementalSearch.cur" />
+    <EmbeddedResource Include="Images\LeftArrow.cur" />
+    <EmbeddedResource Include="Images\ReverseIncrementalSearch.cur" />
+    <EmbeddedResource Include="Images\SyntaxEdit.bmp" />
+    <EmbeddedResource Include="Images\TextSource.bmp" />
+    <EmbeddedResource Include="Resources.resx">
+      <DependentUpon>Resources.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Syntax\CsParser.resx">
+      <DependentUpon>CsParser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Syntax\JsParser.resx">
+      <DependentUpon>JsParser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Syntax\Lexer.resx">
+      <DependentUpon>Lexer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Syntax\Parser.resx">
+      <DependentUpon>Parser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Syntax\SourceParser.resx">
+      <DependentUpon>SourceParser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Syntax\VbParser.resx">
+      <DependentUpon>VbParser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SyntaxEdit.resx">
+      <DependentUpon>SyntaxEdit.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextSource.resx">
+      <DependentUpon>TextSource.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Syntax\Images\CsParser.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Syntax\Images\JsParser.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Syntax\Images\Parser.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Common\ColorBox.resx">
+      <DependentUpon>ColorBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Dialogs\DlgSyntaxBuilder.resx">
+      <DependentUpon>DlgSyntaxBuilder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Syntax\Images\VbParser.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Common\Images\ColorBox.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrated rules for River.Orqa.Editor.ruleset" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

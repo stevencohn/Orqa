@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LexScheme xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Author>Steven M. Cohn</Author>
+  <Name>PlainText</Name>
+  <Desc>Syntax Scheme for SQL(Oracle) Language</Desc>
+  <Copyright>Copyright Steven M. Cohn, 2002-2005</Copyright>
+  <Version>1.0</Version>
+  <Styles>
+    <LexStyle>
+      <Name>idents</Name>
+      <ForeColor>ControlText</ForeColor>
+      <BackColor />
+      <FontStyle>Regular</FontStyle>
+      <Index>0</Index>
+      <PlainText>false</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>numbers</Name>
+      <ForeColor>ControlText</ForeColor>
+      <BackColor />
+      <FontStyle>Regular</FontStyle>
+      <Index>1</Index>
+      <PlainText>false</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>reswords</Name>
+      <ForeColor>Green</ForeColor>
+      <BackColor />
+      <FontStyle>Bold</FontStyle>
+      <Index>2</Index>
+      <PlainText>false</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>comments</Name>
+      <ForeColor>Navy</ForeColor>
+      <BackColor />
+      <FontStyle>Italic</FontStyle>
+      <Index>3</Index>
+      <PlainText>true</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>whitespace</Name>
+      <ForeColor>0</ForeColor>
+      <BackColor />
+      <FontStyle>Regular</FontStyle>
+      <Index>4</Index>
+      <PlainText>false</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>strings</Name>
+      <ForeColor>Maroon</ForeColor>
+      <BackColor />
+      <FontStyle>Regular</FontStyle>
+      <Index>5</Index>
+      <PlainText>false</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>urls</Name>
+      <ForeColor>Blue</ForeColor>
+      <BackColor />
+      <FontStyle>Underline</FontStyle>
+      <Index>7</Index>
+      <PlainText>false</PlainText>
+    </LexStyle>
+  </Styles>
+  <States>
+    <LexState>
+      <Name>normal</Name>
+      <CaseSensitive>false</CaseSensitive>
+      <SyntaxBlocks>
+        <LexSyntaxBlock>
+          <Name>idents</Name>
+          <LexStyle>0</LexStyle>
+          <LeaveState>0</LeaveState>
+          <ResWordStyle>2</ResWordStyle>
+          <ResWords>
+          </ResWords>
+          <Expressions>
+            <string>[a-zA-Z_][a-zA-Z0-9_]*</string>
+          </Expressions>
+          <Index>0</Index>
+        </LexSyntaxBlock>
+        <LexSyntaxBlock>
+          <Name>comments</Name>
+          <LexStyle>3</LexStyle>
+          <LeaveState>0</LeaveState>
+          <ResWordStyle>-1</ResWordStyle>
+          <ResWords />
+          <Expressions>
+          </Expressions>
+          <Index>1</Index>
+        </LexSyntaxBlock>
+        <LexSyntaxBlock>
+          <Name>numbers</Name>
+          <LexStyle>1</LexStyle>
+          <LeaveState>0</LeaveState>
+          <ResWordStyle>-1</ResWordStyle>
+          <ResWords />
+          <Expressions>
+            <string>([0-9]+\.[0-9]*(e|E)(\+|\-)?[0-9]+)|([0-9]+\.[0-9]*)|([0-9]+)</string>
+          </Expressions>
+          <Index>2</Index>
+        </LexSyntaxBlock>
+        <LexSyntaxBlock>
+          <Name>strings</Name>
+          <LexStyle>5</LexStyle>
+          <LeaveState>0</LeaveState>
+          <ResWordStyle>-1</ResWordStyle>
+          <ResWords />
+          <Expressions>
+            <string>("")|"((((\\")|("")|[^"])*")|(((\\")|("")|[^"])*))</string>
+            <string>('')|'((((\\')|('')|[^'])*')|(((\\')|('')|[^'])*))</string>
+          </Expressions>
+          <Index>3</Index>
+        </LexSyntaxBlock>
+        <LexSyntaxBlock>
+          <Name>whitespace</Name>
+          <LexStyle>4</LexStyle>
+          <LeaveState>0</LeaveState>
+          <ResWordStyle>-1</ResWordStyle>
+          <ResWords />
+          <Expressions>
+            <string>(\s)+</string>
+          </Expressions>
+          <Index>4</Index>
+        </LexSyntaxBlock>
+      </SyntaxBlocks>
+      <Index>0</Index>
+    </LexState>
+  </States>
+</LexScheme>

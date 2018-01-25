@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>Snipets</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{cca82d3c-049e-452e-a3b0-3bfaf78f1619}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>Snipets</RootNamespace>
+    <AssemblyName>Snipets</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <!-- VS10 without SP1 will not have VisualStudioVersion set, so do that here -->
+  <PropertyGroup />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Templates" />
+    <Folder Include="Queries" />
+    <Folder Include="Reports" />
+    <Folder Include="Reports\ASH and AWR" />
+    <Folder Include="Queries\About Your Database" />
+    <Folder Include="Queries\Quality" />
+    <Folder Include="Queries\Objects" />
+    <Folder Include="Queries\Storage" />
+    <Folder Include="Queries\Dynamic Diagnostics" />
+    <Folder Include="Queries\Dynamic Diagnostics\Top SQL" />
+    <Folder Include="Templates\Database" />
+    <Folder Include="Templates\Select" />
+    <Folder Include="Templates\Table" />
+    <Folder Include="Queries\Diagnostics" />
+    <Folder Include="Templates\Packages" />
+    <Folder Include="Templates\Sequence" />
+    <Folder Include="Queries\UNIFI" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Queries\About Your Database\NLS Parameters.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Queries\About Your Database\Version Banner.sql" />
+    <None Include="Queries\About Your Database\All Parameters.sql" />
+    <None Include="Queries\About Your Database\Non-default Parameters.sql" />
+    <None Include="Reports\ASH and AWR\ASH Report for Past 30 Minutes.rpt" />
+    <None Include="Reports\ASH and AWR\Last AWR Report.rpt" />
+    <None Include="Queries\Quality\Invalid Objects.sql" />
+    <None Include="Queries\Objects\Object Count by Type.sql" />
+    <None Include="Queries\Objects\Dependencies.sql" />
+    <None Include="Queries\Objects\Datatype Occurences.sql" />
+    <None Include="Queries\Objects\Partitioned Tables.sql" />
+    <None Include="Queries\Quality\Tables without Indexes.sql" />
+    <None Include="Queries\Quality\Tables without Primary Keys.sql" />
+    <None Include="Queries\Quality\Tables with Unindexed Foreign Keys.sql" />
+    <None Include="Queries\Objects\Largest Average Row Length.sql" />
+    <None Include="Queries\Storage\Table Count by Tablespace.sql" />
+    <None Include="Queries\Storage\Tables by Tablespace.sql" />
+    <None Include="Queries\Storage\Datafiles.sql" />
+    <None Include="Queries\Storage\Free Space.sql" />
+    <None Include="Queries\Storage\Tablespace Quotas.sql" />
+    <None Include="Queries\Storage\Tablespaces.sql" />
+    <None Include="Queries\Storage\Tablespace Segments.sql" />
+    <None Include="Queries\Dynamic Diagnostics\Cursors by Session.sql" />
+    <None Include="Queries\Dynamic Diagnostics\Cursor Detail.sql" />
+    <None Include="Queries\Dynamic Diagnostics\Locks by User.sql" />
+    <None Include="Queries\Dynamic Diagnostics\Dynamic Memory.sql" />
+    <None Include="Queries\Dynamic Diagnostics\Active Sessions.sql" />
+    <None Include="Queries\Dynamic Diagnostics\Top SQL\Top SQL by Buffer Gets.sql" />
+    <None Include="Queries\Dynamic Diagnostics\Top SQL\Top SQL by Gets-RowsProc.sql" />
+    <None Include="Queries\Dynamic Diagnostics\Top SQL\Top SQL by CPU.sql" />
+    <None Include="Queries\Dynamic Diagnostics\Top SQL\Top SQL by Disk Reads.sql" />
+    <None Include="Queries\Dynamic Diagnostics\Top SQL\Top SQL by Executions.sql" />
+    <None Include="Queries\Dynamic Diagnostics\Top SQL\Top SQL by Waits.sql" />
+    <None Include="Queries\Diagnostics\EnqueueStatWT.sql" />
+    <None Include="Queries\Diagnostics\Historical Row Lock Contentions.sql" />
+    <None Include="Queries\Diagnostics\Memory.sql" />
+    <None Include="Queries\Diagnostics\Open Cursors.sql" />
+    <None Include="Queries\Diagnostics\Sessions.sql" />
+    <None Include="Queries\Diagnostics\TablespaceUse.sql" />
+    <None Include="Queries\Diagnostics\Wait Events.sql" />
+    <None Include="Templates\Database\ALTER SESSION.tpl" />
+    <None Include="Templates\Database\ALTER SYSTEM.tpl" />
+    <None Include="Templates\Database\CREATE_DATABASE.tpl" />
+    <None Include="Templates\Database\GRANT.tpl" />
+    <None Include="Templates\Database\SET TRANSACTION.tpl" />
+    <None Include="Templates\Packages\PACKAGE Body.tpl" />
+    <None Include="Templates\Packages\PACKAGE.tpl" />
+    <None Include="Templates\Select\ALTER SESSION DTTM.tpl" />
+    <None Include="Templates\Select\SELECT.tpl" />
+    <None Include="Templates\Select\TO_TIMESTAMP_TZ.tpl" />
+    <None Include="Templates\Sequence\ALTER.tpl" />
+    <None Include="Templates\Sequence\CREATE Full.tpl" />
+    <None Include="Templates\Sequence\CREATE.tpl" />
+    <None Include="Templates\Sequence\DROP.tpl" />
+    <None Include="Templates\Table\CREATE Custom.tpl" />
+    <None Include="Templates\Table\DROP.tpl" />
+    <None Include="Templates\Table\TRUNCATE.tpl" />
+    <None Include="Templates\Select\CASE Statement.tpl" />
+    <None Include="Templates\Packages\Cursor Block.tpl" />
+    <None Include="Templates\Packages\If Then Else.tpl" />
+    <None Include="Templates\Packages\If Then ElseIf.tpl" />
+    <None Include="Templates\Packages\For Loop.tpl" />
+    <None Include="Templates\Packages\While Loop.tpl" />
+    <None Include="Templates\Select\Pseudocolumns.tpl" />
+    <None Include="Templates\Select\Catalog of Functions.tpl" />
+    <None Include="Queries\UNIFI\recreate_oracle_em.bat" />
+    <None Include="Queries\UNIFI\RunScript1.bat" />
+    <None Include="Queries\UNIFI\RunUnifiQueries.bat" />
+    <None Include="Reports\ASH and AWR\Last AWR Report %28HTML).rpt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Queries\UNIFI\Unlock Everest.sql" />
+    <Build Include="Queries\UNIFI\ClearContentData.sql" />
+    <Build Include="Queries\UNIFI\GetAnalysisDetails.sql" />
+    <Build Include="Queries\UNIFI\GetAnalysisDetails01.sql" />
+    <Build Include="Queries\UNIFI\GetAnalysisDetails02.sql" />
+    <Build Include="Queries\UNIFI\GetAnalysisDetailsHelperFunctions.sql" />
+    <Build Include="Queries\UNIFI\GetAnalysisMethodDetails.sql" />
+    <Build Include="Queries\UNIFI\GetContentItemDetailsFromLast28Days.sql" />
+    <Build Include="Queries\UNIFI\GetEventLog.sql" />
+    <Build Include="Queries\UNIFI\GetEventLogForLast28Days.sql" />
+    <Build Include="Queries\UNIFI\GetInjectionDataDetailsForEachOpenAnalysis.sql" />
+    <Build Include="Queries\UNIFI\GetLockInfo01.sql" />
+    <Build Include="Queries\UNIFI\GetOpenAnalysisDetails.sql" />
+    <Build Include="Queries\UNIFI\GetSampleSetInfoWithStreamsLast28Days.sql" />
+    <Build Include="Queries\UNIFI\GetSampleSetInfoWithStreamSummaryLast28Days.sql" />
+    <Build Include="Queries\UNIFI\GrantCreateAccess.sql" />
+    <Build Include="Queries\UNIFI\GrantUserDebug.sql" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XmlSyntaxSettingsInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FontName>Lucida Console</FontName>
+  <FontSize>8</FontSize>
+  <FontStyle>Regular</FontStyle>
+  <NavOptions>UpAtLineBegin DownAtLineEnd</NavOptions>
+  <ScrollBars>ForcedBoth</ScrollBars>
+  <SelOptions>OverwriteBlocks</SelOptions>
+  <GutterOptions>PaintLinesOnGutter</GutterOptions>
+  <OutlineOptions>None</OutlineOptions>
+  <ShowGutter>true</ShowGutter>
+  <ShowMargin>false</ShowMargin>
+  <HighlightUrls>false</HighlightUrls>
+  <AllowOutlining>false</AllowOutlining>
+  <UseSpaces>false</UseSpaces>
+  <WordWrap>false</WordWrap>
+  <GutterWidth>16</GutterWidth>
+  <MarginPos>99</MarginPos>
+  <TabStops>
+    <int>4</int>
+  </TabStops>
+  <LexStyles>
+    <LexStyle>
+      <Name>idents</Name>
+      <Desc>Identifiers</Desc>
+      <ForeColor>WindowText</ForeColor>
+      <BackColor />
+      <FontStyle>Regular</FontStyle>
+      <Index>0</Index>
+      <PlainText>false</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>numbers</Name>
+      <Desc>Numbers</Desc>
+      <ForeColor>WindowText</ForeColor>
+      <BackColor />
+      <FontStyle>Regular</FontStyle>
+      <Index>0</Index>
+      <PlainText>false</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>reswords</Name>
+      <Desc>ResWords</Desc>
+      <ForeColor>Blue</ForeColor>
+      <BackColor />
+      <FontStyle>Regular</FontStyle>
+      <Index>0</Index>
+      <PlainText>false</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>comments</Name>
+      <Desc>Comments</Desc>
+      <ForeColor>Teal</ForeColor>
+      <BackColor />
+      <FontStyle>Regular</FontStyle>
+      <Index>0</Index>
+      <PlainText>true</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>strings</Name>
+      <Desc>Strings</Desc>
+      <ForeColor>Maroon</ForeColor>
+      <BackColor />
+      <FontStyle>Regular</FontStyle>
+      <Index>0</Index>
+      <PlainText>true</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>whitespace</Name>
+      <Desc>WhiteSpace</Desc>
+      <ForeColor>WindowText</ForeColor>
+      <BackColor />
+      <FontStyle>Regular</FontStyle>
+      <Index>0</Index>
+      <PlainText>false</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>directives</Name>
+      <Desc>Directives</Desc>
+      <ForeColor>DarkGreen</ForeColor>
+      <BackColor />
+      <FontStyle>Regular</FontStyle>
+      <Index>0</Index>
+      <PlainText>false</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>xmlcomments</Name>
+      <Desc>XML Comments</Desc>
+      <ForeColor>Gray</ForeColor>
+      <BackColor />
+      <FontStyle>Regular</FontStyle>
+      <Index>0</Index>
+      <PlainText>true</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>htmltags</Name>
+      <Desc>HTML tags</Desc>
+      <ForeColor>Maroon</ForeColor>
+      <BackColor />
+      <FontStyle>Regular</FontStyle>
+      <Index>0</Index>
+      <PlainText>false</PlainText>
+    </LexStyle>
+    <LexStyle>
+      <Name>hypertext</Name>
+      <Desc>HyperText</Desc>
+      <ForeColor>Blue</ForeColor>
+      <BackColor />
+      <FontStyle>Underline</FontStyle>
+      <Index>0</Index>
+      <PlainText>false</PlainText>
+    </LexStyle>
+  </LexStyles>
+</XmlSyntaxSettingsInfo>

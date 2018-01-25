@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="versionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="versionLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Italic</value>
+  </data>
+  <metadata name="helpProvider.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="versionLabel.HelpString" xml:space="preserve">
+    <value>Displays the About box.</value>
+  </data>
+  <data name="versionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 31</value>
+  </data>
+  <data name="versionLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="versionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="versionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="versionLabel.Text" xml:space="preserve">
+    <value>V3.0</value>
+  </data>
+  <data name="&gt;&gt;versionLabel.Name" xml:space="preserve">
+    <value>versionLabel</value>
+  </data>
+  <data name="&gt;&gt;versionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;versionLabel.Parent" xml:space="preserve">
+    <value>headerPanel</value>
+  </data>
+  <data name="&gt;&gt;versionLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="queryAnalyzerLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="queryAnalyzerLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Black, 9pt, style=Italic</value>
+  </data>
+  <data name="queryAnalyzerLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 29</value>
+  </data>
+  <data name="queryAnalyzerLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="queryAnalyzerLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="queryAnalyzerLabel.Text" xml:space="preserve">
+    <value>Query Analyzer</value>
+  </data>
+  <data name="&gt;&gt;queryAnalyzerLabel.Name" xml:space="preserve">
+    <value>queryAnalyzerLabel</value>
+  </data>
+  <data name="&gt;&gt;queryAnalyzerLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;queryAnalyzerLabel.Parent" xml:space="preserve">
+    <value>headerPanel</value>
+  </data>
+  <data name="&gt;&gt;queryAnalyzerLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="logoBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhjwAiAIcAAAghOQg5UghMdwlPeglRfjVJYTRIYzVJYjRKYjVJZDdIZDpLZE9PTU5QS1VVVUlb
+        c3RlRGZmZgpUggpWhgtZiQtbjQxekRBalAxglQ1jmA1lnA5noA5qow9spw9vqxBxrxBztRB0shF2thF5
+        uhJ7vhJ+wTVpzjpvzThp0E1rkVJsjVhtinN7hnN8hXN9hnR7gXV7h3d7hHR9hlB71xOAxROCyRSFzBiE
+        zhSH0CGU5zGc53CGnmaAoXWYvnuftViF2kqt72OM3m6R4mWW82ua9nWb4nWf9X2jyH+ny2u973+g5X2n
+        +5lmM4x3SIJ7YZlmZv8A/5mZZqSUY6WVYsyZAMaXK8iYLP+ZAMyZZv/MM8zMZv/MZpaWloaXqYmkta2p
+        kLGunqKssou00I+73omr64uq6oqw+5K5+pu9/aGpwKa2zq21wK+4x6y9z7O+zIzG95jD5qPJ3rrE0qPB
+        /6XW97TH57LE6LzN8L/f7rPY9bLe+bzl+bzk/u7Xh+7Yhf/Mmf//mcbN2cnP2MzS38HO48PP6cLR8snW
+        89rc4dDc9MHh+Mbn/8br/crm8tnk6t/k6tXg9tfh9trj99/n+NXw+dv2/d/4////zOXi4ePm6+Hp+Onv
+        +uDx+OX3++f2/ef3/+349PH0/PH///f5/ff4/vT9+vn+//v///3+/////wAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAABQACwAAAAAjwAiAAAI/wChCBxIsKDBgwgTKlzIsKHDhxAj
+        CixDsYwSJUWKCBESJMiPHzNmnDiBAsVAAShTqlzJsqXLlzBjypxJU4DDihYxauToEaRIkiahDBhKtKjR
+        o0iTKl3KtKnTp0QbkiEzZw4aNGfOmDGzZIkRI0SIDBliwgQUAmjTql3Ltq3bt3Djyp1Ldy3DqVWvZt3a
+        9WvYsWWhSBhMuLDhw4gTK17MuLHjx4YZDhpEqrLly5hJIUAAZYLnz6BDix5NurTp06hTqw4tmXLm15U3
+        Q6FAu7bt27hz697Nu7fv38Bvt05FPJUMGS5cvHgBA8akSY8eJUgApYL169dvvNnOvfubG9hBeP8fnwS7
+        +QpvUr05fz2AjvHdK4h/E4D9+fnwv7MfXvx48uXNPRfddFBYYOCBFlzwSXEMNpjKIgEYmIODFIKA4IET
+        EgfEhQaCsCCFxL1hQYYcchjAIiAS90mJFgj0xRdYYPFiFDRGESMXXBA3yiihhLLJJppoIokkhRRSQAFQ
+        YKDkkhgUtwgQOUQpZQ5JfPhJABhkCOWUUSZRHJZMBtAgk0qC4OSWXGKZIZlsBmBlElxGyeaSLsIo4xc1
+        2ogFjjry6COQQhJpJJIZFGooiqkAYeiiiwIRYgYZMrroDcTdwGh6iRK3CKMfWirpopF+aiimiopq6ot/
+        /HHJqqy2miqNMcT/wAILybXQAiSQ1FEHgRr02usFxCXh67DEaoBpABkW66uYqeQwLKXqaeBls75C66yy
+        wyaLrQbM0rHtt6iq2uq4r0YR66y13prrrtRt4K67GQbw7rz0bgBsKjdkWO+70N7wrpvEybvBhwJPu2+9
+        +h68gZkP5rddEgfHuMUWgFRscaoTZ5EFE0xEEkkiiRxyiCGG3HGHHXYQyMHKK2fI8ssws0xclMRxkC+X
+        06YSAMvT5sAytHSsjGnMRLtMdMspMugz0RJTbHHFGG+hMccegywyySajTGAHXHMdb9dgh93BvfkS10EA
+        dIAIQtf3LhI2pjd0MK3YdGdId9cML+JwEnd3/xCjxqlWnHEWV1yxxhpttOGFFzvsMN10CihggAEHHACF
+        B5hjfi8QmXfuuQfHZph52pq+kYTnH77XHaJXWvv556K/jjmzb8huO+Z/ZxE4IIMXfnjiizf+eAKRT145
+        FB8krzyiNyjvvPOOqvdBhtCreMHzOmj4wYcO0vchCM+HT334zpNK/vnK57774GywAQoooohSSSVxxLHC
+        CgmFoP/+9z6oQ5w50AHrAhCCDO1Pf9kjDggOqCL9XWA8iLoAw1JBBwBG6QJasuAFP/QkC97ggPtT3x8E
+        J7UstO998Ztf/e6XEBG48IUi8FDSinMlF2YIhi6cIBBcGEEcwpBZV5pgiv+QNcMHiQBgSbuBD0UgQhKC
+        AQyOcAQqUHGKU3jCE4xghBjEgL+DjOCLYPyie0hHoQqGMUNhDOOH3pChN6TxjQkEwggAAAREOSgHI0Bi
+        is6IKQfR4Y1fbCLvtvDEKE6xilfM4ha7aBASOPKRkIykJCdJyUpa8pKYzKQmIynIiXWhC53ohClMUYpS
+        cIITilAEHODwgAccpASwjKUsZ0nLWtrylrjMpS53yctZdnILnwzlKEt5ylSuspUHoYEyl8nMZjrzmdCM
+        pjSnSc1qWrOZv0xDGvCAB0tYghKUaEQj8pAHJCBhAQs4SA3Wyc52uvOd8IynPOdJz3ra857uzOY2u/n/
+        zXCOs5znTOdBbEDQghr0oAhNqEIXytCGOvShEC0oFGgEuBEOUhCC8IEP9rAHPvBBD3oYwxhUoAInOCEh
+        OEipSlfK0pa69KUwjalMZ0rTmuJAIBTVnUUnhlGNctSjIBUpSU0qkaIa9ahIjUhOnzY4N7iBBzw4whF6
+        0IMUpKAJTehDH6QghaR69atgVWoUNMbUEjoVqlKlqlWxqlWuhvWtcI0rFCIQAS1oYX0lLFyMOEaQBjTA
+        Clbwgx+mMAW5GvawEaGrXfGqMb1iga8D8StgBUtYxFr2sgqh6xOeQCOOeZYJDnAAQhjAgCpUAQIQwKxq
+        VzvXCGy2s58FrWgPQlrTDaKWtbjNrW53y1soBAQAOw==
+</value>
+  </data>
+  <data name="logoBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 3</value>
+  </data>
+  <data name="logoBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 34</value>
+  </data>
+  <data name="logoBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;logoBox.Name" xml:space="preserve">
+    <value>logoBox</value>
+  </data>
+  <data name="&gt;&gt;logoBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logoBox.Parent" xml:space="preserve">
+    <value>headerPanel</value>
+  </data>
+  <data name="&gt;&gt;logoBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="orcaBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="orcaBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAgEASABIAAD/2wBDAAYEBQYFBAYGBQYHBwYIChELCgkJChUPEAwRGRYaGhgWGBcb
+        HyghGx0lHhcYIi8jJSkqLC0sGyExNDArNCgrLCv/2wBDAQcHBwoJChQLCxQrHBgcHCsrKysrKysrKysr
+        KysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKyv/wAARCAAwADwDAREAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDF/hYNgLjqxGK+tZ86k72ECx5wzLz3QVHoaa7MZdWwkA2Ngg4+
+        YUJ73K00sii9up5zhh2zQUYXia+fStMM0br5zMEXI79z+Vc2Kq+yjdbnTho+0dmWC+YuWjTK9c45/Cuq
+        Kdk2YOavZEaXD4x5iZHcZNNwXYFNpbjZJ3Lk+Y5PfBpWfYPd7nX7IlXEm4gn7p6Ctdb6HDpbUzPE2pWW
+        h2iS3Y80ucRxqRuY/wCHvXNXxMaS13OmhhpVX5HO6V4h8ReIbiS10LT7dplAKwpG8sjD8M/mcCvHqY+p
+        e+x7FPBU0rbmN4ouPFOiakbTXGmsLnaG8rYFyOx4qPrdSX2jRYWnH7KMhdS/tG5thrFxK8EbrlhzgZ54
+        qJVJSd5O5cacUrJWPWEgspH3KqSBh8rKOD+Ne7Tq88VJM8epSdOTi0VbmCIB1EeFHTB/pTcmxxilrcqf
+        Z45fmKMD0+7TtILxN/ztrfMdx7c//Wrpt2PMb7mNrmk6TqF7HqOrxu0UMex180qCAc5yDxjP6ivNx2Dc
+        /fjKzR6eBxcYe5KN0+x2fgnT/AaW5ls7C9sWnj2/aba/nR8ev3gf0xXgVMPiErtXXoe7GrQbtGVmeHfE
+        G0s7bxRfHSNRuNSsGlIS5uTmRyMZyepweM4GetXBu2qsRNWejuc0Q3XIqyT0XwGdRtrVDfWtymn3u5rW
+        4ljOyRl+8Fbv/wDWrtwNT3vZ9zmxcfd9p2OpkaMkAkAnoAeTXrpW6HmN32ZAyxlj87H6Gld9iuRdzsDP
+        Aggk2KkJOD5ybAT7e3+TWKlLVPcbhHRrYp6hBYX5jVwQqNlgRuUH16YrRPvqYSi/suxDdafLg7LjIxkk
+        HH9K6I1Y9Uc8qUlszDvfDdpqk26eRfPKlNzEHg+uCD/UVyYzDQqRulZnZg8TUpys3dD9F+DkiapNJq4R
+        tLCB7cJPzI3ZGO3gHByR+FeDKMldI96Di9WdV4q8V2t/4cXwtqGmQ6df6ddQtbRW77k8vBGQQMLgNjHf
+        NTg+aFeLXceKipUpehxUyWsD/uvM3Z6Dqa+uTkz5dqPcr+dAT8izgdwCOtS1ItKNjrHjtoCyTTg887iB
+        /KsrylqkTaMXqx0WnRPJmMxqAcqFkHHTt+VS2upet9CCVvL3EyOiAjAcZz+VbRSZhKTQulQS3Goxvtid
+        gScrxx/k1NaSUGh0OZzTPdNH06a90y3EoALKueBnHX+RNfNVJJSdj6WndxVzwz4maBeWvxOnaBJ1tpts
+        iyrnBO3OM+gI/SlhtasfUuu37GT8jAjSSSTYSJJFOMOmc/iK+r50kfMODk9CcWgyxWIcnnCqQPzBrL2p
+        r7Ns7Cx8P6rOjTTWi+W3Riowf16Vz1K9OOiY6dCrLWSNZPD9yYU86KOFMhS5Gf5Hr+Nc7rq+jOhUXbVW
+        N608G6Zc6colMqseHIIUgj05zWDxlSMtDdYSnKFmja0DwZodmBIUZ9qkN5pOSP5VhWxdWe7N6OFpQ2R2
+        ttcWGPJglUFf4ScEVxNPqdaZR1nUNIsreZ7+NWUfeEi7uPp+Jp04Sb90U5JL3tjxjxLqFpJLMui2sFvb
+        s24PGxDc+wPHGa9ijGVvfd2edVkvsIzdM0jxDc2oksrZ3iJPK3I4Ppwa0nVop2k/wM4UqrV0vxP/2Q==
+</value>
+  </data>
+  <data name="orcaBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="orcaBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 48</value>
+  </data>
+  <data name="orcaBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;orcaBox.Name" xml:space="preserve">
+    <value>orcaBox</value>
+  </data>
+  <data name="&gt;&gt;orcaBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;orcaBox.Parent" xml:space="preserve">
+    <value>headerPanel</value>
+  </data>
+  <data name="&gt;&gt;orcaBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="headerPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="headerPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="headerPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 50</value>
+  </data>
+  <data name="headerPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;headerPanel.Name" xml:space="preserve">
+    <value>headerPanel</value>
+  </data>
+  <data name="&gt;&gt;headerPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;headerPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;headerPanel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="cancelButton.HelpString" xml:space="preserve">
+    <value>Closes the connection window and aborts the application.</value>
+  </data>
+  <data name="cancelButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 376</value>
+  </data>
+  <data name="cancelButton.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cancelButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="cancelButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cancelButton.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.Name" xml:space="preserve">
+    <value>cancelButton</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cancelButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="okButton.HelpString" xml:space="preserve">
+    <value>Attempts to authenticate the specified User ID and if successful opens the Orqa main window.</value>
+  </data>
+  <data name="okButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 376</value>
+  </data>
+  <data name="okButton.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="okButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="okButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="okButton.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;okButton.Name" xml:space="preserve">
+    <value>okButton</value>
+  </data>
+  <data name="&gt;&gt;okButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;okButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;okButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="servicesButton.HelpString" xml:space="preserve">
+    <value>Opens the Service Controller window.</value>
+  </data>
+  <data name="servicesButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAtElEQVQ4T5WQUQ6FIAwE+eDgfnkububL
+        UCZWUOObhLCW7rax3LHv+zHkdzTVWg/g9pv7FcyttW4CvtFz2CM2QjaBwaN1xWl3U+f6sFzhgSliMyfz
+        GuAUQIs1BlAfluuPtdEmA6htW+m3QaeOeg/w0S04ahoJyaHW0D0ANGbNed7g1D1ghgfMTMvNnOBmi4wB
+        YYiQfOf3YVnRTGNsE5uE/sOM9lttKHpYVmxWZ0N++4SG1VTKD05ZPX2bKj7qAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="servicesButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 376</value>
+  </data>
+  <data name="servicesButton.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="servicesButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 23</value>
+  </data>
+  <data name="servicesButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;servicesButton.Name" xml:space="preserve">
+    <value>servicesButton</value>
+  </data>
+  <data name="&gt;&gt;servicesButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;servicesButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;servicesButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="userIDLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="userIDLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 65</value>
+  </data>
+  <data name="userIDLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="userIDLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="userIDLabel.Text" xml:space="preserve">
+    <value>User ID:</value>
+  </data>
+  <data name="&gt;&gt;userIDLabel.Name" xml:space="preserve">
+    <value>userIDLabel</value>
+  </data>
+  <data name="&gt;&gt;userIDLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;userIDLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;userIDLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="userIDBox.HelpString" xml:space="preserve">
+    <value>Specify the Oracle user ID for authentication.</value>
+  </data>
+  <data name="userIDBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 62</value>
+  </data>
+  <data name="userIDBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="userIDBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="userIDBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;userIDBox.Name" xml:space="preserve">
+    <value>userIDBox</value>
+  </data>
+  <data name="&gt;&gt;userIDBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;userIDBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;userIDBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="passwordBox.HelpString" xml:space="preserve">
+    <value>Specify the password associated with the given user for authentication.</value>
+  </data>
+  <data name="passwordBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 87</value>
+  </data>
+  <data name="passwordBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="passwordBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="passwordBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;passwordBox.Name" xml:space="preserve">
+    <value>passwordBox</value>
+  </data>
+  <data name="&gt;&gt;passwordBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;passwordBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="modeBox.HelpString" xml:space="preserve">
+    <value>Select a user mode to apply to this connection.</value>
+  </data>
+  <data name="modeBox.Items" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="modeBox.Items1" xml:space="preserve">
+    <value>SYSDBA</value>
+  </data>
+  <data name="modeBox.Items2" xml:space="preserve">
+    <value>SYSOPER</value>
+  </data>
+  <data name="modeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 112</value>
+  </data>
+  <data name="modeBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="modeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="modeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;modeBox.Name" xml:space="preserve">
+    <value>modeBox</value>
+  </data>
+  <data name="&gt;&gt;modeBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;modeBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;modeBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="passwordLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="passwordLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 90</value>
+  </data>
+  <data name="passwordLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="passwordLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="passwordLabel.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.Name" xml:space="preserve">
+    <value>passwordLabel</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;passwordLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="modeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="modeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 115</value>
+  </data>
+  <data name="modeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="modeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="modeLabel.Text" xml:space="preserve">
+    <value>Mode:</value>
+  </data>
+  <data name="&gt;&gt;modeLabel.Name" xml:space="preserve">
+    <value>modeLabel</value>
+  </data>
+  <data name="&gt;&gt;modeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;modeLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;modeLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tnsLinkLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tnsLinkLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Italic</value>
+  </data>
+  <data name="tnsLinkLabel.HelpString" xml:space="preserve">
+    <value>Displays the About box.</value>
+  </data>
+  <data name="tnsLinkLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tnsLinkLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 50</value>
+  </data>
+  <data name="tnsLinkLabel.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tnsLinkLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="tnsLinkLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="tnsLinkLabel.Text" xml:space="preserve">
+    <value>edit tnsnames.ora</value>
+  </data>
+  <data name="&gt;&gt;tnsLinkLabel.Name" xml:space="preserve">
+    <value>tnsLinkLabel</value>
+  </data>
+  <data name="&gt;&gt;tnsLinkLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tnsLinkLabel.Parent" xml:space="preserve">
+    <value>methodGroupBox</value>
+  </data>
+  <data name="&gt;&gt;tnsLinkLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="serviceLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="serviceLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 179</value>
+  </data>
+  <data name="serviceLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="serviceLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="serviceLabel.Text" xml:space="preserve">
+    <value>Service:</value>
+  </data>
+  <data name="&gt;&gt;serviceLabel.Name" xml:space="preserve">
+    <value>serviceLabel</value>
+  </data>
+  <data name="&gt;&gt;serviceLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serviceLabel.Parent" xml:space="preserve">
+    <value>methodGroupBox</value>
+  </data>
+  <data name="&gt;&gt;serviceLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="portLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="portLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 154</value>
+  </data>
+  <data name="portLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="portLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="portLabel.Text" xml:space="preserve">
+    <value>Port:</value>
+  </data>
+  <data name="&gt;&gt;portLabel.Name" xml:space="preserve">
+    <value>portLabel</value>
+  </data>
+  <data name="&gt;&gt;portLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;portLabel.Parent" xml:space="preserve">
+    <value>methodGroupBox</value>
+  </data>
+  <data name="&gt;&gt;portLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="hostLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hostLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 129</value>
+  </data>
+  <data name="hostLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="hostLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="hostLabel.Text" xml:space="preserve">
+    <value>Host:</value>
+  </data>
+  <data name="&gt;&gt;hostLabel.Name" xml:space="preserve">
+    <value>hostLabel</value>
+  </data>
+  <data name="&gt;&gt;hostLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hostLabel.Parent" xml:space="preserve">
+    <value>methodGroupBox</value>
+  </data>
+  <data name="&gt;&gt;hostLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tnsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tnsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 74</value>
+  </data>
+  <data name="tnsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="tnsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tnsLabel.Text" xml:space="preserve">
+    <value>TNS:</value>
+  </data>
+  <data name="&gt;&gt;tnsLabel.Name" xml:space="preserve">
+    <value>tnsLabel</value>
+  </data>
+  <data name="&gt;&gt;tnsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tnsLabel.Parent" xml:space="preserve">
+    <value>methodGroupBox</value>
+  </data>
+  <data name="&gt;&gt;tnsLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="serviceBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="serviceBox.HelpString" xml:space="preserve">
+    <value>The service instance name to connect to.</value>
+  </data>
+  <data name="serviceBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 176</value>
+  </data>
+  <data name="serviceBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="serviceBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="serviceBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="serviceBox.Text" xml:space="preserve">
+    <value>UNIFI</value>
+  </data>
+  <data name="&gt;&gt;serviceBox.Name" xml:space="preserve">
+    <value>serviceBox</value>
+  </data>
+  <data name="&gt;&gt;serviceBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;serviceBox.Parent" xml:space="preserve">
+    <value>methodGroupBox</value>
+  </data>
+  <data name="&gt;&gt;serviceBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="portBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="portBox.HelpString" xml:space="preserve">
+    <value>The port number of the remote listener.</value>
+  </data>
+  <data name="portBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 151</value>
+  </data>
+  <data name="portBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="portBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="portBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="portBox.Text" xml:space="preserve">
+    <value>1521</value>
+  </data>
+  <data name="&gt;&gt;portBox.Name" xml:space="preserve">
+    <value>portBox</value>
+  </data>
+  <data name="&gt;&gt;portBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;portBox.Parent" xml:space="preserve">
+    <value>methodGroupBox</value>
+  </data>
+  <data name="&gt;&gt;portBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="hostBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="hostBox.HelpString" xml:space="preserve">
+    <value>The host name or IP address of the remote listener.</value>
+  </data>
+  <data name="hostBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 126</value>
+  </data>
+  <data name="hostBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hostBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 20</value>
+  </data>
+  <data name="hostBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="hostBox.Text" xml:space="preserve">
+    <value>192.168.137.105</value>
+  </data>
+  <data name="&gt;&gt;hostBox.Name" xml:space="preserve">
+    <value>hostBox</value>
+  </data>
+  <data name="&gt;&gt;hostBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hostBox.Parent" xml:space="preserve">
+    <value>methodGroupBox</value>
+  </data>
+  <data name="&gt;&gt;hostBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="remoteButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="remoteButton.HelpString" xml:space="preserve">
+    <value>Constructs a raw TNS-style connection string from the specified parameters including the Host name or IP address, the listener Port number and the remote Service instance name.</value>
+  </data>
+  <data name="remoteButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 102</value>
+  </data>
+  <data name="remoteButton.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="remoteButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 17</value>
+  </data>
+  <data name="remoteButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="remoteButton.Text" xml:space="preserve">
+    <value>Use remote listener</value>
+  </data>
+  <data name="&gt;&gt;remoteButton.Name" xml:space="preserve">
+    <value>remoteButton</value>
+  </data>
+  <data name="&gt;&gt;remoteButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;remoteButton.Parent" xml:space="preserve">
+    <value>methodGroupBox</value>
+  </data>
+  <data name="&gt;&gt;remoteButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tnsBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tnsBox.HelpString" xml:space="preserve">
+    <value>Lists the names discovered in the local tnsnames.ora file.</value>
+  </data>
+  <data name="tnsBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 71</value>
+  </data>
+  <data name="tnsBox.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tnsBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 21</value>
+  </data>
+  <data name="tnsBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tnsBox.Name" xml:space="preserve">
+    <value>tnsBox</value>
+  </data>
+  <data name="&gt;&gt;tnsBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tnsBox.Parent" xml:space="preserve">
+    <value>methodGroupBox</value>
+  </data>
+  <data name="&gt;&gt;tnsBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tnsButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tnsButton.HelpString" xml:space="preserve">
+    <value>Extracts the service names from the tnsnames.ora file discovered on the local client workstation.  These names are listed in the TNS drop-down box.</value>
+  </data>
+  <data name="tnsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 48</value>
+  </data>
+  <data name="tnsButton.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tnsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 17</value>
+  </data>
+  <data name="tnsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tnsButton.Text" xml:space="preserve">
+    <value>Use local TNS names</value>
+  </data>
+  <data name="&gt;&gt;tnsButton.Name" xml:space="preserve">
+    <value>tnsButton</value>
+  </data>
+  <data name="&gt;&gt;tnsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tnsButton.Parent" xml:space="preserve">
+    <value>methodGroupBox</value>
+  </data>
+  <data name="&gt;&gt;tnsButton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="localButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="localButton.HelpString" xml:space="preserve">
+    <value>Connects to the Oracle installation on the local workstation assuming the default instance name of the specified User ID.  This bypasses the tnsnames.ora file and does not go through a local listener service.</value>
+  </data>
+  <data name="localButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 21</value>
+  </data>
+  <data name="localButton.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="localButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 17</value>
+  </data>
+  <data name="localButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="localButton.Text" xml:space="preserve">
+    <value>Use local service without listener</value>
+  </data>
+  <data name="&gt;&gt;localButton.Name" xml:space="preserve">
+    <value>localButton</value>
+  </data>
+  <data name="&gt;&gt;localButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;localButton.Parent" xml:space="preserve">
+    <value>methodGroupBox</value>
+  </data>
+  <data name="&gt;&gt;localButton.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="methodGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 148</value>
+  </data>
+  <data name="methodGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 212</value>
+  </data>
+  <data name="methodGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="methodGroupBox.Text" xml:space="preserve">
+    <value>Connection Method</value>
+  </data>
+  <data name="&gt;&gt;methodGroupBox.Name" xml:space="preserve">
+    <value>methodGroupBox</value>
+  </data>
+  <data name="&gt;&gt;methodGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;methodGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;methodGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>284, 413</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAB
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYABAQEAAgICAAMDAwAERERABYW
+        FgAcHBwAIiIiACkpKQBVVVUATU1NAEJCQgA5OTkAgHz/AFBQ/wCTANYA/+zMAMbW7wDW5+cAkKmtAAAA
+        MwAAAGYAAACZAAAAzAAAMwAAADMzAAAzZgAAM5kAADPMAAAz/wAAZgAAAGYzAABmZgAAZpkAAGbMAABm
+        /wAAmQAAAJkzAACZZgAAmZkAAJnMAACZ/wAAzAAAAMwzAADMZgAAzJkAAMzMAADM/wAA/2YAAP+ZAAD/
+        zAAzAAAAMwAzADMAZgAzAJkAMwDMADMA/wAzMwAAMzMzADMzZgAzM5kAMzPMADMz/wAzZgAAM2YzADNm
+        ZgAzZpkAM2bMADNm/wAzmQAAM5kzADOZZgAzmZkAM5nMADOZ/wAzzAAAM8wzADPMZgAzzJkAM8zMADPM
+        /wAz/zMAM/9mADP/mQAz/8wAM///AGYAAABmADMAZgBmAGYAmQBmAMwAZgD/AGYzAABmMzMAZjNmAGYz
+        mQBmM8wAZjP/AGZmAABmZjMAZmZmAGZmmQBmZswAZpkAAGaZMwBmmWYAZpmZAGaZzABmmf8AZswAAGbM
+        MwBmzJkAZszMAGbM/wBm/wAAZv8zAGb/mQBm/8wAzAD/AP8AzACZmQAAmTOZAJkAmQCZAMwAmQAAAJkz
+        MwCZAGYAmTPMAJkA/wCZZgAAmWYzAJkzZgCZZpkAmWbMAJkz/wCZmTMAmZlmAJmZmQCZmcwAmZn/AJnM
+        AACZzDMAZsxmAJnMmQCZzMwAmcz/AJn/AACZ/zMAmcxmAJn/mQCZ/8wAmf//AMwAAACZADMAzABmAMwA
+        mQDMAMwAmTMAAMwzMwDMM2YAzDOZAMwzzADMM/8AzGYAAMxmMwCZZmYAzGaZAMxmzACZZv8AzJkAAMyZ
+        MwDMmWYAzJmZAMyZzADMmf8AzMwAAMzMMwDMzGYAzMyZAMzMzADMzP8AzP8AAMz/MwCZ/2YAzP+ZAMz/
+        zADM//8AzAAzAP8AZgD/AJkAzDMAAP8zMwD/M2YA/zOZAP8zzAD/M/8A/2YAAP9mMwDMZmYA/2aZAP9m
+        zADMZv8A/5kAAP+ZMwD/mWYA/5mZAP+ZzAD/mf8A/8wAAP/MMwD/zGYA/8yZAP/MzAD/zP8A//8zAMz/
+        ZgD//5kA///MAGZm/wBm/2YAZv//AP9mZgD/Zv8A//9mACEApQBfX18Ad3d3AIaGhgCWlpYAy8vLALKy
+        sgDX19cA3d3dAOPj4wDq6uoA8fHxAPj4+ADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8ACm1uc0tLSxIKCgryE1JKCm15mqB6WTHzvLzxE1KacwpzWaCgelkHkbS0i0uacwoKc1maoHq8
+        tBkZCbuu6woKCnRZmqB6tQniGRkJtGYKCgp0WZqgeu30///0GQnqCgoKdFmaoHoc8v//9Bm77woKCnRZ
+        mqB6WQf0/xm7rrwKCgp0WZqgelky7wf3kbtmZmZmdHqgoKCaellLGRnd3d0JZhyaw8PDw8Oac+zs7OwZ
+        CWYKHHQcc3N07f////T0891mCgoKCgoK8P//7Ozs7BnyZgoKCgoKCvD//////////2YKCgoKCgrWCdzc
+        3NXV1dWtCgoKCgoK1ta0tLS0tM+trYDhAAAAAQAAAAMAAAAHAAAABwAAAAcAAAAHAAAABwAAAAAAAAAA
+        AAAAAAAAgAAAAPwAAAD8AAAA/AAAAPwAAAA=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Orqa - Connect to Oracle</value>
+  </data>
+  <data name="&gt;&gt;helpProvider.Name" xml:space="preserve">
+    <value>helpProvider</value>
+  </data>
+  <data name="&gt;&gt;helpProvider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ConnectDialog</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

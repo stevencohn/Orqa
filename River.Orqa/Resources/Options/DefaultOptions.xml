@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<OrqaOptions version="3.0">
+  <general resx="GeneralOptions" icon="0" sheet="River.Orqa.Options.GeneralSheet">
+    <queryPath></queryPath>
+    <resultPath></resultPath>
+    <templatePath></templatePath>
+    <queryExtension>sql</queryExtension>
+    <resultExtension>txt</resultExtension>
+		<reportExtension>rpt</reportExtension>
+		<templateExtension>tpl</templateExtension>
+    <maxMru>4</maxMru>
+    <saveModified>true</saveModified>
+    <savePosition>true</savePosition>
+    <defaultApp>true</defaultApp>
+  </general>
+  <editor resx="EditorOptions" icon="1" ref="editor/general">
+    <general resx="EditorGeneralOptions" icon="1" sheet="River.Orqa.Options.EditorSheet">
+      <showGutter>true</showGutter>
+      <lineNumbers>true</lineNumbers>
+      <gutterWidth>20</gutterWidth>
+      <showMargin>true</showMargin>
+      <marginPosition>99</marginPosition>
+      <wordWrap>false</wordWrap>
+      <wrapAtMargin>false</wrapAtMargin>
+      <beyondEoln>false</beyondEoln>
+      <beyondEof>false</beyondEof>
+      <verticalScroll>true</verticalScroll>
+      <horizontalScroll>true</horizontalScroll>
+    </general>
+    <editorFonts resx="EditorFontOptions" icon="5" sheet="River.Orqa.Options.EditorFontSheet">
+      <font>
+        <family>Lucida Console</family>
+        <size>8</size>
+      </font>
+      <lexStyles>
+
+				<!-- DARK SELENIC COLORS... -->
+
+				<idents foreColor="FFDEDEBC" backColor="FF292929" style="0" resx="LexIdents" />
+				<numbers foreColor="FF6E96BE" backColor="FF292929" style="0" resx="LexNumbers" />
+				<reswords foreColor="FFEFC986" backColor="FF292929" style="0" resx="LexReswords" />
+				<comments foreColor="FF7A987A" backColor="FF292929" style="0" resx="LexComments" />
+				<strings foreColor="FFB86C5F" backColor="FF292929" style="0" resx="LexStrings" />
+				<whitespace foreColor="FFD0D0D0" backColor="FF292929" style="0" resx="LexWhitespace" />
+				<linenumbers foreColor="FF808080" backColor="FF000000" style="0" resx="LexLinenumbers" />
+
+				<!-- DEFAULT LIGHT COLORS...
+
+				<idents foreColor="WindowText" backColor="Window" style="0" resx="LexIdents" />
+        <numbers foreColor="WindowText" backColor="Window" style="0" resx="LexNumbers" />
+        <reswords foreColor="Blue" backColor="Window" style="0" resx="LexReswords" />
+        <comments foreColor="Teal" backColor="Window" style="0" resx="LexComments" />
+        <strings foreColor="Maroon" backColor="Window" style="0" resx="LexStrings" />
+        <whitespace foreColor="Green" backColor="Window" style="0" resx="LexWhitespace" />
+				<linenumbers foreColor="WindowText" backColor="Window" style="0" resx="LexLinenumbers" />
+				-->
+				<!--directives foreColor="Orange" backColor="Window" style="0" resx="LexDirectives" /-->
+				<!--xmlcomments foreColor="Gray" backColor="Window" style="0" resx="LexXmlcomments" /-->
+				<!--htmltags foreColor="Maroon" backColor="Window" style="0" resx="LexHtmltags" /-->
+				<!--hypertext foreColor="Blue" backColor="Window" style="0" resx="LexHypertext" /-->
+        <!--spelling foreColor="Red" backColor="Window" style="0" resx="LexSpelling" /-->
+      </lexStyles>
+    </editorFonts>
+    <editorTabs resx="EditorTabsOptions" icon="6" sheet="River.Orqa.Options.EditorTabsSheet">
+      <size>4</size>
+      <keepTabs>true</keepTabs>
+    </editorTabs>
+  </editor>
+  <connections resx="ConnectionsOptions" icon="2" sheet="River.Orqa.Options.ConnectionsSheet">
+    <loginTimeout>60</loginTimeout>
+    <queryTimeout>120</queryTimeout>
+    <parseMode>Prompt</parseMode>
+    <planTable>PLAN_TABLE</planTable>
+    <utilProcedure>ORQA_BLOCK_PROCEDURE</utilProcedure>
+    <optimizeSql>false</optimizeSql>
+  </connections>
+  <results resx="ResultsOptions" icon="3" ref="results/general">
+    <general resx="ResultsGeneralOptions" icon="3" sheet="River.Orqa.Options.ResultsSheet">
+      <target>0</target>
+      <format>0</format>
+      <delimeter>|</delimeter>
+      <maxChar>35</maxChar>
+      <printHeader>true</printHeader>
+      <scrollResults>true</scrollResults>
+      <rightAlign>false</rightAlign>
+      <outputQuery>false</outputQuery>
+      <dbmsOutput>false</dbmsOutput>
+      <cleanNewlines>true</cleanNewlines>
+    </general>
+    <resultFonts resx="ResultsFontOptions" icon="5" sheet="River.Orqa.Options.ResultsFontSheet">
+      <textFont family="Lucida Console" size="8" backColor="Window" foreColor="WindowText" style="0" resx="TextFont" />
+      <gridFont family="Tahoma" size="8" backColor="Window" foreColor="WindowText" style="0" resx="GridFont" />
+      <errorMsgFont family="Lucida Console" size="8" backColor="Window" foreColor="Red" style="0" resx="ErrorMsgFont" />
+      <infoMsgFont family="Lucida Console" size="8" backColor="Window" foreColor="WindowText" style="0" resx="InfoMsgFont" />
+      <userMsgFont family="Lucida Console" size="8" backColor="Window" foreColor="Red" style="0" resx="UserMsgFont" />
+      <stateMsgFont family="Lucida Console" size="8" backColor="Window" foreColor="Green" style="0" resx="StateMsgFont" />
+    </resultFonts>
+  </results>
+  <statistics resx="StatisticsOptions" icon="4" sheet="River.Orqa.Options.StatisticsSheet">
+    <classifications>65</classifications>
+  </statistics>
+</OrqaOptions>

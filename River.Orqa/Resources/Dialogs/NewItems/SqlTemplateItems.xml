@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+	<template>
+		<icon>SqlScript</icon>
+		<name>SQL Query</name>
+		<description>SQL script containing one or more queries.</description>
+		<filename>Query.sql</filename>
+		<resID>SqlScript_bat</resID>
+	</template>
+	<template>
+		<icon>Report</icon>
+		<name>DBMS Report</name>
+		<description>Report script for database analysis.</description>
+		<filename>Report.rpt</filename>
+		<resID>Report_rpt</resID>
+	</template>
+	<template>
+		<icon>Template</icon>
+		<name>SQL Template Descriptor</name>
+		<description>PL/SQL template description used to construct queries.</description>
+		<filename>Template.tpl</filename>
+		<resID>Template_tpl</resID>
+	</template>
+</templates>

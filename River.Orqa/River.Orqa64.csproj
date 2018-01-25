@@ -1,0 +1,905 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BEEED2C3-8FF0-4E3D-95A5-DC971B5F9FC9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>River.Orqa</RootNamespace>
+    <AssemblyName>River.Orqa</AssemblyName>
+    <ApplicationIcon>Orqa.ico</ApplicationIcon>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa64.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa64.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'All Dependencies|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'All Dependencies|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa64.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa64.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa64.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'All Dependencies|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug64\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>
+    </CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>Migrated rules for River.Orqa64.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=2.111.7.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Oracle\product\11.1.0\client_1\ODP.NET\bin\2.x\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Browser\Browser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browser\Browser.Designer.cs">
+      <DependentUpon>Browser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\EventHandlers.cs" />
+    <Compile Include="Browser\IBrowser.cs" />
+    <Compile Include="Browser\Projects\IProjectContainer.cs" />
+    <Compile Include="Browser\Projects\Project.cs" />
+    <Compile Include="Browser\Projects\ProjectFileInvalidException.cs" />
+    <Compile Include="Browser\Projects\ProjectItem.cs" />
+    <Compile Include="Browser\Projects\ProjectItemCollection.cs" />
+    <Compile Include="Browser\Projects\ProjectManager.cs" />
+    <Compile Include="Browser\ProjectTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browser\ProjectTree.Designer.cs">
+      <DependentUpon>ProjectTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\SchemaIcons.cs" />
+    <Compile Include="Browser\SchemaManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browser\SchemaManager.Designer.cs">
+      <DependentUpon>SchemaManager.cs</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Browser\Schemata\SchemaDescriptor.cs" />
+    <Compile Include="Browser\SchemaProperty.cs" />
+    <Compile Include="Browser\Schemata\SchemataColumn.cs" />
+    <Compile Include="Browser\Schemata\SchemataColumnFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataConstraint.cs" />
+    <Compile Include="Browser\Schemata\SchemataConstraintFolder.cs" />
+    <None Include="Browser\Schemata\SchemataFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataFunction.cs" />
+    <Compile Include="Browser\Schemata\SchemataFunctionFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataIndex.cs" />
+    <Compile Include="Browser\Schemata\SchemataIndexFolder.cs" />
+    <Compile Include="Browser\SchemaProperties.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browser\SchemaProperties.Designer.cs">
+      <DependentUpon>SchemaProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Browser\Schemata\SchemataNode.cs">
+    </Compile>
+    <Compile Include="Browser\Schemata\SchemataPackage.cs" />
+    <Compile Include="Browser\Schemata\SchemataPackageBody.cs" />
+    <Compile Include="Browser\Schemata\SchemataPackageBodyFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataPackageFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataParameter.cs" />
+    <Compile Include="Browser\Schemata\SchemataProcedure.cs" />
+    <Compile Include="Browser\Schemata\SchemataProcedureFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataSchema.cs" />
+    <Compile Include="Browser\Schemata\SchemataSequence.cs" />
+    <Compile Include="Browser\Schemata\SchemataSequenceFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataServer.cs" />
+    <Compile Include="Browser\Schemata\SchemataSynonym.cs" />
+    <Compile Include="Browser\Schemata\SchemataSynonymFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataTable.cs" />
+    <Compile Include="Browser\Schemata\SchemataTableFolder.cs" />
+    <Compile Include="Browser\Schemata\SchemataType.cs" />
+    <Compile Include="Browser\Schemata\SchemataView.cs" />
+    <Compile Include="Browser\Schemata\SchemataViewFolder.cs" />
+    <Compile Include="Browser\TemplateTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Browser\TemplateTree.Designer.cs">
+      <DependentUpon>TemplateTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommandGroup.cs" />
+    <Compile Include="Controls\Collections\CollectionWithEvents.cs" />
+    <Compile Include="Controls\Collections\ContentCollection.cs" />
+    <Compile Include="Controls\Collections\HotZoneCollection.cs" />
+    <Compile Include="Controls\Collections\ManagerContentCollection.cs" />
+    <Compile Include="Controls\Collections\MenuCommandCollection.cs" />
+    <Compile Include="Controls\Collections\StringCollection.cs" />
+    <Compile Include="Controls\Collections\TabGroupBaseCollection.cs" />
+    <Compile Include="Controls\Collections\TabPageCollection.cs" />
+    <Compile Include="Controls\Collections\TargetCollection.cs" />
+    <Compile Include="Controls\Collections\WindowCollection.cs" />
+    <Compile Include="Controls\Collections\WindowDetailCollection.cs" />
+    <Compile Include="Controls\Collections\WizardPageCollection.cs" />
+    <Compile Include="Controls\Collections\ZoneCollection.cs" />
+    <Compile Include="Controls\Common\ColorHelper.cs" />
+    <Compile Include="Controls\Common\ControlHelper.cs" />
+    <Compile Include="Controls\Common\ConversionHelper.cs" />
+    <Compile Include="Controls\Common\DebugHelper.cs" />
+    <Compile Include="Controls\Common\DrawHelper.cs" />
+    <Compile Include="Controls\Common\Enums.cs" />
+    <Compile Include="Controls\Common\ResourceHelper.cs" />
+    <Compile Include="Controls\Controls\BorderForControl\BorderForControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Controls\InertButton\InertButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Controls\ResizeBar\ResizeBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Controls\TabbedGroups\TabbedGroupEventArgs.cs" />
+    <Compile Include="Controls\Controls\TabbedGroups\TabbedGroups.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Controls\TabbedGroups\TabGroupBase.cs" />
+    <Compile Include="Controls\Controls\TabbedGroups\TabGroupLeaf.cs" />
+    <Compile Include="Controls\Controls\TabbedGroups\TabGroupSequence.cs" />
+    <Compile Include="Controls\Controls\TabbedGroups\Target.cs" />
+    <Compile Include="Controls\Controls\TabControl\TabControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Controls\TabControl\TabControlDesigner.cs" />
+    <Compile Include="Controls\Controls\TabControl\TabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Controls\WizardControl\WizardControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Controls\WizardControl\WizardControlDesigner.cs" />
+    <Compile Include="Controls\Controls\WizardControl\WizardPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\AutoHidePanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\Content.cs" />
+    <Compile Include="Controls\Docking\Definitions.cs" />
+    <Compile Include="Controls\Docking\DockingManager.cs" />
+    <Compile Include="Controls\Docking\FloatinglForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\HotZone.cs" />
+    <Compile Include="Controls\Docking\HotZoneFloating.cs" />
+    <Compile Include="Controls\Docking\HotZoneNull.cs" />
+    <Compile Include="Controls\Docking\HotZoneReposition.cs" />
+    <Compile Include="Controls\Docking\HotZoneSequence.cs" />
+    <Compile Include="Controls\Docking\HotZoneTabbed.cs" />
+    <Compile Include="Controls\Docking\Redocker.cs" />
+    <Compile Include="Controls\Docking\RedockerContent.cs" />
+    <Compile Include="Controls\Docking\Restore.cs" />
+    <Compile Include="Controls\Docking\TabStub.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\Window.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\WindowContent.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\WindowContentTabbed.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\WindowDetail.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\WindowDetailCaption.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\Zone.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Docking\ZoneHelper.cs" />
+    <Compile Include="Controls\Docking\ZoneSequence.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Forms\WizardDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\Menus\DrawCommand.cs" />
+    <Compile Include="Controls\Menus\MenuCommand.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Menus\MenuControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Menus\MenuControlDesigner.cs" />
+    <Compile Include="Controls\Menus\PopupMenu.cs" />
+    <Compile Include="Controls\RiverDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\RiverListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\RiverTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Win32\Enums.cs" />
+    <Compile Include="Controls\Win32\Gdi32.cs" />
+    <Compile Include="Controls\Win32\Structs.cs" />
+    <Compile Include="Controls\Win32\User32.cs" />
+    <Compile Include="Database\DatabaseConnection.cs" />
+    <Compile Include="Database\DatabaseSetup.cs" />
+    <Compile Include="Database\Enums.cs" />
+    <Compile Include="Database\Message.cs" />
+    <Compile Include="Database\MessageCollection.cs" />
+    <Compile Include="Database\EventHandlers.cs" />
+    <Compile Include="Database\MissingSidException.cs" />
+    <Compile Include="Database\ParameterConverter.cs" />
+    <Compile Include="Database\Parameter.cs" />
+    <Compile Include="Database\ParameterCollection.cs" />
+    <Compile Include="Database\Query.cs" />
+    <Compile Include="Database\QueryCollection.cs" />
+    <Compile Include="Database\QueryDriver.cs" />
+    <Compile Include="Database\StatementCollection.cs" />
+    <Compile Include="Database\StatementParser.cs" />
+    <Compile Include="Database\Statistics.cs" />
+    <Compile Include="Database\Tns.cs" />
+    <Compile Include="Database\TnsName.cs" />
+    <Compile Include="Dialogs\AboutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\AboutDialog.Designer.cs">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\AlgorithmDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\AlgorithmDialog.Designer.cs">
+      <DependentUpon>AlgorithmDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ChangeDbDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ChangeDbDialog.Designer.cs">
+      <DependentUpon>ChangeDbDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ConnectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ConnectDialog.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConnectDialog.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\ExceptionDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\ExceptionDetails.Designer.cs">
+      <DependentUpon>ExceptionDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\ExceptionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\ExceptionDialog.Designer.cs">
+      <DependentUpon>ExceptionDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\ExceptionReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\ExceptionReport.Designer.cs">
+      <DependentUpon>ExceptionReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ExceptionDialog\OrqaException.cs" />
+    <Compile Include="Dialogs\ExecuteRepeatedDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ExecuteRepeatedDialog.Designer.cs">
+      <DependentUpon>ExecuteRepeatedDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewFolderDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewFolderDialog.Designer.cs">
+      <DependentUpon>NewFolderDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewItemDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewItemDialog.Designer.cs">
+      <DependentUpon>NewItemDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\OverwriteDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\OverwriteDialog.Designer.cs">
+      <DependentUpon>OverwriteDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ParametersDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ParametersDialog.Designer.cs">
+      <DependentUpon>ParametersDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\SaveDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\SaveDialog.Designer.cs">
+      <DependentUpon>SaveDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ServiceControllerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ServiceControllerDialog.Designer.cs">
+      <DependentUpon>ServiceControllerDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ServiceManager.cs" />
+    <Compile Include="ICommander.cs" />
+    <Compile Include="Logger.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Logger.Designer.cs">
+      <DependentUpon>Logger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MruManager.cs" />
+    <Compile Include="Options\ConnectionsSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\ConnectionsSheet.Designer.cs">
+      <DependentUpon>ConnectionsSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\DisplayThings.cs" />
+    <Compile Include="Options\EditorTabsSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\EditorTabsSheet.Designer.cs">
+      <DependentUpon>EditorTabsSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\EditorFontSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\EditorFontSheet.Designer.cs">
+      <DependentUpon>EditorFontSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\EditorSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\EditorSheet.Designer.cs">
+      <DependentUpon>EditorSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\FadingLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Options\FileAssociation.cs" />
+    <Compile Include="Options\OpeningOptionsEvent.cs" />
+    <Compile Include="Options\OptionFont.cs" />
+    <Compile Include="Options\GeneralSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\GeneralSheet.Designer.cs">
+      <DependentUpon>GeneralSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\OptionsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options\OptionsDialog.Designer.cs">
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\ResultsFontSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\ResultsFontSheet.Designer.cs">
+      <DependentUpon>ResultsFontSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\ResultsSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\ResultsSheet.Designer.cs">
+      <DependentUpon>ResultsSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\SheetBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\StatisticsSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\StatisticsSheet.Designer.cs">
+      <DependentUpon>StatisticsSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\UserOptions.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Browser\Browser.resx">
+      <DependentUpon>Browser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browser\ProjectTree.resx">
+      <DependentUpon>ProjectTree.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browser\SchemaManager.resx">
+      <DependentUpon>SchemaManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browser\SchemaProperties.resx">
+      <DependentUpon>SchemaProperties.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Browser\TemplateTree.resx">
+      <DependentUpon>TemplateTree.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\BorderForControl\BorderForControl.resx">
+      <DependentUpon>BorderForControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\InertButton\InertButton.resx">
+      <DependentUpon>InertButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\AboutDialog.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\AlgorithmDialog.resx">
+      <DependentUpon>AlgorithmDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ChangeDbDialog.resx">
+      <DependentUpon>ChangeDbDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ConnectDialog.resx">
+      <DependentUpon>ConnectDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ExceptionDialog\ExceptionDetails.resx">
+      <DependentUpon>ExceptionDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ExceptionDialog\ExceptionDialog.resx">
+      <DependentUpon>ExceptionDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ExceptionDialog\ExceptionReport.resx">
+      <DependentUpon>ExceptionReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ExecuteRepeatedDialog.resx">
+      <DependentUpon>ExecuteRepeatedDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewFolderDialog.resx">
+      <DependentUpon>NewFolderDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewItemDialog.resx">
+      <DependentUpon>NewItemDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\OverwriteDialog.resx">
+      <DependentUpon>OverwriteDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ParametersDialog.resx">
+      <DependentUpon>ParametersDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\SaveDialog.resx">
+      <DependentUpon>SaveDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ServiceControllerDialog.resx">
+      <DependentUpon>ServiceControllerDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logger.resx">
+      <DependentUpon>Logger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\ConnectionsSheet.resx">
+      <DependentUpon>ConnectionsSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\EditorTabsSheet.resx">
+      <DependentUpon>EditorTabsSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\EditorFontSheet.resx">
+      <DependentUpon>EditorFontSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\EditorSheet.resx">
+      <DependentUpon>EditorSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\GeneralSheet.resx">
+      <DependentUpon>GeneralSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\OptionsDialog.resx">
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\ResultsFontSheet.resx">
+      <DependentUpon>ResultsFontSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\ResultsSheet.resx">
+      <DependentUpon>ResultsSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\SheetBase.resx">
+      <DependentUpon>SheetBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\StatisticsSheet.resx">
+      <DependentUpon>StatisticsSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\EditorView.resx">
+      <DependentUpon>EditorView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\Notepad.resx">
+      <DependentUpon>Notepad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\PlanView.resx">
+      <DependentUpon>PlanView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\QueryWindow.resx">
+      <DependentUpon>QueryWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\ResultsView.resx">
+      <DependentUpon>ResultsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Query\StatisticsView.resx">
+      <DependentUpon>StatisticsView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Query\Editor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Query\EditorView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Query\EditorView.Designer.cs">
+      <DependentUpon>EditorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\EditorEvents.cs" />
+    <Compile Include="Query\IEditor.cs" />
+    <Compile Include="Query\Notepad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Query\Notepad.Designer.cs">
+      <DependentUpon>Notepad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\PlanView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Query\PlanView.Designer.cs">
+      <DependentUpon>PlanView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\QueryWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Query\QueryWindow.Designer.cs">
+      <DependentUpon>QueryWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\ResultsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Query\ResultsView.Designer.cs">
+      <DependentUpon>ResultsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Query\StatisticsView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Query\StatisticsView.Designer.cs">
+      <DependentUpon>StatisticsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statusbar.cs" />
+    <Compile Include="Wow\WowRegistry.cs" />
+    <Compile Include="Wow\WowRegistryKey.cs" />
+    <Compile Include="Wow\WowEnvironment.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\Controls\InertButton.bmp" />
+    <EmbeddedResource Include="Controls\Controls\ResizeBar\ResizeBar.resx">
+      <DependentUpon>ResizeBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\TabbedGroups\TabbedGroups.resx">
+      <DependentUpon>TabbedGroups.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\TabbedGroups.bmp" />
+    <EmbeddedResource Include="Controls\Controls\TabControl\TabControl.resx">
+      <DependentUpon>TabControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\TabControl\TabPage.resx">
+      <DependentUpon>TabPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\TabControl.bmp" />
+    <EmbeddedResource Include="Controls\Controls\WizardControl\WizardControl.resx">
+      <DependentUpon>WizardControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\WizardControl\WizardPage.resx">
+      <DependentUpon>WizardPage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Controls\WizardControl.bmp" />
+    <EmbeddedResource Include="Controls\Docking\AutoHidePanel.resx">
+      <DependentUpon>AutoHidePanel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Docking\FloatinglForm.resx">
+      <DependentUpon>FloatinglForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Docking\Window.resx">
+      <DependentUpon>Window.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Docking\WindowDetail.resx">
+      <DependentUpon>WindowDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Docking\WindowDetailCaption.resx">
+      <DependentUpon>WindowDetailCaption.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Docking\Zone.resx">
+      <DependentUpon>Zone.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Forms\WizardDialog.resx">
+      <DependentUpon>WizardDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Menus\MenuCommand.resx">
+      <DependentUpon>MenuCommand.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Menus\MenuControl.bmp" />
+    <EmbeddedResource Include="Controls\Menus\MenuControl.resx">
+      <DependentUpon>MenuControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Resources\ImagesCaptionIDE.bmp" />
+    <EmbeddedResource Include="Controls\Resources\ImagesCaptionPlain.bmp" />
+    <EmbeddedResource Include="Controls\Resources\ImagesMenuControl.bmp" />
+    <EmbeddedResource Include="Controls\Resources\ImagesPopupMenu.bmp" />
+    <EmbeddedResource Include="Controls\Resources\ImagesTabbedGroups.bmp" />
+    <EmbeddedResource Include="Controls\Resources\ImagesTabControl.bmp" />
+    <Content Include="Controls\Resources\LibraryIcon.ico" />
+    <EmbeddedResource Include="Controls\Resources\TabbedInvalid.cur" />
+    <EmbeddedResource Include="Controls\Resources\TabbedValid.cur" />
+    <EmbeddedResource Include="Controls\Resources\WizardPicture.bmp" />
+    <Content Include="Orqa.ico" />
+    <None Include="Migrated rules for River.Orqa64.ruleset" />
+    <None Include="Resources\explainplanstyles.css" />
+    <None Include="Resources\explainplantable.sql" />
+    <None Include="River.Orqa.exe.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\River.Orqa.Editor\River.Orqa.Editor.csproj">
+      <Project>{598BEE47-6EBB-4F4C-B9E6-2A09D253F5A6}</Project>
+      <Name>River.Orqa.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\River.Orqa.Resources\River.Orqa.Resources.csproj">
+      <Project>{234868DB-B9D7-45CE-AF88-5CBB0EFEB0AA}</Project>
+      <Name>River.Orqa.Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

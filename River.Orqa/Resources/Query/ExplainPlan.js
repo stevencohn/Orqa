@@ -1,0 +1,1 @@
+document.oncontextmenu = function() { window.event.cancelBubble=true; return false; }
