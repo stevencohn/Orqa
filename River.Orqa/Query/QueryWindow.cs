@@ -731,7 +731,7 @@ namespace River.Orqa.Query
 		{
 			if ((node is SchemataTable) || (node is SchemataView))
 			{
-				InsertText("SELECT * FROM " + node.SchemaName + "." + node.Text + ";\n");
+				InsertText("SELECT * FROM " + node.SchemaName + "." + Database.Query.Quote(node.Text) + ";\n");
 				IsSaved = true;
 				SetTitle();
 				this.Text += " - " + node.Text;

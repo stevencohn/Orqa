@@ -182,7 +182,8 @@ namespace River.Orqa.Dialogs
 				userIDBox.Text = userIDBox.Text.Trim();
 				if (userIDBox.Text.Length == 0)
 				{
-					if (name.Name.StartsWith("unifi") || name.Name.StartsWith("everest"))
+					if (name.Name.Equals("unifi", StringComparison.InvariantCultureIgnoreCase) ||
+						name.Name.Equals("everest", StringComparison.InvariantCultureIgnoreCase))
 					{
 						userIDBox.Text = "everest";
 
@@ -205,13 +206,13 @@ namespace River.Orqa.Dialogs
 
 				// default selection if present
 
-				if (name.Name.StartsWith("unifi"))
+				if ((ixUNIFI < 0) && name.Name.StartsWith("unifi"))
 					ixUNIFI = tnsBox.Items.Count - 1;
 
-				if (name.Name.Equals("everest"))
+				if ((ixEverest < 0) && name.Name.StartsWith("everest"))
 					ixEverest = tnsBox.Items.Count - 1;
 
-				if (name.Name.StartsWith("empow"))
+				if ((ixEmpower < 0) && name.Name.StartsWith("empow"))
 					ixEmpower = tnsBox.Items.Count - 1;
 			}
 

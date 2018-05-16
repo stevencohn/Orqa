@@ -406,5 +406,27 @@ namespace River.Orqa.Database
 		}
 
 		#endregion AddMessage
+
+
+
+		/// <summary>
+		/// If the name contains a lower case character then wrap with double-quotes
+		/// otherwise just return the string as-is.
+		/// </summary>
+		/// <param name="name">Object name</param>
+		/// <returns>Object name or object name wrapped in double-quotes</returns>
+
+		public static string Quote (string name)
+		{
+			for (int i = 0; i < name.Length; i++)
+			{
+				if ((name[i] >= 'a') && (name[i] <= 'z'))
+				{
+					return '"' + name + '"';
+				}
+			}
+
+			return name;
+		}
 	}
 }
