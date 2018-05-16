@@ -221,9 +221,8 @@ namespace River.Orqa.Browser
 			River.Orqa.Query.QueryWindow window = (River.Orqa.Query.QueryWindow)args[3];
 
 			string sql =
-				"SELECT dbms_metadata.get_ddl('" + type
-				+ "','" + name.ToUpper() + "','" + owner + "') AS ddl"
-				+ " FROM dual";
+				"SELECT dbms_metadata.get_ddl('" 
+				+ type + "','" + name + "','" + owner + "') AS ddl FROM dual";
 
 			Logger.WriteSection("Describe");
 			Logger.WriteLine(sql);
