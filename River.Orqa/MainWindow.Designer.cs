@@ -903,6 +903,7 @@ namespace River.Orqa
 			this.MainMenuStrip = this.menu;
 			this.Name = "MainWindow";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.DoFormClosing);
+			this.ResizeEnd += new System.EventHandler(this.DoWindowResizeEnd);
 			this.DragDrop += new System.Windows.Forms.DragEventHandler(this.DoDragDrop);
 			this.DragEnter += new System.Windows.Forms.DragEventHandler(this.DoDragEnter);
 			this.menu.ResumeLayout(false);

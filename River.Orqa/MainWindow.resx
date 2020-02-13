@@ -1048,7 +1048,7 @@
     <value>F11</value>
   </data>
   <data name="purgeRecycleBinToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>257, 22</value>
+    <value>255, 22</value>
   </data>
   <data name="purgeRecycleBinToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Purge Recycle Bin</value>
@@ -1057,7 +1057,7 @@
     <value>Ctrl+F9</value>
   </data>
   <data name="openSQLTraceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>257, 22</value>
+    <value>255, 22</value>
   </data>
   <data name="openSQLTraceToolStripMenuItem.Text" xml:space="preserve">
     <value>Open SQL Trace Report</value>
@@ -1076,7 +1076,7 @@
     <value>Ctrl+F10</value>
   </data>
   <data name="showOpenCursorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>257, 22</value>
+    <value>255, 22</value>
   </data>
   <data name="showOpenCursorsToolStripMenuItem.Text" xml:space="preserve">
     <value>Show Open Cursors</value>
@@ -1096,7 +1096,7 @@
     <value>Ctrl+F11</value>
   </data>
   <data name="showOpenTransactionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>257, 22</value>
+    <value>255, 22</value>
   </data>
   <data name="showOpenTransactionsToolStripMenuItem.Text" xml:space="preserve">
     <value>Show Open Transactions</value>
@@ -1116,7 +1116,7 @@
     <value>Ctrl+F12</value>
   </data>
   <data name="showUserErrorsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>257, 22</value>
+    <value>255, 22</value>
   </data>
   <data name="showUserErrorsToolStripMenuItem.Text" xml:space="preserve">
     <value>Show User Errors</value>
@@ -1135,7 +1135,7 @@
     <value>F10</value>
   </data>
   <data name="serviceControllerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>257, 22</value>
+    <value>255, 22</value>
   </data>
   <data name="serviceControllerToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Service Controller</value>
@@ -1154,13 +1154,13 @@
     <value>Ctrl+Shift+O</value>
   </data>
   <data name="optionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>257, 22</value>
+    <value>255, 22</value>
   </data>
   <data name="optionsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Options...</value>
   </data>
   <data name="toolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
+    <value>46, 20</value>
   </data>
   <data name="toolsToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Tools</value>
@@ -1252,7 +1252,7 @@
     <value>F1</value>
   </data>
   <data name="contentsandIndexToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
+    <value>196, 22</value>
   </data>
   <data name="contentsandIndexToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Contents and Index</value>
@@ -1268,7 +1268,7 @@
 </value>
   </data>
   <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 22</value>
+    <value>196, 22</value>
   </data>
   <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;About...</value>
@@ -1597,7 +1597,7 @@
     <value>F5</value>
   </data>
   <data name="exToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 22</value>
+    <value>256, 22</value>
   </data>
   <data name="exToolStripMenuItem.Text" xml:space="preserve">
     <value>Execute</value>
@@ -1616,7 +1616,7 @@
     <value>F6</value>
   </data>
   <data name="exWrappedToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 22</value>
+    <value>256, 22</value>
   </data>
   <data name="exWrappedToolStripMenuItem1.Text" xml:space="preserve">
     <value>Execute as Wrapped Procedure</value>
@@ -1635,7 +1635,7 @@
     <value>F7</value>
   </data>
   <data name="exBlockToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 22</value>
+    <value>256, 22</value>
   </data>
   <data name="exBlockToolStripMenuItem1.Text" xml:space="preserve">
     <value>Execute as Anonymous Block</value>
@@ -1653,7 +1653,7 @@
     <value>F8</value>
   </data>
   <data name="executeSqlPlusToolItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 22</value>
+    <value>256, 22</value>
   </data>
   <data name="executeSqlPlusToolItem.Text" xml:space="preserve">
     <value>Execute using SQL*Plus</value>
@@ -1672,7 +1672,7 @@
     <value>Shift+F5</value>
   </data>
   <data name="exRepeatedToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 22</value>
+    <value>256, 22</value>
   </data>
   <data name="exRepeatedToolStripMenuItem1.Text" xml:space="preserve">
     <value>Execute Repeated</value>
@@ -1852,7 +1852,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAC4
-        CgAAAk1TRnQBSQFMAgEBAwEAAXQBAAF0AQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        CgAAAk1TRnQBSQFMAgEBAwEAAXwBAAF8AQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
         AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
         AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
         AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA

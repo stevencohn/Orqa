@@ -451,6 +451,13 @@ namespace River.Orqa
 		}
 
 
+
+		private void DoWindowResizeEnd(object sender, EventArgs e)
+		{
+			CalculateOptimalChildSizes();
+		}
+
+
 		//========================================================================================
 		// CalculateOptimalChildSizes()
 		//		Determine the preferred optimal size for the query window and the
@@ -463,17 +470,15 @@ namespace River.Orqa
 
 		private void CalculateOptimalChildSizes ()
 		{
+			childSize.Height = (int)(this.ClientSize.Height * 0.80);
+			childSize.Width = (int)(this.ClientSize.Width * 0.70);
+
 			this.LayoutMdi(MdiLayout.Cascade);
-			Form child = this.MdiChildren[0];
-			childSize = child.Size;
 
-			// if cascaded size is 70% width and height, we'd prefer to increase
-			// this to a more reasonable 90% height and 80% width
-			childSize.Height = (int)(this.ClientSize.Height * 0.87); // (int)(childSize.Height * 1.2857);
-			childSize.Width = (int)(childSize.Width * 1.14285);
-
-			// update the size of our first child
-			child.Size = childSize;
+			for (int i=0; i < this.MdiChildren.Length; i++)
+			{
+				this.MdiChildren[i].Size = childSize;
+			}
 
 			properties.Size = new Size(properties.Size.Width, (int)(this.ClientSize.Height / 6));
 		}

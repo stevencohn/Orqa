@@ -165,6 +165,20 @@ namespace River.Orqa.Options
 		}
 
 
+		public static XElement GetElement (string xpath)
+		{
+			xpath = "/" + Root + "/" + xpath;
+
+			XElement element = options.XPathSelectElement(xpath);
+			if (element == null)
+			{
+				element = defaults.XPathSelectElement(xpath);
+			}
+
+			return element;
+		}
+
+
 		public static object GetEnumeration (string xpath, Type type)
 		{
 			string strval = GetString(xpath);
@@ -325,12 +339,12 @@ namespace River.Orqa.Options
 			if (element.Element("position") == null)
 			{
 				element.Add(
-					new XElement("position"),
-					new XElement("left", position.X.ToString()),
-					new XElement("top", position.Y.ToString()),
-					new XElement("width", position.Width.ToString()),
-					new XElement("height", position.Height.ToString())
-					);
+					new XElement("position",
+						new XElement("left", position.X.ToString()),
+						new XElement("top", position.Y.ToString()),
+						new XElement("width", position.Width.ToString()),
+						new XElement("height", position.Height.ToString())
+					));
 			}
 			else if (!element.Element("position").HasElements)
 			{
@@ -356,6 +370,28 @@ namespace River.Orqa.Options
 		// Sets
 		//========================================================================================
 
+		public static void SetValue (string xpath, XElement val)
+		{
+			var path = String.Format("/{0}/{1}", Root, xpath);
+			var element = options.XPathSelectElement(path);
+			if (element == null)
+			{
+				string[] parts = path.Split(new char[] { '/' }, StringSplitOptions.RemoveEmptyEntries);
+				path = String.Join("/", parts, 0, parts.Length - 1);
+
+				element = options.XPathSelectElement(path);
+
+				if (element != null)
+				{
+					element.Add(val);
+				}
+			}
+			else
+			{
+				element.ReplaceWith(val);
+			}
+		}
+
 		public static void SetValue (string xpath, bool val)
 		{
 			SetValue(xpath, (val ? "true" : "false"));
@@ -376,9 +412,8 @@ namespace River.Orqa.Options
 			if (element == null)
 			{
 				string[] parts = path.Split(new char[] { '/' }, StringSplitOptions.RemoveEmptyEntries);
-				string name = parts[parts.Length - 1];
-
 				path = String.Join("/", parts, 0, parts.Length - 1);
+
 				element = options.XPathSelectElement(path);
 
 				if (element != null)

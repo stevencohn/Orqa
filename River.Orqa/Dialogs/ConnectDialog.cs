@@ -16,7 +16,8 @@ namespace River.Orqa.Dialogs
 	using System.Diagnostics;
 	using System.ServiceProcess;
 	using System.Windows.Forms;
-	using River.Orqa.Database;
+    using System.Xml.Linq;
+    using River.Orqa.Database;
 	using River.Orqa.Options;
 	using River.Orqa.Resources;
 
@@ -33,6 +34,19 @@ namespace River.Orqa.Dialogs
 		private Translator translator;
 
 
+		private class Settings
+		{
+			public string UserID;
+			public string Password;
+			public string Mode;
+			public string Method;
+			public string Tns;
+			public string Host;
+			public string Port;
+			public string Service;
+		}
+
+
 		//========================================================================================
 		// Constructor
 		//========================================================================================
@@ -46,15 +60,22 @@ namespace River.Orqa.Dialogs
 			InitializeComponent();
 
 			translator = new Translator("Dialogs.ConnectDialog");
+			var settings = GetSettings();
 
 			passwordBox.PasswordChar = pwdChar;
 			modeBox.SelectedIndex = 0;
 
-			var pwd = ConfigurationManager.AppSettings["everest_password"];
+			userIDBox.Text = settings.UserID ?? "sys";
+
+			var pwd = ConfigurationManager.AppSettings[userIDBox.Text + "_password"];
 			if (!string.IsNullOrEmpty(pwd))
 			{
-				userIDBox.Text = "everest";
 				passwordBox.Text = pwd;
+			}
+
+			if (!string.IsNullOrEmpty(settings.Mode))
+			{
+				modeBox.SelectedItem = settings.Mode.ToUpper();
 			}
 
 			ToolTip tip = new ToolTip();
@@ -67,47 +88,69 @@ namespace River.Orqa.Dialogs
 
 			PopulateTnsSelection();
 
-			string lastConnectMethod = UserOptions.GetString("general/lastConnectMethod");
-			if (lastConnectMethod == null)
+			switch (settings.Method)
 			{
-				if (HasLocalService)
-					localButton.Checked = true;
-				else
+				case "tns":
 					tnsButton.Checked = true;
-			}
-			else
-			{
-				if (lastConnectMethod.Equals("remote"))
-				{
+					tnsBox.Text = settings.Tns ?? string.Empty;
+					break;
+
+				case "remote":
 					remoteButton.Checked = true;
-				}
-				else if (lastConnectMethod.Equals("local") && HasLocalService)
-				{
-					localButton.Checked = true;
-				}
-				else
-				{
-					tnsButton.Checked = true;
-				}
+					hostBox.Text = settings.Host ?? "localhost";
+					portBox.Text = settings.Port ?? "1521";
+					serviceBox.Text = settings.Service ?? string.Empty;
+					break;
+
+				default:
+					if (HasLocalService)
+						localButton.Checked = true;
+					else
+						tnsButton.Checked = true;
+					break;
 			}
 
-			if ((tnsBox.Text.Length == 0) && tnsButton.Checked)
-			{
-				tnsBox.Select();
-				tnsBox.Focus();
-			}
-			else if (userIDBox.Text.Length == 0)
+			if (userIDBox.Text.Length == 0)
 			{
 				userIDBox.Select();
 				userIDBox.Focus();
 			}
-			else
+			else if (passwordBox.Text.Length == 0)
 			{
 				passwordBox.Select();
 				passwordBox.Focus();
 			}
+			else if ((tnsBox.Text.Length == 0) && tnsButton.Checked)
+			{
+				tnsBox.Select();
+				tnsBox.Focus();
+			}
+			else
+			{
+				hostBox.Select();
+				hostBox.Focus();
+			}
 
 			status = null;
+		}
+
+
+		private Settings GetSettings ()
+		{
+			var element = UserOptions.GetElement("general/lastConnection");
+
+			XElement e;
+
+			return new Settings
+			{
+				UserID = element.Element("userID")?.Value,
+				Mode = element.Element("mode")?.Value,
+				Method = element.Element("method")?.Value,
+				Tns = element.Element("tns")?.Value,
+				Host = element.Element("host")?.Value,
+				Port = element.Element("port")?.Value,
+				Service = element.Element("service")?.Value
+			};
 		}
 
 
@@ -319,8 +362,13 @@ namespace River.Orqa.Dialogs
 
 			EnableControls(false);
 
+			var settings = new XElement("lastConnection");
+
 			string userID = userIDBox.Text.Trim();
 			string password = passwordBox.Text.Trim();
+
+			settings.Add(new XElement("userID", userID));
+			settings.Add(new XElement("mode", modeBox.Text));
 
 			if (modeBox.SelectedIndex > 0)
 			{
@@ -339,10 +387,12 @@ namespace River.Orqa.Dialogs
 				}
 
 				connection = new DatabaseConnection(userID, password);
+
+				settings.Add(new XElement("method", "local"));
 			}
 			else if (tnsButton.Checked)
 			{
-				string tns = tnsBox.Text.Trim().ToUpper();
+				string tns = tnsBox.Text.Trim();
 
 				if (status != null)
 				{
@@ -353,12 +403,15 @@ namespace River.Orqa.Dialogs
 				}
 
 				connection = new DatabaseConnection(userID, password, tns);
+
+				settings.Add(new XElement("method", "tns"));
+				settings.Add(new XElement("tns", tns));
 			}
 			else
 			{
-				string host = hostBox.Text.Trim().ToUpper();
+				string host = hostBox.Text.Trim();
 				int port = int.Parse(portBox.Text.Trim());
-				string service = serviceBox.Text.Trim().ToUpper();
+				string service = serviceBox.Text.Trim();
 
 				if (status != null)
 				{
@@ -369,6 +422,11 @@ namespace River.Orqa.Dialogs
 				}
 
 				connection = new DatabaseConnection(userID, password, host, port, service);
+
+				settings.Add(new XElement("method", "remote"));
+				settings.Add(new XElement("host", host));
+				settings.Add(new XElement("port", port));
+				settings.Add(new XElement("service", service));
 			}
 
 			if (status != null)
@@ -392,15 +450,8 @@ namespace River.Orqa.Dialogs
 
 			if (connection != null)
 			{
-				string lastConnectMethod = String.Empty;
-				if (remoteButton.Checked)
-					lastConnectMethod = "remote";
-				else if (localButton.Checked)
-					lastConnectMethod = "local";
-				else
-					lastConnectMethod = "tns";
-
-				UserOptions.SetValue("general/lastConnectMethod", lastConnectMethod);
+				UserOptions.SetValue("general/lastConnection", settings);
+				UserOptions.Save();
 
 				return true;
 			}
