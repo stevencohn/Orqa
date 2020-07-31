@@ -440,10 +440,34 @@ namespace River.Orqa.Database
 							{
 								switch (table.Schema.GetDbType(i))
 								{
-									case OracleDbType.BFile:
-									case OracleDbType.Blob:
 									case OracleDbType.Clob:
 									case OracleDbType.NClob:
+										if (reader.FieldCount == 1)
+										{
+											// SPECIAL CASE!
+											// if we're only asking for exactly one CLOB then
+											// let's read it in its entirety...
+
+											var clob = reader.GetOracleClob(i);
+											var buffer = new byte[clob.Length];
+											if (clob.Read(buffer, 0, (int)clob.Length) > 0)
+											{
+												row.Add(
+													Encoding.Default.GetString(buffer).Replace("\x00", string.Empty));
+											}
+											else
+											{
+												row.Add(null);
+											}
+										}
+										else
+										{
+											row.Add(null);
+										}
+										break;
+
+									case OracleDbType.BFile:
+									case OracleDbType.Blob:
 									case OracleDbType.Raw:
 										// we treat null differently than DbNull
 										// when we interpret the results later on...

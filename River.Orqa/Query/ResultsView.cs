@@ -920,13 +920,20 @@ namespace River.Orqa.Query
 			if (query.HasOutputs)
 				PrintOutputParameters(query, textpad);
 
-			var xml = new StringBuilder(query.Data.GetXml().ToString());
-			xml.Replace("&lt;", "<");
-			xml.Replace("&gt;", ">");
+			try
+			{
+				var xml = new StringBuilder(query.Data.GetXml().ToString());
+				xml.Replace("&lt;", "<");
+				xml.Replace("&gt;", ">");
 
-			textpad.WriteLine(xml.ToString());
-			textpad.WriteLine();
-			textpad.WriteNote("(" + query.AffectedRecords + " row(s) affected)");
+				textpad.WriteLine(xml.ToString());
+				textpad.WriteLine();
+				textpad.WriteNote("(" + query.AffectedRecords + " row(s) affected)");
+			}
+			catch (Exception exc)
+			{
+				query.AddMessage(exc);
+			}
 		}
 
 

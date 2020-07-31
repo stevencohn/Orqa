@@ -37,6 +37,9 @@ namespace River.Orqa.Database
 							name = "COL" + c.ToString() + "_" + name;
 						}
 
+						// XML element names cannot have dollar signs
+						name = name.Replace("$", string.Empty);
+
 						var datum = new XElement(
 							name,
 							row[c] == null ? "..." : row[c].ToString());
