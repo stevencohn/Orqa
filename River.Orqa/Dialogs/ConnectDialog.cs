@@ -141,15 +141,29 @@ namespace River.Orqa.Dialogs
 
 			XElement e;
 
+			if (element != null)
+			{
+				return new Settings
+				{
+					UserID = element.Element("userID")?.Value,
+					Mode = element.Element("mode")?.Value,
+					Method = element.Element("method")?.Value,
+					Tns = element.Element("tns")?.Value,
+					Host = element.Element("host")?.Value,
+					Port = element.Element("port")?.Value,
+					Service = element.Element("service")?.Value
+				};
+			}
+
 			return new Settings
 			{
-				UserID = element.Element("userID")?.Value,
-				Mode = element.Element("mode")?.Value,
-				Method = element.Element("method")?.Value,
-				Tns = element.Element("tns")?.Value,
-				Host = element.Element("host")?.Value,
-				Port = element.Element("port")?.Value,
-				Service = element.Element("service")?.Value
+				UserID = "sys",
+				Mode = "Normal",
+				Method = "local",
+				Tns = string.Empty,
+				Host = "localhost",
+				Port = "1521",
+				Service = string.Empty
 			};
 		}
 
