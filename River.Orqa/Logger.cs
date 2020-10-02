@@ -337,10 +337,29 @@ namespace River.Orqa
 			}
 		}
 
-		public static void Encode (Exception exc)
+		public static void Encode(Exception exc, StringBuilder builder, int depth = 0)
 		{
-		}
+			if (depth > 0)
+			{
+				builder.AppendLine($"-- inner exception at depth {depth} ---------------");
+			}
 
+			builder.AppendLine("Message...: " + exc.Message);
+			builder.AppendLine("StackTrace: " + exc.StackTrace);
+
+			if (exc.TargetSite != null)
+			{
+				builder.AppendLine("TargetSite: [" +
+					exc.TargetSite.DeclaringType.Assembly.GetName().Name + "] " +
+					exc.TargetSite.DeclaringType + "::" +
+					exc.TargetSite.Name + "()");
+			}
+
+			if (exc.InnerException != null)
+			{
+				Encode(exc.InnerException, builder, depth + 1);
+			}
+		}
 
 		public static void Write (string text)
 		{

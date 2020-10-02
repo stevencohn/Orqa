@@ -311,18 +311,10 @@ namespace River.Orqa.Database
 
 		public void AddMessage (Exception exc)
 		{
-			// TODO: build in-depth exception message
+			var builder = new StringBuilder();
+			Logger.Encode(exc, builder);
 
-			StringBuilder msg = new StringBuilder();
-
-			if (!String.IsNullOrEmpty(exc.Message))
-			{
-				msg.Append(exc.Message);
-			}
-
-			msg.Append(exc.StackTrace);
-	
-			messages.Add(new Message(Message.MessageType.Error, msg.ToString()));
+			messages.Add(new Message(Message.MessageType.Error, builder.ToString()));
 		}
 
 
@@ -333,23 +325,25 @@ namespace River.Orqa.Database
 
 		public void AddMessage (OracleException exc, DatabaseConnection dbase)
 		{
-			string excMessage = (exc.Message == String.Empty ? exc.StackTrace : exc.Message);
+			AddMessage(exc);
 
-			bool hasUserErrors = false;
-			StringBuilder msg = new StringBuilder(excMessage);
-
-			foreach (OracleError error in exc.Errors)
+			if (exc.Errors != null)
 			{
-				msg.Append(CR + "(" + error.Number + ") " + error.Message);
+				bool hasUserErrors = false;
+				foreach (OracleError error in exc.Errors)
+				{
+					if (error.Number == 24344)  // success with compilation error
+					{
+						hasUserErrors = true;
+						break;
+					}
+				}
 
-				if (error.Number == 24344)			// success with compilation error
-					hasUserErrors = true;
+				if (hasUserErrors)
+				{
+					messages.AddRange(QueryDriver.GetUserErrors(dbase));
+				}
 			}
-
-			messages.Add(new Message(Message.MessageType.Error, msg.ToString()));
-
-			if (hasUserErrors)
-				messages.AddRange(QueryDriver.GetUserErrors(dbase));
 		}
 
 

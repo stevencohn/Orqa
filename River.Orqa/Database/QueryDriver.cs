@@ -475,7 +475,16 @@ namespace River.Orqa.Database
 										break;
 
 									default:
-										row.Add(reader.GetValue(i));
+										try
+										{
+											row.Add(reader.GetValue(i));
+										}
+										catch (InvalidCastException)
+										{
+											// handle when NUMBER column has greater precision than
+											// can be represented by a .NET decimal
+											row.Add(reader.GetProviderSpecificValue(i));
+										}
 										break;
 								}
 							}
