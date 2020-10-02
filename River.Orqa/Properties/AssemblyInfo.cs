@@ -10,6 +10,6 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyTrademark("Orqa - Oracle Query Analyzer")]
 [assembly: AssemblyCulture("")]
 
-[assembly: AssemblyVersion("4.3.*")]
+[assembly: AssemblyVersion("4.4.*")]
 
 [assembly: InternalsVisibleTo("River.Orqa.Test")]
